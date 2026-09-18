@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.nyrprospectshq.draftwatch</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/caffeinate</string>
+    <string>-disu</string>
+    <string>/usr/local/bin/node</string>
+    <string>/Users/richrusso/Documents/Instagram/rangers-prospects-hq/tools/watch-draft.js</string>
+    <string>--poll-ms</string>
+    <string>300000</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/richrusso/Documents/Instagram/rangers-prospects-hq</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>DRAFT_ALERT_PHONE</key>
+    <string></string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Month</key>
+    <integer>6</integer>
+    <key>Day</key>
+    <integer>26</integer>
+    <key>Hour</key>
+    <integer>17</integer>
+    <key>Minute</key>
+    <integer>15</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/richrusso/Documents/Instagram/rangers-prospects-hq/logs/draft-watch.launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/richrusso/Documents/Instagram/rangers-prospects-hq/logs/draft-watch.launchd.err</string>
+</dict>
+</plist>

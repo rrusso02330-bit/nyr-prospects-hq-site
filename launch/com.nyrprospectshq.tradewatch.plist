@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.nyrprospectshq.tradewatch</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/caffeinate</string>
+    <string>-disu</string>
+    <string>/usr/local/bin/node</string>
+    <string>/Users/richrusso/Documents/Instagram/rangers-prospects-hq/tools/watch-trades.js</string>
+    <string>--poll-ms</string>
+    <string>600000</string>
+    <string>--stop-at</string>
+    <string>2026-06-26T17:15:00-06:00</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/richrusso/Documents/Instagram/rangers-prospects-hq</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>DRAFT_ALERT_PHONE</key>
+    <string>+12019212755</string>
+  </dict>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/richrusso/Documents/Instagram/rangers-prospects-hq/logs/trade-watch.launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/richrusso/Documents/Instagram/rangers-prospects-hq/logs/trade-watch.launchd.err</string>
+</dict>
+</plist>
