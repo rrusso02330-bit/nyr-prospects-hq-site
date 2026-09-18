@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T14:48:27.599Z",
   "source": "site-publish",
+  "contentSha256": "a7095dcb2f2af80b47b49985be03a77996d815e746717c54b5a6fba4c118be59",
   "files": {
     ".gitignore": "be3281f709f79e33f6dc9edb1a2c8afe7c57db4dcd93d099760b34be3ca56796",
     ".nojekyll": "985295c927fd5203dd8d00add3840733b01e1268a9e85d25424e96fa0407c1dc",
