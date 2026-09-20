@@ -646,13 +646,13 @@ const tradedOutDetails = {
   },
 };
 
-// Updated September 13, 2026 from current expert, official, and scouting ranking signals.
+// Updated September 20, 2026 from current expert, official, and scouting ranking signals.
 const prospectConsensusOrder = [
   "Alberts Smits",
   "Liam Greentree",
   "Cole Beaudoin",
-  "Scott Morrow",
   "Malcolm Spence",
+  "Scott Morrow",
   "Drew Fortescue",
   "EJ Emery",
   "Adam Sykora",
