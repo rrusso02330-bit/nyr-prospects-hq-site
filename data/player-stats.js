@@ -4850,6 +4850,15 @@ window.NYR_PLAYER_STATS = {
       },
       "newsNotes": [
         {
+          "title": "Preseason tying goal — official highlight",
+          "date": "2026-09-21",
+          "body": "#6 Drew Fortescue scored the third-period tying goal in the Rangers’ 3-2 preseason loss at New Jersey. Official final: 1 G, 0 A, 1 PTS, even plus/minus, 2 shots, 2 PIM, 20:41 TOI.",
+          "source": {
+            "label": "NHL official goal highlight",
+            "url": "https://www.nhl.com/video/topic/highlights/nyr-njd-fortescue-scores-goal-against-nicolas-daws-6405391295112"
+          }
+        },
+        {
           "title": "Entry-level contract",
           "date": "2026-03-21",
           "body": "The Rangers agreed to terms with Drew Fortescue on a three-year entry-level contract.",
