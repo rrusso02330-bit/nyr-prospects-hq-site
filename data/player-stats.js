@@ -1257,7 +1257,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Färjestad BK U20",
+          "team": "F\u00e4rjestad BK U20",
           "league": "U20 Nationell",
           "gp": 25,
           "source": {
@@ -1272,7 +1272,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Färjestad BK",
+          "team": "F\u00e4rjestad BK",
           "league": "SHL",
           "gp": 15,
           "source": {
@@ -1302,7 +1302,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Playoffs",
-          "team": "Färjestad BK U20",
+          "team": "F\u00e4rjestad BK U20",
           "league": "U20 Nationell",
           "gp": 7,
           "source": {
@@ -1317,7 +1317,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Playoffs",
-          "team": "Färjestad BK",
+          "team": "F\u00e4rjestad BK",
           "league": "SHL",
           "gp": 5,
           "source": {
@@ -1365,7 +1365,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Färjestad BK U20",
+            "team": "F\u00e4rjestad BK U20",
             "league": "U20 Nationell",
             "gp": 25,
             "source": {
@@ -1380,7 +1380,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Färjestad BK",
+            "team": "F\u00e4rjestad BK",
             "league": "SHL",
             "gp": 15,
             "source": {
@@ -1410,7 +1410,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "Färjestad BK U20",
+            "team": "F\u00e4rjestad BK U20",
             "league": "U20 Nationell",
             "gp": 7,
             "source": {
@@ -1425,7 +1425,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "Färjestad BK",
+            "team": "F\u00e4rjestad BK",
             "league": "SHL",
             "gp": 5,
             "source": {
@@ -1460,7 +1460,7 @@ window.NYR_PLAYER_STATS = {
         "season": "2025-26",
         "updatedAt": "2026-08-28T16:23:17.763Z",
         "league": "Swedish senior preseason",
-        "team": "Färjestad BK",
+        "team": "F\u00e4rjestad BK",
         "sourceLinks": [
           {
             "label": "Swedish hockey stats",
@@ -1477,9 +1477,9 @@ window.NYR_PLAYER_STATS = {
             "date": "2026-08-22",
             "type": "Preseason",
             "season": "2026-27",
-            "team": "Färjestad BK",
-            "opponent": "Frölunda HC",
-            "opponentName": "Frölunda HC",
+            "team": "F\u00e4rjestad BK",
+            "opponent": "Fr\u00f6lunda HC",
+            "opponentName": "Fr\u00f6lunda HC",
             "homeAway": "vs",
             "league": "Swedish senior preseason",
             "role": "skater",
@@ -1496,7 +1496,7 @@ window.NYR_PLAYER_STATS = {
               "label": "Swehockey event 1113903",
               "url": "https://stats.swehockey.se/Game/Events/1113903"
             },
-            "performanceNote": "Swehockey event 1113903 lists Mikkel Eriksen (#23) on Färjestad's fourth line and credits him with a 35:55 second-period slashing minor in Färjestad's 0-2 preseason loss to Frölunda HC. Official individual shots, plus-minus, and TOI were not published."
+            "performanceNote": "Swehockey event 1113903 lists Mikkel Eriksen (#23) on F\u00e4rjestad's fourth line and credits him with a 35:55 second-period slashing minor in F\u00e4rjestad's 0-2 preseason loss to Fr\u00f6lunda HC. Official individual shots, plus-minus, and TOI were not published."
           }
         ],
         "note": "Sweden Jr. game-by-game connector is not connected yet for Farjestad BK U20. Season totals still update from the NHL API landing feed where available. Manual game entries are preserved for verified showcase or international games outside the connected league feeds."
@@ -1542,9 +1542,9 @@ window.NYR_PLAYER_STATS = {
           "date": "2026-08-22",
           "type": "Preseason",
           "season": "2026-27",
-          "team": "Färjestad BK",
-          "opponent": "Frölunda HC",
-          "opponentName": "Frölunda HC",
+          "team": "F\u00e4rjestad BK",
+          "opponent": "Fr\u00f6lunda HC",
+          "opponentName": "Fr\u00f6lunda HC",
           "homeAway": "vs",
           "league": "Swedish senior preseason",
           "role": "skater",
@@ -1561,7 +1561,7 @@ window.NYR_PLAYER_STATS = {
             "label": "Swehockey event 1113903",
             "url": "https://stats.swehockey.se/Game/Events/1113903"
           },
-          "performanceNote": "Swehockey event 1113903 lists Mikkel Eriksen (#23) on Färjestad's fourth line and credits him with a 35:55 second-period slashing minor in Färjestad's 0-2 preseason loss to Frölunda HC. Official individual shots, plus-minus, and TOI were not published."
+          "performanceNote": "Swehockey event 1113903 lists Mikkel Eriksen (#23) on F\u00e4rjestad's fourth line and credits him with a 35:55 second-period slashing minor in F\u00e4rjestad's 0-2 preseason loss to Fr\u00f6lunda HC. Official individual shots, plus-minus, and TOI were not published."
         }
       ]
     },
@@ -1574,7 +1574,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Örebro HK U20",
+          "team": "\u00d6rebro HK U20",
           "league": "U20 Nationell",
           "gp": 36,
           "source": {
@@ -1589,7 +1589,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Piteå HC",
+          "team": "Pite\u00e5 HC",
           "league": "HockeyEttan",
           "gp": 2,
           "source": {
@@ -1604,7 +1604,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Örebro HK",
+          "team": "\u00d6rebro HK",
           "league": "SHL",
           "gp": 2,
           "source": {
@@ -1619,7 +1619,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Playoffs",
-          "team": "Örebro HK U20",
+          "team": "\u00d6rebro HK U20",
           "league": "U20 Nationell",
           "gp": 14,
           "source": {
@@ -1652,7 +1652,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Örebro HK U20",
+            "team": "\u00d6rebro HK U20",
             "league": "U20 Nationell",
             "gp": 36,
             "source": {
@@ -1667,7 +1667,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Piteå HC",
+            "team": "Pite\u00e5 HC",
             "league": "HockeyEttan",
             "gp": 2,
             "source": {
@@ -1682,7 +1682,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Örebro HK",
+            "team": "\u00d6rebro HK",
             "league": "SHL",
             "gp": 2,
             "source": {
@@ -1697,7 +1697,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "Örebro HK U20",
+            "team": "\u00d6rebro HK U20",
             "league": "U20 Nationell",
             "gp": 14,
             "source": {
@@ -1961,7 +1961,7 @@ window.NYR_PLAYER_STATS = {
                 "url": "https://www.evz.ch/news/medientyp/game-highlights/2026/09/game-highlights-doppelter-rohrer-beim-5-0-sieg-in-lausanne/"
               }
             ],
-            "performanceNote": "#33 Rico Gredig recorded four shots and a +1 rating in EV Zug’s season-opening 5-0 win."
+            "performanceNote": "#33 Rico Gredig recorded four shots and a +1 rating in EV Zug\u2019s season-opening 5-0 win."
           },
           {
             "gameId": "sihf-20270009250109",
@@ -2170,7 +2170,7 @@ window.NYR_PLAYER_STATS = {
               "url": "https://www.evz.ch/news/medientyp/game-highlights/2026/09/game-highlights-doppelter-rohrer-beim-5-0-sieg-in-lausanne/"
             }
           ],
-          "performanceNote": "#33 Rico Gredig recorded four shots and a +1 rating in EV Zug’s season-opening 5-0 win."
+          "performanceNote": "#33 Rico Gredig recorded four shots and a +1 rating in EV Zug\u2019s season-opening 5-0 win."
         },
         {
           "gameId": "sihf-exhibition-2026-08-29-rico-gredig-ev-zug-ice-tigers-nurnberg",
@@ -2342,7 +2342,7 @@ window.NYR_PLAYER_STATS = {
         {
           "date": "2026-09-15",
           "title": "#33 Rico Gredig: season-opening win",
-          "body": "#33 Rico Gredig recorded four shots and a +1 rating in EV Zug’s season-opening 5-0 win.",
+          "body": "#33 Rico Gredig recorded four shots and a +1 rating in EV Zug\u2019s season-opening 5-0 win.",
           "source": {
             "label": "SIHF official player statistics",
             "url": "https://www.sihf.ch/fr/game-center/game/statistiques-des-joueurs/20271105000005"
@@ -3219,7 +3219,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Kärpät",
+          "team": "K\u00e4rp\u00e4t",
           "league": "Liiga",
           "gp": 3,
           "source": {
@@ -3252,7 +3252,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Kärpät",
+            "team": "K\u00e4rp\u00e4t",
             "league": "Liiga",
             "gp": 3,
             "source": {
@@ -3377,6 +3377,15 @@ window.NYR_PLAYER_STATS = {
         }
       ],
       "newsNotes": [
+        {
+          "date": "2026-09-18",
+          "title": "#37 Samuel Jung: Did not dress",
+          "body": "#37 Samuel Jung did not dress for KalPa in its 2-1 loss to Ilves. Complete official dressed-player list verified September 23; no game appearance or individual statistics added.",
+          "source": {
+            "label": "Official Liiga game lineup",
+            "url": "https://liiga.fi/en/game/2027/2701310/lineups"
+          }
+        },
         {
           "date": "2026-09-15",
           "title": "#37 Samuel Jung: Did not dress",
@@ -3550,7 +3559,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Skellefteå AIK U20",
+          "team": "Skellefte\u00e5 AIK U20",
           "league": "U20 Nationell",
           "gp": 36,
           "source": {
@@ -3565,7 +3574,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Skellefteå AIK",
+          "team": "Skellefte\u00e5 AIK",
           "league": "SHL",
           "gp": 2,
           "source": {
@@ -3580,7 +3589,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Playoffs",
-          "team": "Skellefteå AIK U20",
+          "team": "Skellefte\u00e5 AIK U20",
           "league": "U20 Nationell",
           "gp": 3,
           "source": {
@@ -3613,7 +3622,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Skellefteå AIK U20",
+            "team": "Skellefte\u00e5 AIK U20",
             "league": "U20 Nationell",
             "gp": 36,
             "source": {
@@ -3628,7 +3637,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Skellefteå AIK",
+            "team": "Skellefte\u00e5 AIK",
             "league": "SHL",
             "gp": 2,
             "source": {
@@ -3643,7 +3652,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "Skellefteå AIK U20",
+            "team": "Skellefte\u00e5 AIK U20",
             "league": "U20 Nationell",
             "gp": 3,
             "source": {
@@ -4575,7 +4584,18 @@ window.NYR_PLAYER_STATS = {
           "label": "NHL API",
           "url": "https://api-web.nhle.com/v1/player/8482877/landing"
         }
-      }
+      },
+      "newsNotes": [
+        {
+          "date": "2026-09-22",
+          "title": "#16 Jaroslav Chmelar: official game highlights",
+          "body": "#16 Jaroslav Chmelar finished with 0 G, 0 A, 0 PTS, +1, 1 SOG, 0 PIM and 11:00 TOI in the Rangers\u2019 4-3 preseason loss to the Islanders. Official full-game highlights are available.",
+          "source": {
+            "label": "Official NHL full-game highlights",
+            "url": "https://www.nhl.com/rangers/video/nyi-at-nyr-recap-6405460856112"
+          }
+        }
+      ]
     },
     "drew-fortescue": {
       "name": "Drew Fortescue",
@@ -4850,9 +4870,9 @@ window.NYR_PLAYER_STATS = {
       },
       "newsNotes": [
         {
-          "title": "Preseason tying goal — official highlight",
+          "title": "Preseason tying goal \u2014 official highlight",
           "date": "2026-09-21",
-          "body": "#6 Drew Fortescue scored the third-period tying goal in the Rangers’ 3-2 preseason loss at New Jersey. Official final: 1 G, 0 A, 1 PTS, even plus/minus, 2 shots, 2 PIM, 20:41 TOI.",
+          "body": "#6 Drew Fortescue scored the third-period tying goal in the Rangers\u2019 3-2 preseason loss at New Jersey. Official final: 1 G, 0 A, 1 PTS, even plus/minus, 2 shots, 2 PIM, 20:41 TOI.",
           "source": {
             "label": "NHL official goal highlight",
             "url": "https://www.nhl.com/video/topic/highlights/nyr-njd-fortescue-scores-goal-against-nicolas-daws-6405391295112"
@@ -7972,7 +7992,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2020-21",
           "type": "Regular",
-          "team": "Linköping HC",
+          "team": "Link\u00f6ping HC",
           "league": "SHL",
           "gp": 2,
           "source": {
@@ -7988,7 +8008,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2020-21",
           "type": "Regular",
-          "team": "Linköping HC J20",
+          "team": "Link\u00f6ping HC J20",
           "league": "J20 Nationell",
           "gp": 9,
           "source": {
@@ -8004,7 +8024,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2020-21",
           "type": "Regular",
-          "team": "Linköping HC U20",
+          "team": "Link\u00f6ping HC U20",
           "league": "J20 Nationell",
           "gp": 9,
           "source": {
@@ -9158,7 +9178,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2019-20",
           "type": "Regular",
-          "team": "Södertälje SK",
+          "team": "S\u00f6dert\u00e4lje SK",
           "league": "HockeyAllsvenskan",
           "gp": 15,
           "source": {
@@ -9173,7 +9193,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2019-20",
           "type": "Regular",
-          "team": "Frölunda HC",
+          "team": "Fr\u00f6lunda HC",
           "league": "SHL",
           "gp": 8,
           "source": {
@@ -9188,7 +9208,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2020-21",
           "type": "Regular",
-          "team": "Frölunda HC",
+          "team": "Fr\u00f6lunda HC",
           "league": "SHL",
           "gp": 44,
           "source": {
@@ -9203,7 +9223,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2020-21",
           "type": "Playoffs",
-          "team": "Frölunda HC",
+          "team": "Fr\u00f6lunda HC",
           "league": "SHL",
           "gp": 4,
           "source": {
@@ -9218,7 +9238,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2021-22",
           "type": "Regular",
-          "team": "Frölunda HC",
+          "team": "Fr\u00f6lunda HC",
           "league": "SHL",
           "gp": 40,
           "source": {
@@ -9233,7 +9253,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2021-22",
           "type": "Playoffs",
-          "team": "Frölunda HC",
+          "team": "Fr\u00f6lunda HC",
           "league": "SHL",
           "gp": 9,
           "source": {
@@ -9293,7 +9313,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2024-25",
           "type": "Regular",
-          "team": "Växjö Lakers HC",
+          "team": "V\u00e4xj\u00f6 Lakers HC",
           "league": "SHL",
           "gp": 36,
           "source": {
@@ -9308,7 +9328,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2024-25",
           "type": "Playoffs",
-          "team": "Växjö Lakers HC",
+          "team": "V\u00e4xj\u00f6 Lakers HC",
           "league": "SHL",
           "gp": 8,
           "source": {
@@ -9323,7 +9343,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Växjö Lakers HC",
+          "team": "V\u00e4xj\u00f6 Lakers HC",
           "league": "SHL",
           "gp": 49,
           "source": {
@@ -9338,7 +9358,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Playoffs",
-          "team": "Växjö Lakers HC",
+          "team": "V\u00e4xj\u00f6 Lakers HC",
           "league": "SHL",
           "gp": 10,
           "source": {
@@ -9448,7 +9468,7 @@ window.NYR_PLAYER_STATS = {
                 "url": "https://www.chl.hockey/en/matches/f888e7e0d5a34a770a4a0298/vaxjo-lakers-vs-tappara-tampere"
               }
             ],
-            "performanceNote": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo’s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified."
+            "performanceNote": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo\u2019s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified."
           },
           {
             "gameId": "chl-2026-09-06-karl-henriksson-vaxjo-hk-nitra",
@@ -9617,7 +9637,7 @@ window.NYR_PLAYER_STATS = {
               "url": "https://www.chl.hockey/en/matches/f888e7e0d5a34a770a4a0298/vaxjo-lakers-vs-tappara-tampere"
             }
           ],
-          "performanceNote": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo’s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified."
+          "performanceNote": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo\u2019s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified."
         },
         {
           "gameId": "chl-2026-09-04-karl-henriksson-vaxjo-adler-mannheim",
@@ -9683,13 +9703,13 @@ window.NYR_PLAYER_STATS = {
         "label": "Sept. 11 final statistics verified",
         "date": "2026-09-11",
         "updatedAt": "2026-09-13T12:09:40.532364+00:00",
-        "note": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo’s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified."
+        "note": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo\u2019s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified."
       },
       "newsNotes": [
         {
           "title": "Sept. 11 vs Tappara",
           "date": "2026-09-11",
-          "body": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo’s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified.",
+          "body": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo\u2019s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified.",
           "source": {
             "label": "CHL official player statistics",
             "url": "https://www.chl.hockey/en/matches/f888e7e0d5a34a770a4a0298/vaxjo-lakers-vs-tappara-tampere"
@@ -9826,7 +9846,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2023-24",
           "type": "Regular",
-          "team": "Malmö Redhawks",
+          "team": "Malm\u00f6 Redhawks",
           "league": "SHL",
           "gp": 43,
           "source": {
@@ -9871,7 +9891,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Malmö Redhawks",
+          "team": "Malm\u00f6 Redhawks",
           "league": "SHL",
           "gp": 51,
           "source": {
@@ -9886,7 +9906,7 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2025-26",
           "type": "Playoffs",
-          "team": "Malmö Redhawks",
+          "team": "Malm\u00f6 Redhawks",
           "league": "SHL",
           "gp": 8,
           "source": {
@@ -9919,7 +9939,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Malmö Redhawks",
+            "team": "Malm\u00f6 Redhawks",
             "league": "SHL",
             "gp": 51,
             "source": {
@@ -9934,7 +9954,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "Malmö Redhawks",
+            "team": "Malm\u00f6 Redhawks",
             "league": "SHL",
             "gp": 8,
             "source": {
@@ -11218,7 +11238,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "EHC München",
+            "team": "EHC M\u00fcnchen",
             "league": "DEL",
             "gp": 5,
             "source": {
@@ -11233,7 +11253,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "EHC München",
+            "team": "EHC M\u00fcnchen",
             "league": "DEL",
             "gp": 11,
             "source": {
@@ -11727,7 +11747,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Québec Remparts",
+            "team": "Qu\u00e9bec Remparts",
             "league": "QMJHL",
             "gp": 41,
             "source": {
@@ -11757,7 +11777,7 @@ window.NYR_PLAYER_STATS = {
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "Québec Remparts",
+            "team": "Qu\u00e9bec Remparts",
             "league": "QMJHL",
             "gp": 10,
             "source": {
