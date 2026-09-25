@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "site-publish",
-  "contentSha256": "c611825882d74ddb49880b9ce8a04842ec8658254ff91e34ad9e815de4232130",
+  "contentSha256": "d3c09406452df98ffaf89808a9049c93e3deafce06181e2bfd81511681c57e54",
   "files": {
     ".gitignore": "be3281f709f79e33f6dc9edb1a2c8afe7c57db4dcd93d099760b34be3ca56796",
     ".nojekyll": "985295c927fd5203dd8d00add3840733b01e1268a9e85d25424e96fa0407c1dc",
@@ -58,7 +58,7 @@
     "PUBLIC-LAUNCH.md": "0983354f211172f2daafae5555e16e8aafbe56c78e9a8eb6a0e3a14e234a46ed",
     "README.md": "e2672f34f4a4ce791ebcda1c6d53e202bd4baa075d02aaaca045aa34107a16e0",
     "robots.txt": "7e3fb2114e52248eee173729f274dcbb154aa4d5db488533f4b9c234223c10bb",
-    "scripts.js": "6163065b97d42bad7e6595348fdfc7dca19a6bcbc4165853dee9837c261f51d5",
+    "scripts.js": "a3eb40631ec994053def2d0c6a31af7655d9962d69858518f4a7cb8083f22e20",
     "sitemap.xml": "d8a55ce95be94621d96cd793132668999c3b4804d3b91c593550f35e02c672fb",
     "styles.css": "e521b77a18f1f89164702cc88100183a91a9d9799c589c87b57680006b0145d3",
     "tools/build-story-review.js": "8b4f80aa66bdfa37b8f0c50c6584e892fb830c2401d6c588bc8ae8fa878175e1",

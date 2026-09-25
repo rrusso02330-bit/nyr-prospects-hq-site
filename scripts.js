@@ -266,7 +266,7 @@ const playerProfiles = [
     position: "D",
     group: "Current prospect",
     acquired: "2023 draft, Rd 5, No. 152",
-    currentTeam: "Robert Morris Univ., NCAA",
+    currentTeam: "Hudik Hockey, HockeyEttan",
   },
   {
     name: "Zeb Lindgren",
