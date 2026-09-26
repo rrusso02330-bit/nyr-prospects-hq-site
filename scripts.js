@@ -1314,7 +1314,7 @@ const scoutingProfiles = {
   },
   "zeb-lindgren": {
     bio:
-      "Zeb Lindgren is a 2025 draft defenseman developing in Sweden with a mobile two-way profile.",
+      "Zeb Lindgren is a 2025 draft defenseman developing with Red Deer in the WHL after coming over from Sweden with a mobile two-way profile.",
     style:
       "Skating defenseman who can move pucks and support transition. He is most useful when he plays with pace, keeps his gaps tight, and chooses simple outlets.",
     strengths:
