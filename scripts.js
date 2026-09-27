@@ -1198,7 +1198,7 @@ const scoutingProfiles = {
   },
   "felix-farhammar": {
     bio:
-      "Felix Farhammar is a 2025 seventh-round defenseman developing in Sweden with a late-blooming, puck-moving profile.",
+      "Felix Farhammar is a 2025 seventh-round defenseman starting his USHL season with Muskegon after a late-blooming, puck-moving season in Sweden.",
     style:
       "Mobile defenseman who is at his best when he keeps his reads simple, joins the second wave, and moves pucks before pressure arrives.",
     strengths:
