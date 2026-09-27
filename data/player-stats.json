@@ -1257,7 +1257,7 @@
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "F\u00e4rjestad BK U20",
+          "team": "Färjestad BK U20",
           "league": "U20 Nationell",
           "gp": 25,
           "source": {
@@ -1272,7 +1272,7 @@
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "F\u00e4rjestad BK",
+          "team": "Färjestad BK",
           "league": "SHL",
           "gp": 15,
           "source": {
@@ -1302,7 +1302,7 @@
         {
           "season": "2025-26",
           "type": "Playoffs",
-          "team": "F\u00e4rjestad BK U20",
+          "team": "Färjestad BK U20",
           "league": "U20 Nationell",
           "gp": 7,
           "source": {
@@ -1317,7 +1317,7 @@
         {
           "season": "2025-26",
           "type": "Playoffs",
-          "team": "F\u00e4rjestad BK",
+          "team": "Färjestad BK",
           "league": "SHL",
           "gp": 5,
           "source": {
@@ -1365,7 +1365,7 @@
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "F\u00e4rjestad BK U20",
+            "team": "Färjestad BK U20",
             "league": "U20 Nationell",
             "gp": 25,
             "source": {
@@ -1380,7 +1380,7 @@
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "F\u00e4rjestad BK",
+            "team": "Färjestad BK",
             "league": "SHL",
             "gp": 15,
             "source": {
@@ -1410,7 +1410,7 @@
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "F\u00e4rjestad BK U20",
+            "team": "Färjestad BK U20",
             "league": "U20 Nationell",
             "gp": 7,
             "source": {
@@ -1425,7 +1425,7 @@
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "F\u00e4rjestad BK",
+            "team": "Färjestad BK",
             "league": "SHL",
             "gp": 5,
             "source": {
@@ -1460,7 +1460,7 @@
         "season": "2025-26",
         "updatedAt": "2026-08-28T16:23:17.763Z",
         "league": "Swedish senior preseason",
-        "team": "F\u00e4rjestad BK",
+        "team": "Färjestad BK",
         "sourceLinks": [
           {
             "label": "Swedish hockey stats",
@@ -1477,9 +1477,9 @@
             "date": "2026-08-22",
             "type": "Preseason",
             "season": "2026-27",
-            "team": "F\u00e4rjestad BK",
-            "opponent": "Fr\u00f6lunda HC",
-            "opponentName": "Fr\u00f6lunda HC",
+            "team": "Färjestad BK",
+            "opponent": "Frölunda HC",
+            "opponentName": "Frölunda HC",
             "homeAway": "vs",
             "league": "Swedish senior preseason",
             "role": "skater",
@@ -1496,7 +1496,7 @@
               "label": "Swehockey event 1113903",
               "url": "https://stats.swehockey.se/Game/Events/1113903"
             },
-            "performanceNote": "Swehockey event 1113903 lists Mikkel Eriksen (#23) on F\u00e4rjestad's fourth line and credits him with a 35:55 second-period slashing minor in F\u00e4rjestad's 0-2 preseason loss to Fr\u00f6lunda HC. Official individual shots, plus-minus, and TOI were not published."
+            "performanceNote": "Swehockey event 1113903 lists Mikkel Eriksen (#23) on Färjestad's fourth line and credits him with a 35:55 second-period slashing minor in Färjestad's 0-2 preseason loss to Frölunda HC. Official individual shots, plus-minus, and TOI were not published."
           }
         ],
         "note": "Sweden Jr. game-by-game connector is not connected yet for Farjestad BK U20. Season totals still update from the NHL API landing feed where available. Manual game entries are preserved for verified showcase or international games outside the connected league feeds."
@@ -1542,9 +1542,9 @@
           "date": "2026-08-22",
           "type": "Preseason",
           "season": "2026-27",
-          "team": "F\u00e4rjestad BK",
-          "opponent": "Fr\u00f6lunda HC",
-          "opponentName": "Fr\u00f6lunda HC",
+          "team": "Färjestad BK",
+          "opponent": "Frölunda HC",
+          "opponentName": "Frölunda HC",
           "homeAway": "vs",
           "league": "Swedish senior preseason",
           "role": "skater",
@@ -1561,7 +1561,7 @@
             "label": "Swehockey event 1113903",
             "url": "https://stats.swehockey.se/Game/Events/1113903"
           },
-          "performanceNote": "Swehockey event 1113903 lists Mikkel Eriksen (#23) on F\u00e4rjestad's fourth line and credits him with a 35:55 second-period slashing minor in F\u00e4rjestad's 0-2 preseason loss to Fr\u00f6lunda HC. Official individual shots, plus-minus, and TOI were not published."
+          "performanceNote": "Swehockey event 1113903 lists Mikkel Eriksen (#23) on Färjestad's fourth line and credits him with a 35:55 second-period slashing minor in Färjestad's 0-2 preseason loss to Frölunda HC. Official individual shots, plus-minus, and TOI were not published."
         }
       ]
     },
@@ -1574,7 +1574,7 @@
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "\u00d6rebro HK U20",
+          "team": "Örebro HK U20",
           "league": "U20 Nationell",
           "gp": 36,
           "source": {
@@ -1589,7 +1589,7 @@
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Pite\u00e5 HC",
+          "team": "Piteå HC",
           "league": "HockeyEttan",
           "gp": 2,
           "source": {
@@ -1604,7 +1604,7 @@
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "\u00d6rebro HK",
+          "team": "Örebro HK",
           "league": "SHL",
           "gp": 2,
           "source": {
@@ -1619,7 +1619,7 @@
         {
           "season": "2025-26",
           "type": "Playoffs",
-          "team": "\u00d6rebro HK U20",
+          "team": "Örebro HK U20",
           "league": "U20 Nationell",
           "gp": 14,
           "source": {
@@ -1652,7 +1652,7 @@
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "\u00d6rebro HK U20",
+            "team": "Örebro HK U20",
             "league": "U20 Nationell",
             "gp": 36,
             "source": {
@@ -1667,7 +1667,7 @@
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Pite\u00e5 HC",
+            "team": "Piteå HC",
             "league": "HockeyEttan",
             "gp": 2,
             "source": {
@@ -1682,7 +1682,7 @@
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "\u00d6rebro HK",
+            "team": "Örebro HK",
             "league": "SHL",
             "gp": 2,
             "source": {
@@ -1697,7 +1697,7 @@
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "\u00d6rebro HK U20",
+            "team": "Örebro HK U20",
             "league": "U20 Nationell",
             "gp": 14,
             "source": {
@@ -1961,7 +1961,7 @@
                 "url": "https://www.evz.ch/news/medientyp/game-highlights/2026/09/game-highlights-doppelter-rohrer-beim-5-0-sieg-in-lausanne/"
               }
             ],
-            "performanceNote": "#33 Rico Gredig recorded four shots and a +1 rating in EV Zug\u2019s season-opening 5-0 win."
+            "performanceNote": "#33 Rico Gredig recorded four shots and a +1 rating in EV Zug’s season-opening 5-0 win."
           },
           {
             "gameId": "sihf-20270009250109",
@@ -2170,7 +2170,7 @@
               "url": "https://www.evz.ch/news/medientyp/game-highlights/2026/09/game-highlights-doppelter-rohrer-beim-5-0-sieg-in-lausanne/"
             }
           ],
-          "performanceNote": "#33 Rico Gredig recorded four shots and a +1 rating in EV Zug\u2019s season-opening 5-0 win."
+          "performanceNote": "#33 Rico Gredig recorded four shots and a +1 rating in EV Zug’s season-opening 5-0 win."
         },
         {
           "gameId": "sihf-exhibition-2026-08-29-rico-gredig-ev-zug-ice-tigers-nurnberg",
@@ -2342,7 +2342,7 @@
         {
           "date": "2026-09-15",
           "title": "#33 Rico Gredig: season-opening win",
-          "body": "#33 Rico Gredig recorded four shots and a +1 rating in EV Zug\u2019s season-opening 5-0 win.",
+          "body": "#33 Rico Gredig recorded four shots and a +1 rating in EV Zug’s season-opening 5-0 win.",
           "source": {
             "label": "SIHF official player statistics",
             "url": "https://www.sihf.ch/fr/game-center/game/statistiques-des-joueurs/20271105000005"
@@ -3219,7 +3219,7 @@
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "K\u00e4rp\u00e4t",
+          "team": "Kärpät",
           "league": "Liiga",
           "gp": 3,
           "source": {
@@ -3252,7 +3252,7 @@
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "K\u00e4rp\u00e4t",
+            "team": "Kärpät",
             "league": "Liiga",
             "gp": 3,
             "source": {
@@ -3462,6 +3462,23 @@
           "assists": 1,
           "points": 2,
           "pim": 0
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hudiksvalls HC",
+          "league": "HockeyEttan",
+          "gp": 1,
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 2,
+          "shots": 3,
+          "plusMinus": 1,
+          "source": {
+            "label": "Swehockey official player summary",
+            "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1113123"
+          }
         }
       ],
       "nhlApiPlayerId": 8484436,
@@ -3473,46 +3490,86 @@
         {
           "label": "NHL API data",
           "url": "https://api-web.nhle.com/v1/player/8484436/landing"
+        },
+        {
+          "label": "Swehockey official player summary",
+          "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1113123"
         }
       ],
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-08-28T16:23:17.763Z",
+        "season": "2026-27",
+        "updatedAt": "2026-09-27T12:07:46.316598+00:00",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
-            "team": "Robert Morris Univ.",
-            "league": "NCAA",
-            "gp": 16,
-            "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8484436/landing"
-            },
+            "team": "Hudiksvalls HC",
+            "league": "HockeyEttan",
+            "gp": 1,
             "goals": 1,
-            "assists": 1,
-            "points": 2,
-            "pim": 0
+            "assists": 0,
+            "points": 1,
+            "pim": 2,
+            "shots": 3,
+            "plusMinus": 1,
+            "source": {
+              "label": "Swehockey official player summary",
+              "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1113123"
+            }
           }
         ],
-        "note": "Latest available season totals from the NHL API feed."
+        "note": "Official opening-game totals through Sept. 26; TOI not reported."
       },
       "lastFiveGames": {
-        "status": "league_connector_pending",
-        "season": "2025-26",
-        "updatedAt": "2026-08-28T16:23:17.763Z",
-        "league": "NCAA",
-        "team": "Robert Morris Univ.",
+        "status": "verified",
+        "season": "2026-27",
+        "updatedAt": "2026-09-27T12:07:46.316598+00:00",
+        "league": "HockeyEttan",
+        "team": "Hudiksvalls HC",
         "sourceLinks": [
           {
-            "label": "NCAA hockey stats",
-            "url": "https://www.ncaa.com/stats/icehockey-men/d1"
+            "label": "Swehockey official player summary",
+            "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1113123"
           }
         ],
-        "games": [],
-        "note": "NCAA game-by-game connector is not connected yet for Robert Morris Univ.. Season totals still update from the NHL API landing feed where available."
+        "games": [
+          {
+            "gameId": "swehockey-1113123-rasmus-larsson",
+            "date": "2026-09-26",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "Hudiksvalls HC",
+            "opponent": "Ornskoldsvik HF",
+            "opponentName": "Ornskoldsvik HF",
+            "homeAway": "at",
+            "league": "HockeyEttan",
+            "role": "skater",
+            "jerseyNumber": 10,
+            "goals": 1,
+            "assists": 0,
+            "points": 1,
+            "shots": 3,
+            "plusMinus": 1,
+            "pim": 2,
+            "toi": null,
+            "result": "W 7-1",
+            "highlightLinks": [],
+            "source": {
+              "label": "Swehockey official player summary",
+              "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1113123"
+            },
+            "sourceLinks": [
+              {
+                "label": "Swehockey official player summary",
+                "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1113123"
+              }
+            ],
+            "performanceNote": "#34 Rasmus Larsson recorded 1 G, 0 A, 1 PTS, +1, 3 SOG and 2 PIM in Hudiksvall’s 7-1 win at Ornskoldsvik on Sept. 26. The federation player-summary PDF verifies the complete published stat line; TOI is not reported."
+          }
+        ],
+        "note": "Verified season opener; fewer than five current-season games available. Official highlight unavailable after source search."
       },
       "draftInfo": {
         "status": "drafted",
@@ -3548,7 +3605,59 @@
         ],
         "games": [],
         "note": "NCAA schedule connector is not connected yet for Robert Morris Univ.."
-      }
+      },
+      "manualLastFiveGames": [
+        {
+          "gameId": "swehockey-1113123-rasmus-larsson",
+          "date": "2026-09-26",
+          "type": "Regular",
+          "season": "2026-27",
+          "team": "Hudiksvalls HC",
+          "opponent": "Ornskoldsvik HF",
+          "opponentName": "Ornskoldsvik HF",
+          "homeAway": "at",
+          "league": "HockeyEttan",
+          "role": "skater",
+          "jerseyNumber": 10,
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "shots": 3,
+          "plusMinus": 1,
+          "pim": 2,
+          "toi": null,
+          "result": "W 7-1",
+          "highlightLinks": [],
+          "source": {
+            "label": "Swehockey official player summary",
+            "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1113123"
+          },
+          "sourceLinks": [
+            {
+              "label": "Swehockey official player summary",
+              "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1113123"
+            }
+          ],
+          "performanceNote": "#34 Rasmus Larsson recorded 1 G, 0 A, 1 PTS, +1, 3 SOG and 2 PIM in Hudiksvall’s 7-1 win at Ornskoldsvik on Sept. 26. The federation player-summary PDF verifies the complete published stat line; TOI is not reported."
+        }
+      ],
+      "latestUpdateNews": {
+        "label": "Sept. 26 final statistics verified",
+        "date": "2026-09-26",
+        "updatedAt": "2026-09-27T12:07:46.316598+00:00",
+        "note": "#34 Rasmus Larsson recorded 1 G, 0 A, 1 PTS, +1, 3 SOG and 2 PIM in Hudiksvall’s 7-1 win at Ornskoldsvik on Sept. 26. The federation player-summary PDF verifies the complete published stat line; TOI is not reported."
+      },
+      "newsNotes": [
+        {
+          "title": "Sept. 26 at Ornskoldsvik",
+          "date": "2026-09-26",
+          "body": "#34 Rasmus Larsson recorded 1 G, 0 A, 1 PTS, +1, 3 SOG and 2 PIM in Hudiksvall’s 7-1 win at Ornskoldsvik on Sept. 26. The federation player-summary PDF verifies the complete published stat line; TOI is not reported.",
+          "source": {
+            "label": "Swehockey official player summary",
+            "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1113123"
+          }
+        }
+      ]
     },
     "zeb-lindgren": {
       "name": "Zeb Lindgren",
@@ -3559,7 +3668,7 @@
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Skellefte\u00e5 AIK U20",
+          "team": "Skellefteå AIK U20",
           "league": "U20 Nationell",
           "gp": 36,
           "source": {
@@ -3574,7 +3683,7 @@
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Skellefte\u00e5 AIK",
+          "team": "Skellefteå AIK",
           "league": "SHL",
           "gp": 2,
           "source": {
@@ -3589,7 +3698,7 @@
         {
           "season": "2025-26",
           "type": "Playoffs",
-          "team": "Skellefte\u00e5 AIK U20",
+          "team": "Skellefteå AIK U20",
           "league": "U20 Nationell",
           "gp": 3,
           "source": {
@@ -3622,7 +3731,7 @@
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Skellefte\u00e5 AIK U20",
+            "team": "Skellefteå AIK U20",
             "league": "U20 Nationell",
             "gp": 36,
             "source": {
@@ -3637,7 +3746,7 @@
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Skellefte\u00e5 AIK",
+            "team": "Skellefteå AIK",
             "league": "SHL",
             "gp": 2,
             "source": {
@@ -3652,7 +3761,7 @@
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "Skellefte\u00e5 AIK U20",
+            "team": "Skellefteå AIK U20",
             "league": "U20 Nationell",
             "gp": 3,
             "source": {
@@ -4589,7 +4698,7 @@
         {
           "date": "2026-09-22",
           "title": "#16 Jaroslav Chmelar: official game highlights",
-          "body": "#16 Jaroslav Chmelar finished with 0 G, 0 A, 0 PTS, +1, 1 SOG, 0 PIM and 11:00 TOI in the Rangers\u2019 4-3 preseason loss to the Islanders. Official full-game highlights are available.",
+          "body": "#16 Jaroslav Chmelar finished with 0 G, 0 A, 0 PTS, +1, 1 SOG, 0 PIM and 11:00 TOI in the Rangers’ 4-3 preseason loss to the Islanders. Official full-game highlights are available.",
           "source": {
             "label": "Official NHL full-game highlights",
             "url": "https://www.nhl.com/rangers/video/nyi-at-nyr-recap-6405460856112"
@@ -4870,9 +4979,9 @@
       },
       "newsNotes": [
         {
-          "title": "Preseason tying goal \u2014 official highlight",
+          "title": "Preseason tying goal — official highlight",
           "date": "2026-09-21",
-          "body": "#6 Drew Fortescue scored the third-period tying goal in the Rangers\u2019 3-2 preseason loss at New Jersey. Official final: 1 G, 0 A, 1 PTS, even plus/minus, 2 shots, 2 PIM, 20:41 TOI.",
+          "body": "#6 Drew Fortescue scored the third-period tying goal in the Rangers’ 3-2 preseason loss at New Jersey. Official final: 1 G, 0 A, 1 PTS, even plus/minus, 2 shots, 2 PIM, 20:41 TOI.",
           "source": {
             "label": "NHL official goal highlight",
             "url": "https://www.nhl.com/video/topic/highlights/nyr-njd-fortescue-scores-goal-against-nicolas-daws-6405391295112"
@@ -7992,7 +8101,7 @@
         {
           "season": "2020-21",
           "type": "Regular",
-          "team": "Link\u00f6ping HC",
+          "team": "Linköping HC",
           "league": "SHL",
           "gp": 2,
           "source": {
@@ -8008,7 +8117,7 @@
         {
           "season": "2020-21",
           "type": "Regular",
-          "team": "Link\u00f6ping HC J20",
+          "team": "Linköping HC J20",
           "league": "J20 Nationell",
           "gp": 9,
           "source": {
@@ -8024,7 +8133,7 @@
         {
           "season": "2020-21",
           "type": "Regular",
-          "team": "Link\u00f6ping HC U20",
+          "team": "Linköping HC U20",
           "league": "J20 Nationell",
           "gp": 9,
           "source": {
@@ -9178,7 +9287,7 @@
         {
           "season": "2019-20",
           "type": "Regular",
-          "team": "S\u00f6dert\u00e4lje SK",
+          "team": "Södertälje SK",
           "league": "HockeyAllsvenskan",
           "gp": 15,
           "source": {
@@ -9193,7 +9302,7 @@
         {
           "season": "2019-20",
           "type": "Regular",
-          "team": "Fr\u00f6lunda HC",
+          "team": "Frölunda HC",
           "league": "SHL",
           "gp": 8,
           "source": {
@@ -9208,7 +9317,7 @@
         {
           "season": "2020-21",
           "type": "Regular",
-          "team": "Fr\u00f6lunda HC",
+          "team": "Frölunda HC",
           "league": "SHL",
           "gp": 44,
           "source": {
@@ -9223,7 +9332,7 @@
         {
           "season": "2020-21",
           "type": "Playoffs",
-          "team": "Fr\u00f6lunda HC",
+          "team": "Frölunda HC",
           "league": "SHL",
           "gp": 4,
           "source": {
@@ -9238,7 +9347,7 @@
         {
           "season": "2021-22",
           "type": "Regular",
-          "team": "Fr\u00f6lunda HC",
+          "team": "Frölunda HC",
           "league": "SHL",
           "gp": 40,
           "source": {
@@ -9253,7 +9362,7 @@
         {
           "season": "2021-22",
           "type": "Playoffs",
-          "team": "Fr\u00f6lunda HC",
+          "team": "Frölunda HC",
           "league": "SHL",
           "gp": 9,
           "source": {
@@ -9313,7 +9422,7 @@
         {
           "season": "2024-25",
           "type": "Regular",
-          "team": "V\u00e4xj\u00f6 Lakers HC",
+          "team": "Växjö Lakers HC",
           "league": "SHL",
           "gp": 36,
           "source": {
@@ -9328,7 +9437,7 @@
         {
           "season": "2024-25",
           "type": "Playoffs",
-          "team": "V\u00e4xj\u00f6 Lakers HC",
+          "team": "Växjö Lakers HC",
           "league": "SHL",
           "gp": 8,
           "source": {
@@ -9343,7 +9452,7 @@
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "V\u00e4xj\u00f6 Lakers HC",
+          "team": "Växjö Lakers HC",
           "league": "SHL",
           "gp": 49,
           "source": {
@@ -9358,7 +9467,7 @@
         {
           "season": "2025-26",
           "type": "Playoffs",
-          "team": "V\u00e4xj\u00f6 Lakers HC",
+          "team": "Växjö Lakers HC",
           "league": "SHL",
           "gp": 10,
           "source": {
@@ -9468,7 +9577,7 @@
                 "url": "https://www.chl.hockey/en/matches/f888e7e0d5a34a770a4a0298/vaxjo-lakers-vs-tappara-tampere"
               }
             ],
-            "performanceNote": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo\u2019s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified."
+            "performanceNote": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo’s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified."
           },
           {
             "gameId": "chl-2026-09-06-karl-henriksson-vaxjo-hk-nitra",
@@ -9637,7 +9746,7 @@
               "url": "https://www.chl.hockey/en/matches/f888e7e0d5a34a770a4a0298/vaxjo-lakers-vs-tappara-tampere"
             }
           ],
-          "performanceNote": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo\u2019s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified."
+          "performanceNote": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo’s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified."
         },
         {
           "gameId": "chl-2026-09-04-karl-henriksson-vaxjo-adler-mannheim",
@@ -9703,13 +9812,13 @@
         "label": "Sept. 11 final statistics verified",
         "date": "2026-09-11",
         "updatedAt": "2026-09-13T12:09:40.532364+00:00",
-        "note": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo\u2019s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified."
+        "note": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo’s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified."
       },
       "newsNotes": [
         {
           "title": "Sept. 11 vs Tappara",
           "date": "2026-09-11",
-          "body": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo\u2019s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified.",
+          "body": "#46 Karl Henriksson recorded 0 G, 0 A, 0 P, 2 SOG, 2 PIM, -1 and 17:31 TOI in Vaxjo’s 2-1 loss to Tappara on Sept. 11. Official CHL player-stat and lineup feeds verified.",
           "source": {
             "label": "CHL official player statistics",
             "url": "https://www.chl.hockey/en/matches/f888e7e0d5a34a770a4a0298/vaxjo-lakers-vs-tappara-tampere"
@@ -9846,7 +9955,7 @@
         {
           "season": "2023-24",
           "type": "Regular",
-          "team": "Malm\u00f6 Redhawks",
+          "team": "Malmö Redhawks",
           "league": "SHL",
           "gp": 43,
           "source": {
@@ -9891,7 +10000,7 @@
         {
           "season": "2025-26",
           "type": "Regular",
-          "team": "Malm\u00f6 Redhawks",
+          "team": "Malmö Redhawks",
           "league": "SHL",
           "gp": 51,
           "source": {
@@ -9906,7 +10015,7 @@
         {
           "season": "2025-26",
           "type": "Playoffs",
-          "team": "Malm\u00f6 Redhawks",
+          "team": "Malmö Redhawks",
           "league": "SHL",
           "gp": 8,
           "source": {
@@ -9939,7 +10048,7 @@
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Malm\u00f6 Redhawks",
+            "team": "Malmö Redhawks",
             "league": "SHL",
             "gp": 51,
             "source": {
@@ -9954,7 +10063,7 @@
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "Malm\u00f6 Redhawks",
+            "team": "Malmö Redhawks",
             "league": "SHL",
             "gp": 8,
             "source": {
@@ -11238,7 +11347,7 @@
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "EHC M\u00fcnchen",
+            "team": "EHC München",
             "league": "DEL",
             "gp": 5,
             "source": {
@@ -11253,7 +11362,7 @@
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "EHC M\u00fcnchen",
+            "team": "EHC München",
             "league": "DEL",
             "gp": 11,
             "source": {
@@ -11747,7 +11856,7 @@
           {
             "season": "2025-26",
             "type": "Regular",
-            "team": "Qu\u00e9bec Remparts",
+            "team": "Québec Remparts",
             "league": "QMJHL",
             "gp": 41,
             "source": {
@@ -11777,7 +11886,7 @@
           {
             "season": "2025-26",
             "type": "Playoffs",
-            "team": "Qu\u00e9bec Remparts",
+            "team": "Québec Remparts",
             "league": "QMJHL",
             "gp": 10,
             "source": {
