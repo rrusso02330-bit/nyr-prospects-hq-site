@@ -11659,10 +11659,23 @@ window.NYR_PLAYER_STATS = {
         {
           "label": "QMJHL prospect feature",
           "url": "https://chl.ca/lhjmq/en/article/prospect-of-the-week-danai-shaiikov"
+        },
+        {
+          "label": "Official full-game highlights: Gatineau at Victoriaville, Sept. 27",
+          "url": "https://chl.ca/lhjmq/en/video/four-point-night-for-shilov-in-the-victory-olympiques-5-tigres-7/"
         }
       ],
       "sourceNote": "Pre-draft/amateur stats are shown for bio context. Stats since Rangers control begin after the draft selection and will populate once post-selection games are available.",
       "newsNotes": [
+        {
+          "title": "Sept. 27 official full-game highlights",
+          "date": "2026-09-27",
+          "body": "#27 Danai Shaiikov started for Gatineau in a 7-5 loss at Victoriaville: 33:45, 12 saves on 16 shots, .750 SV%, 4 GA, no decision. Official league full-game highlights available.",
+          "source": {
+            "label": "Official full-game highlights: Gatineau at Victoriaville, Sept. 27",
+            "url": "https://chl.ca/lhjmq/en/video/four-point-night-for-shilov-in-the-victory-olympiques-5-tigres-7/"
+          }
+        },
         {
           "date": "2026-06-27",
           "title": "Drafted by Rangers at No. 67",
