@@ -5062,6 +5062,15 @@ window.NYR_PLAYER_STATS = {
       },
       "newsNotes": [
         {
+          "title": "September 29 watch-list resolution: did not dress",
+          "date": "2026-09-29",
+          "body": "#6 Drew Fortescue did not dress for New York in the 3-0 loss at Boston. Hartford officially announced his assignment on Sept. 25; he is absent from the official final Rangers lineup.",
+          "source": {
+            "label": "Official roster / assignment confirmation",
+            "url": "https://www.hartfordwolfpack.com/news/detail/rangers-assign-six-to-wolf-pack-1"
+          }
+        },
+        {
           "title": "Preseason tying goal — official highlight",
           "date": "2026-09-21",
           "body": "#6 Drew Fortescue scored the third-period tying goal in the Rangers’ 3-2 preseason loss at New Jersey. Official final: 1 G, 0 A, 1 PTS, even plus/minus, 2 shots, 2 PIM, 20:41 TOI.",
@@ -5736,7 +5745,18 @@ window.NYR_PLAYER_STATS = {
         ],
         "games": [],
         "note": "No upcoming NHL games are listed in the current club schedule feed."
-      }
+      },
+      "newsNotes": [
+        {
+          "title": "September 29 watch-list resolution: did not dress",
+          "date": "2026-09-29",
+          "body": "#8 Adam Sykora did not dress for New York in the 3-0 loss at Boston. The NHL opening roster lists him as injured/non-roster; he is absent from the official final Rangers lineup.",
+          "source": {
+            "label": "Official roster / assignment confirmation",
+            "url": "https://www.nhl.com/news/nhl-announces-rosters-to-start-2026-2027-season"
+          }
+        }
+      ]
     },
     "noah-laba": {
       "name": "Noah Laba",
@@ -6369,6 +6389,15 @@ window.NYR_PLAYER_STATS = {
         "note": "No upcoming NHL games are listed in the current club schedule feed."
       },
       "newsNotes": [
+        {
+          "title": "September 29 watch-list resolution: did not dress",
+          "date": "2026-09-29",
+          "body": "#11 Dylan Garand did not dress for New York in the 3-0 loss at Boston. Hartford officially announced his assignment on Sept. 28; he is absent from the official final Rangers lineup.",
+          "source": {
+            "label": "Official roster / assignment confirmation",
+            "url": "https://www.hartfordwolfpack.com/news/detail/rangers-assign-taylor-raddysh-and-dylan-garand-to-hartford-wolf-pack"
+          }
+        },
         {
           "title": "Contract extension",
           "date": "2026-06-21",
@@ -11195,7 +11224,18 @@ window.NYR_PLAYER_STATS = {
         ],
         "games": [],
         "note": "No upcoming NHL games are listed in the current club schedule feed."
-      }
+      },
+      "newsNotes": [
+        {
+          "title": "September 29 watch-list resolution: did not dress",
+          "date": "2026-09-29",
+          "body": "#42 Vincent Iorio did not dress for New York in the 3-0 loss at Boston. The NHL opening roster lists him as injured/non-roster; he is absent from the official final Rangers lineup.",
+          "source": {
+            "label": "Official roster / assignment confirmation",
+            "url": "https://www.nhl.com/news/nhl-announces-rosters-to-start-2026-2027-season"
+          }
+        }
+      ]
     },
     "william-trudeau": {
       "name": "William Trudeau",
