@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "site-publish",
-  "contentSha256": "87c3d07556c67f15ac5920dcfa3c9f0a1092e4408e9d07d5b0df00783a40aee4",
+  "contentSha256": "538814271ef2d69cbcd3f338b102eac3ff6ad8ed0dc607ea24c53291177b28aa",
   "files": {
     ".gitignore": "be3281f709f79e33f6dc9edb1a2c8afe7c57db4dcd93d099760b34be3ca56796",
     ".nojekyll": "985295c927fd5203dd8d00add3840733b01e1268a9e85d25424e96fa0407c1dc",
@@ -21,7 +21,7 @@
     "data/prospect-registry-2026-06-20.csv": "3dcab2f8a1e514f37493dcb54a5611c0f3f9ac0fc2f73c033d5a833452ba6721",
     "data/prospect-registry-starter.md": "d79b19d3f34cace901a047d9e85526e0c1f7a3745858396fa9beb878480a7865",
     "graduated.html": "59f1dad59796959efe27020e19c8963209da1c48c150690cb204394008f664ed",
-    "index.html": "5e253e8868ff8b02cc5e514d6188633efbaca33f52bb54ba0e065d76fc09c530",
+    "index.html": "d70016706009378319644ac23cdbdfe4336e9275b9d30cbf613c908a6e074c7c",
     "instagram-videos.html": "38ed78ef8e54c45a6e5644950757750280af0fbbe90a8aea7dd0c5758d0714ca",
     "launch/com.nyrprospectshq.draftwatch.plist": "bcbe8696a362958583ce0bb61f3d33ddbdbc3f11767fe5b802d6e491ba15fe32",
     "launch/com.nyrprospectshq.tradewatch.plist": "27ebe7712a27e1c6018ea506dfbb0ddab5dffcee7fd1b9d1f067ad46bbc2f290",
@@ -65,7 +65,7 @@
     "README.md": "e2672f34f4a4ce791ebcda1c6d53e202bd4baa075d02aaaca045aa34107a16e0",
     "robots.txt": "7e3fb2114e52248eee173729f274dcbb154aa4d5db488533f4b9c234223c10bb",
     "scripts.js": "4a0e22b9b05d7f2a51a919224763554ff608ebaba5799acbe9f38728231dd9d9",
-    "sitemap.xml": "e5fce99aef812c3f49262b165fecd9cf644dfe8173bb0800977e488e97dac51d",
+    "sitemap.xml": "40a270c1ca05fb47d93c889fb9714ab3a535b7ee402de365c2b9d009d7fb3a42",
     "styles.css": "e521b77a18f1f89164702cc88100183a91a9d9799c589c87b57680006b0145d3",
     "tools/build-story-review.js": "8b4f80aa66bdfa37b8f0c50c6584e892fb830c2401d6c588bc8ae8fa878175e1",
     "tools/generate-x-posts.js": "7aa411933c06b3d0ea7b416c54839e296e2ec849e16401f739746a55f8ae77ed",
@@ -117,6 +117,7 @@
     "watch-list-2026-09-27.html": "4333f2659e2f4d830e669a04c052449e9e9be10c3daf6ef05a8e51adb8194c4c",
     "watch-list-2026-09-29.html": "8d71398857a47cdab358d3d087b6ebfa86a05f6de196389fd0f45558b3a2c14d",
     "watch-list-2026-09-30.html": "5919b1cf2a84e86bca994eae2a25f53db543bfab1a855cbf69dbc11c2ac5ab3a",
-    "watch-list-2026-10-01.html": "21316d0e8e1c9c9ae84f35f6e366f081247420971bf8e726a723f38396ad66d2"
+    "watch-list-2026-10-01.html": "21316d0e8e1c9c9ae84f35f6e366f081247420971bf8e726a723f38396ad66d2",
+    "watch-list-2026-10-02.html": "4a366343413f9d32d1fce85e0e4e6bbcd4f69c892e846a8494d36540498869cc"
   }
 }
