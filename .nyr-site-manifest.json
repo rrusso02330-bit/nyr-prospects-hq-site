@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "site-publish",
-  "contentSha256": "e0f6340ab2c0e2567652241cacd570b2345c11d8f5ce4f4d076b5024fc2ed0e9",
+  "contentSha256": "a6cd097153ac7777e5b4d4b1033f1639350119fc91b44504e6e9a8b686fa34f1",
   "files": {
     ".gitignore": "be3281f709f79e33f6dc9edb1a2c8afe7c57db4dcd93d099760b34be3ca56796",
     ".nojekyll": "985295c927fd5203dd8d00add3840733b01e1268a9e85d25424e96fa0407c1dc",
@@ -16,8 +16,8 @@
     "assets/nyr-prospects-hq-social-avatar-centered.png": "e18531e977e94190c648f105a0a17bdd9f2f37fc1094ce72fb9fd3f6f370f860",
     "assets/nyr-prospects-hq-social-avatar-x-centered.png": "3ee2a70d74ae9ac2aaabca61a2d9830fc0c553d0b1206d3a20ea86a7fb126038",
     "assets/nyr-prospects-hq-user-avatar.png": "37d284a46a944199dee9bb0294895e892c04d6134f53171364600db175d7035f",
-    "data/player-stats.js": "b7cf50bdad218b039a9348e99cae8bbe2bd9cde1c093d161d6f29daf7735b253",
-    "data/player-stats.json": "105ecf4e66cb348009998963910136e90f777dcb0fc31a161e05fae32033fa87",
+    "data/player-stats.js": "07cf8a9c21b93268c7b621f7d01572c1bdb8b15b72f9d4ea2302af8926b20c3a",
+    "data/player-stats.json": "bfd7870f9e556ea3e3128b74e3bbac1cb3dbea451a5465ae48dc4aa133236e0e",
     "data/prospect-registry-2026-06-20.csv": "3dcab2f8a1e514f37493dcb54a5611c0f3f9ac0fc2f73c033d5a833452ba6721",
     "data/prospect-registry-starter.md": "d79b19d3f34cace901a047d9e85526e0c1f7a3745858396fa9beb878480a7865",
     "graduated.html": "59f1dad59796959efe27020e19c8963209da1c48c150690cb204394008f664ed",
@@ -60,7 +60,7 @@
     "overnight-recap-2026-09-29.html": "3725c547e7a3a3a4c49272f3ab27c1ace385316770e09a0a3e846af49bcae5aa",
     "overnight-recap-2026-09-30.html": "04f3b1174dcee681206468d24b31f8e612ad3f5c5a2cb0901d9a2a5e66ad94b9",
     "overnight-recap-2026-10-01.html": "a840b58816ee8a061b4a4d20d4ee0de52a3b2b6f44100091c289960c0b4e8e18",
-    "overnight-recap-2026-10-02.html": "69c816cec692094c3f37e96c3361e23fa1fa31cbb2da94c2d3bf6f51416db4b8",
+    "overnight-recap-2026-10-02.html": "f977d09b945e4b4b36351ac4a21efe375973bb6e3e76e476c33cf04c9d333a4a",
     "player.html": "c7c300ab1a135c78112d3acfc9412a130c645fd724ae9189ad9f58e45ce9bce0",
     "PUBLIC-LAUNCH.md": "0983354f211172f2daafae5555e16e8aafbe56c78e9a8eb6a0e3a14e234a46ed",
     "README.md": "e2672f34f4a4ce791ebcda1c6d53e202bd4baa075d02aaaca045aa34107a16e0",
