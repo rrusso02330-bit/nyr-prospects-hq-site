@@ -112,14 +112,14 @@ const playerProfiles = [
     position: "F",
     group: "Current prospect",
     acquired: "2024 draft, Rd 5, No. 159",
-    currentTeam: "Flint Firebirds, OHL",
+    currentTeam: "Hartford Wolf Pack, AHL",
   },
   {
     name: "Alberts Smits",
     position: "D",
     group: "2026 draft class",
     acquired: "2026 draft, Rd 1, No. 5",
-    currentTeam: "Rangers organization (signed ELC; assignment pending)",
+    currentTeam: "New York Rangers, NHL",
   },
   {
     name: "Benjamin MacBeath",
@@ -182,7 +182,7 @@ const playerProfiles = [
     position: "C",
     group: "Current prospect",
     acquired: "Trade from Utah, July 1, 2026",
-    currentTeam: "Assignment TBD",
+    currentTeam: "Hartford Wolf Pack, AHL",
   },
   {
     name: "Sean Barnhill",
@@ -196,7 +196,7 @@ const playerProfiles = [
     position: "F",
     group: "Current prospect",
     acquired: "Trade from Calgary, Mar. 6, 2026",
-    currentTeam: "Flint Firebirds, OHL",
+    currentTeam: "Hartford Wolf Pack, AHL",
   },
   {
     name: "Raoul Boilard",
@@ -238,7 +238,7 @@ const playerProfiles = [
     position: "F",
     group: "Current prospect",
     acquired: "Trade from Los Angeles, Feb. 4, 2026",
-    currentTeam: "Windsor Spitfires, OHL",
+    currentTeam: "Hartford Wolf Pack, AHL",
   },
   {
     name: "Artem Gonchar",
@@ -301,7 +301,7 @@ const playerProfiles = [
     position: "D",
     group: "Current prospect",
     acquired: "2023 draft, Rd 3, No. 90",
-    currentTeam: "New York Rangers, NHL",
+    currentTeam: "Hartford Wolf Pack, AHL",
   },
   {
     name: "Gabe Perreault",
@@ -385,7 +385,7 @@ const playerProfiles = [
     position: "D",
     group: "In-system prospect",
     acquired: "Trade from Carolina, July 1, 2025",
-    currentTeam: "Hartford Wolf Pack, AHL",
+    currentTeam: "New York Rangers, NHL",
   },
   {
     name: "Hugo Ollas",
@@ -413,7 +413,7 @@ const playerProfiles = [
     position: "G",
     group: "In-system prospect",
     acquired: "Undrafted signing, Apr. 1, 2025",
-    currentTeam: "Bloomington Bison, ECHL",
+    currentTeam: "Hartford Wolf Pack, AHL",
   },
   {
     name: "Kalle Vaisanen",
