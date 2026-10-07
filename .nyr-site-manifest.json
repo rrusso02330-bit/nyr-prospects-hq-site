@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "site-publish",
-  "contentSha256": "aaafd28ff4cdfe1dabc9548705191a395afd9d6a1655ce4b4cbef66fee683869",
+  "contentSha256": "9164c00eed70e6fb9d819a5a13948469c65d647748b4bbeeb0f1a148db3376d0",
   "files": {
     ".gitignore": "be3281f709f79e33f6dc9edb1a2c8afe7c57db4dcd93d099760b34be3ca56796",
     ".nojekyll": "985295c927fd5203dd8d00add3840733b01e1268a9e85d25424e96fa0407c1dc",
@@ -70,7 +70,7 @@
     "README.md": "e2672f34f4a4ce791ebcda1c6d53e202bd4baa075d02aaaca045aa34107a16e0",
     "robots.txt": "7e3fb2114e52248eee173729f274dcbb154aa4d5db488533f4b9c234223c10bb",
     "scripts.js": "da529a8d45b79e5a46f08ff626b6511cd9b5069ac4f6555b4114071696e37540",
-    "sitemap.xml": "32388e29297ffb71ed54fb771264dbd378796a44060422832680d9d173c6cd4a",
+    "sitemap.xml": "203f5c5269875775804efdf410acbdc011e7eb7de87b23bc38dffa55f8a8afa4",
     "styles.css": "e521b77a18f1f89164702cc88100183a91a9d9799c589c87b57680006b0145d3",
     "tools/build-story-review.js": "8b4f80aa66bdfa37b8f0c50c6584e892fb830c2401d6c588bc8ae8fa878175e1",
     "tools/generate-x-posts.js": "7aa411933c06b3d0ea7b416c54839e296e2ec849e16401f739746a55f8ae77ed",
@@ -127,6 +127,7 @@
     "watch-list-2026-10-03.html": "b088463c61ea1d47f47437866c378ddb4b96e8ab6bea6470a6b2d8634ce70430",
     "watch-list-2026-10-04.html": "ffb769505d6f41b7124f857f6d03527e1283f76856123318dc95227b98888bf6",
     "watch-list-2026-10-05.html": "3b09835c7fd986867cb6633b5b9ca92d51e9b3332155831189f9449bd3ee6556",
-    "watch-list-2026-10-06.html": "25b294fc1a44b5edeb75cc17f21d7c4ee347c4bc7b5b6bef7c02d2072ff136f2"
+    "watch-list-2026-10-06.html": "25b294fc1a44b5edeb75cc17f21d7c4ee347c4bc7b5b6bef7c02d2072ff136f2",
+    "watch-list-2026-10-07.html": "9aedd1cf5946e3d86592b3d579287ff6263810645c0b7a222ee094cf72d087c1"
   }
 }
