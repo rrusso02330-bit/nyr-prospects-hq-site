@@ -3,20 +3,20 @@ window.NYR_PLAYER_STATS = {
   "metadata": {
     "status": "nhl_api_connected",
     "updateCadenceHours": 24,
-    "lastCheckedAt": "2026-10-03T18:47:56.760Z",
-    "lastUpdatedAt": "2026-10-03T18:47:56.760Z",
+    "lastCheckedAt": "2026-10-13T08:19:15.453Z",
+    "lastUpdatedAt": "2026-10-13T08:19:15.453Z",
     "note": "NHL API season totals are connected for all tracked players where available. NHL, Hartford/AHL, and OHL game windows are connected; NCAA, ECHL, and European league game-log connectors remain explicit pending sources until their feeds are added. Midseason acquisition rows are full season totals until league game-log date filtering is expanded.",
     "connectedPlayers": 51,
-    "playersWithRows": 39,
-    "importedRows": 216,
-    "playersWithCurrentSeasonRows": 50,
-    "currentSeasonRows": 87,
-    "playersWithLastFiveGames": 24,
-    "lastFiveGameRows": 74,
-    "playersWithHighlightLinks": 7,
-    "highlightLinks": 8,
-    "playersWithNextFiveGames": 17,
-    "nextFiveGameRows": 85,
+    "playersWithRows": 40,
+    "importedRows": 234,
+    "playersWithCurrentSeasonRows": 51,
+    "currentSeasonRows": 78,
+    "playersWithLastFiveGames": 32,
+    "lastFiveGameRows": 112,
+    "playersWithHighlightLinks": 6,
+    "highlightLinks": 10,
+    "playersWithNextFiveGames": 19,
+    "nextFiveGameRows": 95,
     "playersWithLatestUpdateNews": 0
   },
   "players": {
@@ -100,6 +100,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 7,
           "points": 17,
           "pim": 2
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hartford Wolf Pack",
+          "league": "AHL",
+          "gp": 5,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8485039/landing"
+          },
+          "goals": 1,
+          "assists": 2,
+          "points": 3,
+          "pim": 0
         }
       ],
       "nhlApiPlayerId": 8485039,
@@ -116,181 +131,161 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
-            "team": "Flint Firebirds",
-            "league": "OHL",
-            "gp": 65,
+            "team": "Hartford Wolf Pack",
+            "league": "AHL",
+            "gp": 5,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8485039/landing"
             },
-            "goals": 33,
-            "assists": 61,
-            "points": 94,
-            "pim": 42
-          },
-          {
-            "season": "2025-26",
-            "type": "Playoffs",
-            "team": "Flint Firebirds",
-            "league": "OHL",
-            "gp": 8,
-            "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8485039/landing"
-            },
-            "goals": 10,
-            "assists": 7,
-            "points": 17,
-            "pim": 2
+            "goals": 1,
+            "assists": 2,
+            "points": 3,
+            "pim": 0
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
-        "league": "OHL",
-        "team": "Flint Firebirds",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "league": "AHL",
+        "team": "Hartford Wolf Pack",
         "sourceLinks": [
           {
-            "label": "OHL game-by-game",
-            "url": "https://chl.ca/ohl/players/8705/game_by_game/83"
+            "label": "AHL player stats",
+            "url": "https://theahl.com/stats/player-stats/307/94"
           },
           {
-            "label": "OHL game-by-game",
-            "url": "https://chl.ca/ohl/players/8705/game_by_game/85"
+            "label": "AHL schedule",
+            "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
         "games": [
           {
-            "gameId": "28959",
-            "date": "2026-04-16",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "FLNT",
-            "opponent": "WSR",
-            "opponentName": "WSR",
+            "gameId": "1029128",
+            "date": "2026-10-11",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Laval",
+            "opponentName": "Laval",
             "homeAway": "vs",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 2,
-            "assists": 0,
-            "points": 2,
-            "plusMinus": -1,
-            "pim": 0,
-            "shots": 6,
-            "toi": null,
+            "league": "AHL",
             "highlightLinks": [],
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28959"
-            }
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029128"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
           },
           {
-            "gameId": "28958",
-            "date": "2026-04-14",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "FLNT",
-            "opponent": "WSR",
-            "opponentName": "WSR",
+            "gameId": "1029112",
+            "date": "2026-10-10",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
             "homeAway": "vs",
-            "league": "OHL",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029112"
+            },
             "role": "skater",
             "goals": 0,
             "assists": 0,
             "points": 0,
-            "plusMinus": 0,
-            "pim": 0,
             "shots": 2,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28958"
-            }
-          },
-          {
-            "gameId": "28957",
-            "date": "2026-04-12",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "FLNT",
-            "opponent": "WSR",
-            "opponentName": "WSR",
-            "homeAway": "@",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 2,
-            "assists": 0,
-            "points": 2,
-            "plusMinus": 0,
             "pim": 0,
-            "shots": 6,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28957"
-            }
+            "toi": "0:00"
           },
           {
-            "gameId": "28956",
-            "date": "2026-04-10",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "FLNT",
-            "opponent": "WSR",
-            "opponentName": "WSR",
+            "gameId": "1029107",
+            "date": "2026-10-09",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
             "homeAway": "@",
-            "league": "OHL",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029107"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029100",
+            "date": "2026-10-04",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029100"
+            },
+            "role": "skater",
+            "goals": 1,
+            "assists": 0,
+            "points": 1,
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029083",
+            "date": "2026-10-03",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029083"
+            },
             "role": "skater",
             "goals": 0,
             "assists": 0,
             "points": 0,
-            "plusMinus": -1,
-            "pim": 2,
-            "shots": 3,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28956"
-            }
-          },
-          {
-            "gameId": "28910",
-            "date": "2026-04-01",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "FLNT",
-            "opponent": "OS",
-            "opponentName": "OS",
-            "homeAway": "@",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 2,
-            "assists": 2,
-            "points": 4,
-            "plusMinus": 0,
+            "shots": 2,
             "pim": 0,
-            "shots": 7,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28910"
-            }
+            "toi": "0:00"
           }
         ],
-        "note": "Recent OHL rows come from official OHL player game-by-game pages."
+        "note": "Recent AHL rows come from official AHL game-summary feeds for Hartford games."
       },
       "draftInfo": {
         "status": "drafted",
@@ -307,111 +302,106 @@ window.NYR_PLAYER_STATS = {
         }
       },
       "currentAssignment": {
-        "team": "Flint Firebirds",
-        "league": "OHL",
-        "currentTeam": "Flint Firebirds, OHL",
+        "team": "Hartford Wolf Pack",
+        "league": "AHL",
+        "currentTeam": "Hartford Wolf Pack, AHL",
         "group": "Current prospect"
       },
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
-        "league": "OHL",
-        "team": "Flint Firebirds",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "league": "AHL",
+        "team": "Hartford Wolf Pack",
         "sourceLinks": [
           {
-            "label": "OHL schedule",
-            "url": "https://chl.ca/ohl/schedule/0/88/"
+            "label": "AHL schedule",
+            "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
         "games": [
           {
-            "gameId": "29047",
-            "date": "2026-10-03",
-            "time": "2026-10-03T19:00:00-04:00",
-            "team": "FLNT",
-            "opponent": "Sault Ste. Marie",
-            "opponentName": "Sault Ste. Marie",
+            "gameId": "1029133",
+            "date": "2026-10-14",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
             "homeAway": "vs",
             "type": "Regular",
             "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
+            "league": "AHL",
+            "status": "6:30 pm EDT",
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29047"
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
             }
           },
           {
-            "gameId": "29052",
-            "date": "2026-10-04",
-            "time": "2026-10-04T14:00:00-04:00",
-            "team": "FLNT",
-            "opponent": "London",
-            "opponentName": "London",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29052"
-            }
-          },
-          {
-            "gameId": "29055",
-            "date": "2026-10-07",
-            "time": "2026-10-07T19:00:00-04:00",
-            "team": "FLNT",
-            "opponent": "Kitchener",
-            "opponentName": "Kitchener",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29055"
-            }
-          },
-          {
-            "gameId": "29067",
-            "date": "2026-10-10",
-            "time": "2026-10-10T19:00:00-04:00",
-            "team": "FLNT",
-            "opponent": "Sarnia",
-            "opponentName": "Sarnia",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29067"
-            }
-          },
-          {
-            "gameId": "29085",
+            "gameId": "1029138",
             "date": "2026-10-16",
-            "time": "2026-10-16T19:07:00-04:00",
-            "team": "FLNT",
-            "opponent": "Guelph",
-            "opponentName": "Guelph",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
             "homeAway": "@",
             "type": "Regular",
             "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29085"
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029150",
+            "date": "2026-10-17",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029179",
+            "date": "2026-10-23",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029201",
+            "date": "2026-10-24",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:05 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
             }
           }
         ],
-        "note": "Upcoming OHL games come from the official OHL schedule page."
+        "note": "Upcoming AHL games come from the official AHL schedule feed."
       }
     },
     "sean-barnhill": {
@@ -434,6 +424,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 4,
           "points": 4,
           "pim": 14
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Michigan State Univ.",
+          "league": "NCAA",
+          "gp": 2,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8485427/landing"
+          },
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 2
         }
       ],
       "nhlApiPlayerId": 8485427,
@@ -479,31 +484,31 @@ window.NYR_PLAYER_STATS = {
       ],
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
             "team": "Michigan State Univ.",
             "league": "NCAA",
-            "gp": 37,
+            "gp": 2,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8485427/landing"
             },
             "goals": 0,
-            "assists": 4,
-            "points": 4,
-            "pim": 14
+            "assists": 0,
+            "points": 0,
+            "pim": 2
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
         "status": "manual_verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "WJSS",
         "team": "USA White",
         "sourceLinks": [
@@ -567,8 +572,8 @@ window.NYR_PLAYER_STATS = {
       },
       "nextFiveGames": {
         "status": "league_connector_pending",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NCAA",
         "team": "Michigan State",
         "sourceLinks": [
@@ -643,6 +648,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 13,
           "points": 18,
           "pim": 13
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hartford Wolf Pack",
+          "league": "AHL",
+          "gp": 4,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8484785/landing"
+          },
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
         }
       ],
       "nhlApiPlayerId": 8484785,
@@ -659,181 +679,138 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
-            "team": "Kingston Frontenacs",
-            "league": "OHL",
-            "gp": 36,
+            "team": "Hartford Wolf Pack",
+            "league": "AHL",
+            "gp": 4,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8484785/landing"
             },
-            "goals": 14,
-            "assists": 13,
-            "points": 27,
-            "pim": 39
-          },
-          {
-            "season": "2025-26",
-            "type": "Playoffs",
-            "team": "Flint Firebirds",
-            "league": "OHL",
-            "gp": 8,
-            "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8484785/landing"
-            },
-            "goals": 5,
-            "assists": 13,
-            "points": 18,
-            "pim": 13
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "pim": 0
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
-        "league": "OHL",
-        "team": "Flint Firebirds",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "league": "AHL",
+        "team": "Hartford Wolf Pack",
         "sourceLinks": [
           {
-            "label": "OHL game-by-game",
-            "url": "https://chl.ca/ohl/players/8764/game_by_game/83"
+            "label": "AHL player stats",
+            "url": "https://theahl.com/stats/player-stats/307/94"
           },
           {
-            "label": "OHL game-by-game",
-            "url": "https://chl.ca/ohl/players/8764/game_by_game/85"
+            "label": "AHL schedule",
+            "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
         "games": [
           {
-            "gameId": "28959",
-            "date": "2026-04-16",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "FLNT",
-            "opponent": "WSR",
-            "opponentName": "WSR",
+            "gameId": "1029128",
+            "date": "2026-10-11",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Laval",
+            "opponentName": "Laval",
             "homeAway": "vs",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 0,
-            "assists": 2,
-            "points": 2,
-            "plusMinus": -2,
-            "pim": 0,
-            "shots": 1,
-            "toi": null,
+            "league": "AHL",
             "highlightLinks": [],
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28959"
-            }
-          },
-          {
-            "gameId": "28958",
-            "date": "2026-04-14",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "FLNT",
-            "opponent": "WSR",
-            "opponentName": "WSR",
-            "homeAway": "vs",
-            "league": "OHL",
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029128"
+            },
             "role": "skater",
             "goals": 0,
-            "assists": 1,
-            "points": 1,
-            "plusMinus": -1,
-            "pim": 0,
+            "assists": 0,
+            "points": 0,
             "shots": 0,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28958"
-            }
-          },
-          {
-            "gameId": "28957",
-            "date": "2026-04-12",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "FLNT",
-            "opponent": "WSR",
-            "opponentName": "WSR",
-            "homeAway": "@",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "plusMinus": -3,
-            "pim": 2,
-            "shots": 1,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28957"
-            }
-          },
-          {
-            "gameId": "28956",
-            "date": "2026-04-10",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "FLNT",
-            "opponent": "WSR",
-            "opponentName": "WSR",
-            "homeAway": "@",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "plusMinus": 0,
-            "pim": 9,
-            "shots": 2,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28956"
-            }
-          },
-          {
-            "gameId": "28910",
-            "date": "2026-04-01",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "FLNT",
-            "opponent": "OS",
-            "opponentName": "OS",
-            "homeAway": "@",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 2,
-            "assists": 3,
-            "points": 5,
-            "plusMinus": 1,
             "pim": 0,
-            "shots": 5,
-            "toi": null,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029112",
+            "date": "2026-10-10",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "vs",
+            "league": "AHL",
             "highlightLinks": [],
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28910"
-            }
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029112"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029107",
+            "date": "2026-10-09",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029107"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029100",
+            "date": "2026-10-04",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029100"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "toi": "0:00"
           }
         ],
-        "note": "Recent OHL rows come from official OHL player game-by-game pages."
+        "note": "Recent AHL rows come from official AHL game-summary feeds for Hartford games."
       },
       "draftInfo": {
         "status": "drafted",
@@ -850,111 +827,106 @@ window.NYR_PLAYER_STATS = {
         }
       },
       "currentAssignment": {
-        "team": "Flint Firebirds",
-        "league": "OHL",
-        "currentTeam": "Flint Firebirds, OHL",
+        "team": "Hartford Wolf Pack",
+        "league": "AHL",
+        "currentTeam": "Hartford Wolf Pack, AHL",
         "group": "Current prospect"
       },
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
-        "league": "OHL",
-        "team": "Flint Firebirds",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "league": "AHL",
+        "team": "Hartford Wolf Pack",
         "sourceLinks": [
           {
-            "label": "OHL schedule",
-            "url": "https://chl.ca/ohl/schedule/0/88/"
+            "label": "AHL schedule",
+            "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
         "games": [
           {
-            "gameId": "29047",
-            "date": "2026-10-03",
-            "time": "2026-10-03T19:00:00-04:00",
-            "team": "FLNT",
-            "opponent": "Sault Ste. Marie",
-            "opponentName": "Sault Ste. Marie",
+            "gameId": "1029133",
+            "date": "2026-10-14",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
             "homeAway": "vs",
             "type": "Regular",
             "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
+            "league": "AHL",
+            "status": "6:30 pm EDT",
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29047"
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
             }
           },
           {
-            "gameId": "29052",
-            "date": "2026-10-04",
-            "time": "2026-10-04T14:00:00-04:00",
-            "team": "FLNT",
-            "opponent": "London",
-            "opponentName": "London",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29052"
-            }
-          },
-          {
-            "gameId": "29055",
-            "date": "2026-10-07",
-            "time": "2026-10-07T19:00:00-04:00",
-            "team": "FLNT",
-            "opponent": "Kitchener",
-            "opponentName": "Kitchener",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29055"
-            }
-          },
-          {
-            "gameId": "29067",
-            "date": "2026-10-10",
-            "time": "2026-10-10T19:00:00-04:00",
-            "team": "FLNT",
-            "opponent": "Sarnia",
-            "opponentName": "Sarnia",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29067"
-            }
-          },
-          {
-            "gameId": "29085",
+            "gameId": "1029138",
             "date": "2026-10-16",
-            "time": "2026-10-16T19:07:00-04:00",
-            "team": "FLNT",
-            "opponent": "Guelph",
-            "opponentName": "Guelph",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
             "homeAway": "@",
             "type": "Regular",
             "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29085"
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029150",
+            "date": "2026-10-17",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029179",
+            "date": "2026-10-23",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029201",
+            "date": "2026-10-24",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:05 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
             }
           }
         ],
-        "note": "Upcoming OHL games come from the official OHL schedule page."
+        "note": "Upcoming AHL games come from the official AHL schedule feed."
       }
     },
     "raoul-boilard": {
@@ -1025,20 +997,18 @@ window.NYR_PLAYER_STATS = {
         },
         {
           "season": "2026-27",
-          "type": "Exhibition",
-          "team": "Lake Superior State",
+          "type": "Regular",
+          "team": "Lake Superior State Univ.",
           "league": "NCAA",
           "gp": 2,
-          "goals": 0,
-          "assists": 0,
-          "points": 0,
-          "shots": 0,
-          "plusMinus": 0,
-          "pim": 0,
           "source": {
-            "label": "Official LSSU box score",
-            "url": "https://lssulakers.com/sports/mens-ice-hockey/stats/2026-27/university-of-windsor-on-/boxscore/4705"
-          }
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8484791/landing"
+          },
+          "goals": 0,
+          "assists": 2,
+          "points": 2,
+          "pim": 2
         }
       ],
       "nhlApiPlayerId": 8484791,
@@ -1050,56 +1020,50 @@ window.NYR_PLAYER_STATS = {
         {
           "label": "NHL API data",
           "url": "https://api-web.nhle.com/v1/player/8484791/landing"
-        },
-        {
-          "label": "Official LSSU box score",
-          "url": "https://lssulakers.com/sports/mens-ice-hockey/stats/2026-27/university-of-windsor-on-/boxscore/4705"
-        },
-        {
-          "label": "Official OUA box score",
-          "url": "https://men.oua.hockeytech.com/stats/game-summary/31738"
         }
       ],
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-04T12:08:33.962808+00:00",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
-            "type": "Exhibition",
-            "team": "Lake Superior State",
+            "type": "Regular",
+            "team": "Lake Superior State Univ.",
             "league": "NCAA",
             "gp": 2,
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "shots": 0,
-            "plusMinus": 0,
-            "pim": 0,
             "source": {
-              "label": "Official LSSU box score",
-              "url": "https://lssulakers.com/sports/mens-ice-hockey/stats/2026-27/university-of-windsor-on-/boxscore/4705"
-            }
+              "label": "NHL API",
+              "url": "https://api-web.nhle.com/v1/player/8484791/landing"
+            },
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "pim": 2
           }
         ],
-        "note": "Exhibition totals only; these games do not count toward NCAA regular-season statistics."
+        "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "verified",
+        "status": "manual_verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-04T12:08:33.962808+00:00",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NCAA",
         "team": "Lake Superior State",
         "sourceLinks": [
           {
-            "label": "Official LSSU box score",
-            "url": "https://lssulakers.com/sports/mens-ice-hockey/stats/2026-27/university-of-windsor-on-/boxscore/4705"
+            "label": "NCAA hockey stats",
+            "url": "https://www.ncaa.com/stats/icehockey-men/d1"
           },
           {
             "label": "Official OUA box score",
             "url": "https://men.oua.hockeytech.com/stats/game-summary/31738"
+          },
+          {
+            "label": "Official LSSU box score",
+            "url": "https://lssulakers.com/sports/mens-ice-hockey/stats/2026-27/university-of-windsor-on-/boxscore/4705"
           }
         ],
         "games": [
@@ -1166,7 +1130,7 @@ window.NYR_PLAYER_STATS = {
             ]
           }
         ],
-        "note": "Two verified exhibition games; excluded from regular-season totals. TOI not reported. Official highlights unavailable."
+        "note": "NCAA game-by-game connector is not connected yet for Lake Superior State. Season totals still update from the NHL API landing feed where available. Manual game entries are preserved for verified showcase or international games outside the connected league feeds."
       },
       "draftInfo": {
         "status": "drafted",
@@ -1190,8 +1154,8 @@ window.NYR_PLAYER_STATS = {
       },
       "nextFiveGames": {
         "status": "league_connector_pending",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NCAA",
         "team": "Lake Superior State",
         "sourceLinks": [
@@ -1277,13 +1241,7 @@ window.NYR_PLAYER_STATS = {
             "url": "https://lssulakers.com/sports/mens-ice-hockey/stats/2026-27/university-of-windsor-on-/boxscore/4705"
           }
         }
-      ],
-      "latestUpdateNews": {
-        "date": "2026-10-02",
-        "updatedAt": "2026-10-04T12:08:33.962808+00:00",
-        "label": "October 2 final stats recovered",
-        "note": "#22 Raoul Boilard played October 2 in Lake Superior State’s 2-2 exhibition tie at Windsor (Windsor won the shootout): 0 G, 0 A, 0 PTS, even, 0 SOG and 0 PIM as reported by the official box score. His shootout attempt was saved. TOI not reported."
-      }
+      ]
     },
     "ej-emery": {
       "name": "EJ Emery",
@@ -1320,6 +1278,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 10,
           "points": 13,
           "pim": 32
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Univ. of North Dakota",
+          "league": "NCAA",
+          "gp": 2,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8484848/landing"
+          },
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
         }
       ],
       "nhlApiPlayerId": 8484848,
@@ -1336,31 +1309,31 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
             "team": "Univ. of North Dakota",
             "league": "NCAA",
-            "gp": 38,
+            "gp": 2,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8484848/landing"
             },
-            "goals": 3,
-            "assists": 10,
-            "points": 13,
-            "pim": 32
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "pim": 0
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
         "status": "league_connector_pending",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NCAA",
         "team": "Univ. of North Dakota",
         "sourceLinks": [
@@ -1394,8 +1367,8 @@ window.NYR_PLAYER_STATS = {
       },
       "nextFiveGames": {
         "status": "league_connector_pending",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NCAA",
         "team": "Univ. of North Dakota",
         "sourceLinks": [
@@ -1507,6 +1480,21 @@ window.NYR_PLAYER_STATS = {
         {
           "season": "2026-27",
           "type": "Regular",
+          "team": "FÃ¤rjestad BK",
+          "league": "SHL",
+          "gp": 3,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8485596/landing"
+          },
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 2
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
           "team": "FÃ¤rjestad BK U20",
           "league": "U20 Nationell",
           "gp": 6,
@@ -1550,8 +1538,23 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
+          {
+            "season": "2026-27",
+            "type": "Regular",
+            "team": "FÃ¤rjestad BK",
+            "league": "SHL",
+            "gp": 3,
+            "source": {
+              "label": "NHL API",
+              "url": "https://api-web.nhle.com/v1/player/8485596/landing"
+            },
+            "goals": 1,
+            "assists": 0,
+            "points": 1,
+            "pim": 2
+          },
           {
             "season": "2026-27",
             "type": "Regular",
@@ -1588,7 +1591,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "manual_verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Swedish senior preseason",
         "team": "Färjestad BK",
         "sourceLinks": [
@@ -1654,7 +1657,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Sweden Jr.",
         "team": "Farjestad BK U20",
         "sourceLinks": [
@@ -1766,14 +1769,14 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "Muskegon Lumberjacks",
           "league": "USHL",
-          "gp": 5,
+          "gp": 8,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8485668/landing"
           },
           "goals": 2,
-          "assists": 2,
-          "points": 4,
+          "assists": 4,
+          "points": 6,
           "pim": 0
         }
       ],
@@ -1792,21 +1795,21 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "Muskegon Lumberjacks",
             "league": "USHL",
-            "gp": 5,
+            "gp": 8,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8485668/landing"
             },
             "goals": 2,
-            "assists": 2,
-            "points": 4,
+            "assists": 4,
+            "points": 6,
             "pim": 0
           }
         ],
@@ -1815,7 +1818,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "USHL",
         "team": "Muskegon Lumberjacks",
         "sourceLinks": [],
@@ -1845,7 +1848,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "USHL",
         "team": "Muskegon Lumberjacks",
         "sourceLinks": [],
@@ -1909,14 +1912,14 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "EV Zug",
           "league": "NL",
-          "gp": 5,
+          "gp": 7,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8485058/landing"
           },
           "goals": 0,
-          "assists": 2,
-          "points": 2,
+          "assists": 3,
+          "points": 3,
           "pim": 4
         }
       ],
@@ -1935,21 +1938,21 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "EV Zug",
             "league": "NL",
-            "gp": 5,
+            "gp": 7,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8485058/landing"
             },
             "goals": 0,
-            "assists": 2,
-            "points": 2,
+            "assists": 3,
+            "points": 3,
             "pim": 4
           }
         ],
@@ -1958,7 +1961,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "manual_verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NL",
         "team": "EV Zug",
         "sourceLinks": [
@@ -2188,7 +2191,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NL",
         "team": "EV Zug",
         "sourceLinks": [
@@ -2454,6 +2457,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 8,
           "points": 14,
           "pim": 9
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hartford Wolf Pack",
+          "league": "AHL",
+          "gp": 5,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8484802/landing"
+          },
+          "goals": 2,
+          "assists": 2,
+          "points": 4,
+          "pim": 0
         }
       ],
       "nhlApiPlayerId": 8484802,
@@ -2470,181 +2488,161 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
-            "team": "Windsor Spitfires",
-            "league": "OHL",
-            "gp": 52,
+            "team": "Hartford Wolf Pack",
+            "league": "AHL",
+            "gp": 5,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8484802/landing"
             },
-            "goals": 38,
-            "assists": 36,
-            "points": 74,
-            "pim": 63
-          },
-          {
-            "season": "2025-26",
-            "type": "Playoffs",
-            "team": "Windsor Spitfires",
-            "league": "OHL",
-            "gp": 13,
-            "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8484802/landing"
-            },
-            "goals": 6,
-            "assists": 8,
-            "points": 14,
-            "pim": 9
+            "goals": 2,
+            "assists": 2,
+            "points": 4,
+            "pim": 0
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
-        "league": "OHL",
-        "team": "Windsor Spitfires",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "league": "AHL",
+        "team": "Hartford Wolf Pack",
         "sourceLinks": [
           {
-            "label": "OHL game-by-game",
-            "url": "https://chl.ca/ohl/players/8709/game_by_game/83"
+            "label": "AHL player stats",
+            "url": "https://theahl.com/stats/player-stats/307/94"
           },
           {
-            "label": "OHL game-by-game",
-            "url": "https://chl.ca/ohl/players/8709/game_by_game/85"
+            "label": "AHL schedule",
+            "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
         "games": [
           {
-            "gameId": "28982",
-            "date": "2026-05-01",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "WSR",
-            "opponent": "KIT",
-            "opponentName": "KIT",
-            "homeAway": "@",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 0,
-            "assists": 1,
-            "points": 1,
-            "plusMinus": -1,
-            "pim": 0,
-            "shots": 2,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28982"
-            }
-          },
-          {
-            "gameId": "28981",
-            "date": "2026-04-29",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "WSR",
-            "opponent": "KIT",
-            "opponentName": "KIT",
+            "gameId": "1029128",
+            "date": "2026-10-11",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Laval",
+            "opponentName": "Laval",
             "homeAway": "vs",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 0,
-            "assists": 1,
-            "points": 1,
-            "plusMinus": -1,
-            "pim": 0,
-            "shots": 0,
-            "toi": null,
+            "league": "AHL",
             "highlightLinks": [],
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28981"
-            }
-          },
-          {
-            "gameId": "28980",
-            "date": "2026-04-27",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "WSR",
-            "opponent": "KIT",
-            "opponentName": "KIT",
-            "homeAway": "vs",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 0,
-            "assists": 1,
-            "points": 1,
-            "plusMinus": 0,
-            "pim": 0,
-            "shots": 1,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28980"
-            }
-          },
-          {
-            "gameId": "28979",
-            "date": "2026-04-26",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "WSR",
-            "opponent": "KIT",
-            "opponentName": "KIT",
-            "homeAway": "@",
-            "league": "OHL",
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029128"
+            },
             "role": "skater",
             "goals": 1,
             "assists": 0,
             "points": 1,
-            "plusMinus": 0,
-            "pim": 2,
-            "shots": 7,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28979"
-            }
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
           },
           {
-            "gameId": "28978",
-            "date": "2026-04-24",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "WSR",
-            "opponent": "KIT",
-            "opponentName": "KIT",
+            "gameId": "1029112",
+            "date": "2026-10-10",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029112"
+            },
+            "role": "skater",
+            "goals": 1,
+            "assists": 0,
+            "points": 1,
+            "shots": 4,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029107",
+            "date": "2026-10-09",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
             "homeAway": "@",
-            "league": "OHL",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029107"
+            },
             "role": "skater",
             "goals": 0,
             "assists": 0,
             "points": 0,
-            "plusMinus": 0,
+            "shots": 4,
             "pim": 0,
-            "shots": 2,
-            "toi": null,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029100",
+            "date": "2026-10-04",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "league": "AHL",
             "highlightLinks": [],
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28978"
-            }
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029100"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 5,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029083",
+            "date": "2026-10-03",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029083"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 2,
+            "pim": 0,
+            "toi": "0:00"
           }
         ],
-        "note": "Recent OHL rows come from official OHL player game-by-game pages."
+        "note": "Recent AHL rows come from official AHL game-summary feeds for Hartford games."
       },
       "draftInfo": {
         "status": "drafted",
@@ -2661,111 +2659,106 @@ window.NYR_PLAYER_STATS = {
         }
       },
       "currentAssignment": {
-        "team": "Windsor Spitfires",
-        "league": "OHL",
-        "currentTeam": "Windsor Spitfires, OHL",
+        "team": "Hartford Wolf Pack",
+        "league": "AHL",
+        "currentTeam": "Hartford Wolf Pack, AHL",
         "group": "Current prospect"
       },
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
-        "league": "OHL",
-        "team": "Windsor Spitfires",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "league": "AHL",
+        "team": "Hartford Wolf Pack",
         "sourceLinks": [
           {
-            "label": "OHL schedule",
-            "url": "https://chl.ca/ohl/schedule/0/88/"
+            "label": "AHL schedule",
+            "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
         "games": [
           {
-            "gameId": "29049",
-            "date": "2026-10-03",
-            "time": "2026-10-03T19:00:00-04:00",
-            "team": "WSR",
-            "opponent": "Owen Sound",
-            "opponentName": "Owen Sound",
+            "gameId": "1029133",
+            "date": "2026-10-14",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:30 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029138",
+            "date": "2026-10-16",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
             "homeAway": "@",
             "type": "Regular",
             "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29049"
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
             }
           },
           {
-            "gameId": "29072",
-            "date": "2026-10-10",
-            "time": "2026-10-10T19:05:00-04:00",
-            "team": "WSR",
-            "opponent": "Oshawa",
-            "opponentName": "Oshawa",
-            "homeAway": "vs",
+            "gameId": "1029150",
+            "date": "2026-10-17",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
             "type": "Regular",
             "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
+            "league": "AHL",
+            "status": "6:00 pm EDT",
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29072"
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
             }
           },
           {
-            "gameId": "29076",
-            "date": "2026-10-12",
-            "time": "2026-10-12T14:05:00-04:00",
-            "team": "WSR",
-            "opponent": "Saginaw",
-            "opponentName": "Saginaw",
+            "gameId": "1029179",
+            "date": "2026-10-23",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
             "homeAway": "vs",
             "type": "Regular",
             "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29076"
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
             }
           },
           {
-            "gameId": "29081",
-            "date": "2026-10-15",
-            "time": "2026-10-15T19:05:00-04:00",
-            "team": "WSR",
-            "opponent": "Sudbury",
-            "opponentName": "Sudbury",
-            "homeAway": "vs",
+            "gameId": "1029201",
+            "date": "2026-10-24",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
             "type": "Regular",
             "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
+            "league": "AHL",
+            "status": "6:05 pm EDT",
             "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29081"
-            }
-          },
-          {
-            "gameId": "29090",
-            "date": "2026-10-16",
-            "time": "2026-10-16T19:05:00-04:00",
-            "team": "WSR",
-            "opponent": "Owen Sound",
-            "opponentName": "Owen Sound",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29090"
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
             }
           }
         ],
-        "note": "Upcoming OHL games come from the official OHL schedule page."
+        "note": "Upcoming AHL games come from the official AHL schedule feed."
       }
     },
     "artem-gonchar": {
@@ -2809,15 +2802,15 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "Sudbury Wolves",
           "league": "OHL",
-          "gp": 3,
+          "gp": 5,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8485573/landing"
           },
           "goals": 0,
-          "assists": 2,
-          "points": 2,
-          "pim": 4
+          "assists": 3,
+          "points": 3,
+          "pim": 6
         }
       ],
       "nhlApiPlayerId": 8485573,
@@ -2835,22 +2828,22 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "Sudbury Wolves",
             "league": "OHL",
-            "gp": 3,
+            "gp": 5,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8485573/landing"
             },
             "goals": 0,
-            "assists": 2,
-            "points": 2,
-            "pim": 4
+            "assists": 3,
+            "points": 3,
+            "pim": 6
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
@@ -2858,7 +2851,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "OHL",
         "team": "Sudbury Wolves",
         "sourceLinks": [
@@ -2872,6 +2865,54 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
+          {
+            "gameId": "29064",
+            "date": "2026-10-09",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "SBY",
+            "opponent": "PBO",
+            "opponentName": "PBO",
+            "homeAway": "vs",
+            "league": "OHL",
+            "role": "skater",
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "plusMinus": 0,
+            "pim": 0,
+            "shots": 1,
+            "toi": null,
+            "highlightLinks": [],
+            "source": {
+              "label": "OHL gamecentre",
+              "url": "https://chl.ca/ohl/gamecentre/29064"
+            }
+          },
+          {
+            "gameId": "29058",
+            "date": "2026-10-08",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "SBY",
+            "opponent": "NB",
+            "opponentName": "NB",
+            "homeAway": "@",
+            "league": "OHL",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "plusMinus": 0,
+            "pim": 2,
+            "shots": 2,
+            "toi": null,
+            "highlightLinks": [],
+            "source": {
+              "label": "OHL gamecentre",
+              "url": "https://chl.ca/ohl/gamecentre/29058"
+            }
+          },
           {
             "gameId": "29043",
             "date": "2026-10-02",
@@ -2943,54 +2984,6 @@ window.NYR_PLAYER_STATS = {
               "label": "OHL gamecentre",
               "url": "https://chl.ca/ohl/gamecentre/29019"
             }
-          },
-          {
-            "gameId": "28912",
-            "date": "2026-04-02",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "SBY",
-            "opponent": "BFD",
-            "opponentName": "BFD",
-            "homeAway": "vs",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 0,
-            "assists": 1,
-            "points": 1,
-            "plusMinus": 0,
-            "pim": 0,
-            "shots": 1,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28912"
-            }
-          },
-          {
-            "gameId": "28903",
-            "date": "2026-03-31",
-            "type": "Playoffs",
-            "season": "2025-26",
-            "team": "SBY",
-            "opponent": "BFD",
-            "opponentName": "BFD",
-            "homeAway": "vs",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 0,
-            "assists": 1,
-            "points": 1,
-            "plusMinus": 2,
-            "pim": 2,
-            "shots": 2,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28903"
-            }
           }
         ],
         "note": "Recent OHL rows come from official OHL player game-by-game pages."
@@ -3018,7 +3011,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "OHL",
         "team": "Sudbury Wolves",
         "sourceLinks": [
@@ -3028,40 +3021,6 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
-          {
-            "gameId": "29058",
-            "date": "2026-10-08",
-            "time": "2026-10-08T19:00:00-04:00",
-            "team": "SBY",
-            "opponent": "North Bay",
-            "opponentName": "North Bay",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29058"
-            }
-          },
-          {
-            "gameId": "29064",
-            "date": "2026-10-09",
-            "time": "2026-10-09T19:05:00-04:00",
-            "team": "SBY",
-            "opponent": "Peterborough",
-            "opponentName": "Peterborough",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29064"
-            }
-          },
           {
             "gameId": "29081",
             "date": "2026-10-15",
@@ -3111,6 +3070,40 @@ window.NYR_PLAYER_STATS = {
             "source": {
               "label": "OHL gamecentre",
               "url": "https://chl.ca/ohl/gamecentre/29098"
+            }
+          },
+          {
+            "gameId": "29104",
+            "date": "2026-10-22",
+            "time": "2026-10-22T19:00:00-04:00",
+            "team": "SBY",
+            "opponent": "North Bay",
+            "opponentName": "North Bay",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "OHL",
+            "status": "Scheduled",
+            "source": {
+              "label": "OHL gamecentre",
+              "url": "https://chl.ca/ohl/gamecentre/29104"
+            }
+          },
+          {
+            "gameId": "29114",
+            "date": "2026-10-23",
+            "time": "2026-10-23T19:05:00-04:00",
+            "team": "SBY",
+            "opponent": "North Bay",
+            "opponentName": "North Bay",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "OHL",
+            "status": "Scheduled",
+            "source": {
+              "label": "OHL gamecentre",
+              "url": "https://chl.ca/ohl/gamecentre/29114"
             }
           }
         ],
@@ -3182,6 +3175,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 16,
           "points": 25,
           "pim": 43
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Western Michigan Univ.",
+          "league": "NCAA",
+          "gp": 2,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8484457/landing"
+          },
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "pim": 2
         }
       ],
       "nhlApiPlayerId": 8484457,
@@ -3198,31 +3206,31 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
             "team": "Western Michigan Univ.",
             "league": "NCAA",
-            "gp": 39,
+            "gp": 2,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8484457/landing"
             },
-            "goals": 9,
-            "assists": 16,
-            "points": 25,
-            "pim": 43
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "pim": 2
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
         "status": "league_connector_pending",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NCAA",
         "team": "Western Michigan",
         "sourceLinks": [
@@ -3256,8 +3264,8 @@ window.NYR_PLAYER_STATS = {
       },
       "nextFiveGames": {
         "status": "league_connector_pending",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NCAA",
         "team": "Western Michigan",
         "sourceLinks": [
@@ -3307,7 +3315,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -3330,7 +3338,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "manual_verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Liiga preseason",
         "team": "KalPa",
         "sourceLinks": [
@@ -3396,7 +3404,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Liiga",
         "team": "KalPa",
         "sourceLinks": [
@@ -3537,7 +3545,7 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "Hudiksvalls HC",
           "league": "HockeyEttan",
-          "gp": 3,
+          "gp": 5,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8484436/landing"
@@ -3557,24 +3565,20 @@ window.NYR_PLAYER_STATS = {
         {
           "label": "NHL API data",
           "url": "https://api-web.nhle.com/v1/player/8484436/landing"
-        },
-        {
-          "label": "Official Swehockey player summary",
-          "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1112890"
         }
       ],
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-04T12:08:33.962808+00:00",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "Hudiksvalls HC",
             "league": "HockeyEttan",
-            "gp": 3,
+            "gp": 5,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8484436/landing"
@@ -3582,23 +3586,29 @@ window.NYR_PLAYER_STATS = {
             "goals": 1,
             "assists": 0,
             "points": 1,
-            "pim": 2,
-            "shots": 5,
-            "plusMinus": 1
+            "pim": 2
           }
         ],
-        "note": "Through October 2: three appearances, 1 G, 0 A, 1 PTS, 5 SOG, +1, 2 PIM. Shot and plus/minus totals reconciled from three official player summaries."
+        "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "verified",
+        "status": "manual_verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-04T12:08:33.962808+00:00",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "HockeyEttan",
         "team": "Hudiksvalls HC",
         "sourceLinks": [
           {
             "label": "Official Swehockey player summary",
             "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1112890"
+          },
+          {
+            "label": "Swehockey official player summary",
+            "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1113132"
+          },
+          {
+            "label": "Swehockey official player summary",
+            "url": "https://stats.swehockey.se/Game/Reports/PlayerSummary/1113123"
           }
         ],
         "games": [
@@ -3700,7 +3710,7 @@ window.NYR_PLAYER_STATS = {
             "performanceNote": "#34 Rasmus Larsson recorded 1 G, 0 A, 1 PTS, +1, 3 SOG and 2 PIM in Hudiksvall’s 7-1 win at Ornskoldsvik on Sept. 26. The federation player-summary PDF verifies the complete published stat line; TOI is not reported."
           }
         ],
-        "note": "Three verified current-season games; TOI not reported."
+        "note": "HockeyEttan game-by-game connector is not connected yet for Hudik Hockey. Season totals still update from the NHL API landing feed where available. Manual game entries are preserved for verified showcase or international games outside the connected league feeds."
       },
       "draftInfo": {
         "status": "drafted",
@@ -3725,7 +3735,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "HockeyEttan",
         "team": "Hudik Hockey",
         "sourceLinks": [],
@@ -3917,14 +3927,14 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "Red Deer Rebels",
           "league": "WHL",
-          "gp": 6,
+          "gp": 9,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8485443/landing"
           },
           "goals": 0,
-          "assists": 2,
-          "points": 2,
+          "assists": 3,
+          "points": 3,
           "pim": 6
         }
       ],
@@ -3943,21 +3953,21 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "Red Deer Rebels",
             "league": "WHL",
-            "gp": 6,
+            "gp": 9,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8485443/landing"
             },
             "goals": 0,
-            "assists": 2,
-            "points": 2,
+            "assists": 3,
+            "points": 3,
             "pim": 6
           }
         ],
@@ -3966,7 +3976,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "WHL",
         "team": "Red Deer Rebels",
         "sourceLinks": [
@@ -4001,7 +4011,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "WHL",
         "team": "Red Deer Rebels",
         "sourceLinks": [
@@ -4055,15 +4065,15 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "Barrie Colts",
           "league": "OHL",
-          "gp": 5,
+          "gp": 9,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8485643/landing"
           },
-          "goals": 1,
+          "goals": 2,
           "assists": 0,
-          "points": 1,
-          "pim": 14
+          "points": 2,
+          "pim": 16
         }
       ],
       "nhlApiPlayerId": 8485643,
@@ -4081,22 +4091,22 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "Barrie Colts",
             "league": "OHL",
-            "gp": 5,
+            "gp": 9,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8485643/landing"
             },
-            "goals": 1,
+            "goals": 2,
             "assists": 0,
-            "points": 1,
-            "pim": 14
+            "points": 2,
+            "pim": 16
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
@@ -4104,7 +4114,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "verified_with_manual_entries",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "OHL preseason",
         "team": "Barrie Colts",
         "sourceLinks": [
@@ -4127,6 +4137,102 @@ window.NYR_PLAYER_STATS = {
         ],
         "games": [
           {
+            "gameId": "29074",
+            "date": "2026-10-11",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "BAR",
+            "opponent": "ER",
+            "opponentName": "ER",
+            "homeAway": "@",
+            "league": "OHL",
+            "role": "skater",
+            "goals": 1,
+            "assists": 0,
+            "points": 1,
+            "plusMinus": -1,
+            "pim": 0,
+            "shots": 1,
+            "toi": null,
+            "highlightLinks": [],
+            "source": {
+              "label": "OHL gamecentre",
+              "url": "https://chl.ca/ohl/gamecentre/29074"
+            }
+          },
+          {
+            "gameId": "29068",
+            "date": "2026-10-10",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "BAR",
+            "opponent": "NIAG",
+            "opponentName": "NIAG",
+            "homeAway": "@",
+            "league": "OHL",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "plusMinus": -1,
+            "pim": 2,
+            "shots": 3,
+            "toi": null,
+            "highlightLinks": [],
+            "source": {
+              "label": "OHL gamecentre",
+              "url": "https://chl.ca/ohl/gamecentre/29068"
+            }
+          },
+          {
+            "gameId": "29056",
+            "date": "2026-10-08",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "BAR",
+            "opponent": "KGN",
+            "opponentName": "KGN",
+            "homeAway": "vs",
+            "league": "OHL",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "plusMinus": -1,
+            "pim": 0,
+            "shots": 5,
+            "toi": null,
+            "highlightLinks": [],
+            "source": {
+              "label": "OHL gamecentre",
+              "url": "https://chl.ca/ohl/gamecentre/29056"
+            }
+          },
+          {
+            "gameId": "29044",
+            "date": "2026-10-03",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "BAR",
+            "opponent": "SAR",
+            "opponentName": "SAR",
+            "homeAway": "vs",
+            "league": "OHL",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "plusMinus": 2,
+            "pim": 0,
+            "shots": 1,
+            "toi": null,
+            "highlightLinks": [],
+            "source": {
+              "label": "OHL gamecentre",
+              "url": "https://chl.ca/ohl/gamecentre/29044"
+            }
+          },
+          {
             "gameId": "29033",
             "date": "2026-10-01",
             "type": "Regular",
@@ -4148,102 +4254,6 @@ window.NYR_PLAYER_STATS = {
             "source": {
               "label": "OHL gamecentre",
               "url": "https://chl.ca/ohl/gamecentre/29033"
-            }
-          },
-          {
-            "gameId": "29021",
-            "date": "2026-09-26",
-            "type": "Regular",
-            "season": "2026-27",
-            "team": "BAR",
-            "opponent": "OSH",
-            "opponentName": "OSH",
-            "homeAway": "vs",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 1,
-            "assists": 0,
-            "points": 1,
-            "plusMinus": 0,
-            "pim": 0,
-            "shots": 1,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29021"
-            }
-          },
-          {
-            "gameId": "29019",
-            "date": "2026-09-25",
-            "type": "Regular",
-            "season": "2026-27",
-            "team": "BAR",
-            "opponent": "SBY",
-            "opponentName": "SBY",
-            "homeAway": "@",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "plusMinus": -1,
-            "pim": 7,
-            "shots": 1,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29019"
-            }
-          },
-          {
-            "gameId": "29001",
-            "date": "2026-09-19",
-            "type": "Regular",
-            "season": "2026-27",
-            "team": "BAR",
-            "opponent": "SBY",
-            "opponentName": "SBY",
-            "homeAway": "vs",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "plusMinus": -2,
-            "pim": 2,
-            "shots": 1,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29001"
-            }
-          },
-          {
-            "gameId": "28998",
-            "date": "2026-09-18",
-            "type": "Regular",
-            "season": "2026-27",
-            "team": "BAR",
-            "opponent": "NB",
-            "opponentName": "NB",
-            "homeAway": "@",
-            "league": "OHL",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "plusMinus": -1,
-            "pim": 5,
-            "shots": 1,
-            "toi": null,
-            "highlightLinks": [],
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/28998"
             }
           }
         ],
@@ -4272,7 +4282,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "OHL",
         "team": "Barrie Colts",
         "sourceLinks": [
@@ -4282,74 +4292,6 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
-          {
-            "gameId": "29044",
-            "date": "2026-10-03",
-            "time": "2026-10-03T19:30:00-04:00",
-            "team": "BAR",
-            "opponent": "Sarnia",
-            "opponentName": "Sarnia",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29044"
-            }
-          },
-          {
-            "gameId": "29056",
-            "date": "2026-10-08",
-            "time": "2026-10-08T19:00:00-04:00",
-            "team": "BAR",
-            "opponent": "Kingston",
-            "opponentName": "Kingston",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29056"
-            }
-          },
-          {
-            "gameId": "29068",
-            "date": "2026-10-10",
-            "time": "2026-10-10T19:00:00-04:00",
-            "team": "BAR",
-            "opponent": "Niagara",
-            "opponentName": "Niagara",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29068"
-            }
-          },
-          {
-            "gameId": "29074",
-            "date": "2026-10-11",
-            "time": "2026-10-11T16:00:00-04:00",
-            "team": "BAR",
-            "opponent": "Erie",
-            "opponentName": "Erie",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "OHL",
-            "status": "Scheduled",
-            "source": {
-              "label": "OHL gamecentre",
-              "url": "https://chl.ca/ohl/gamecentre/29074"
-            }
-          },
           {
             "gameId": "29083",
             "date": "2026-10-16",
@@ -4365,6 +4307,74 @@ window.NYR_PLAYER_STATS = {
             "source": {
               "label": "OHL gamecentre",
               "url": "https://chl.ca/ohl/gamecentre/29083"
+            }
+          },
+          {
+            "gameId": "29095",
+            "date": "2026-10-17",
+            "time": "2026-10-17T19:05:00-04:00",
+            "team": "BAR",
+            "opponent": "Peterborough",
+            "opponentName": "Peterborough",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "OHL",
+            "status": "Scheduled",
+            "source": {
+              "label": "OHL gamecentre",
+              "url": "https://chl.ca/ohl/gamecentre/29095"
+            }
+          },
+          {
+            "gameId": "29103",
+            "date": "2026-10-22",
+            "time": "2026-10-22T19:00:00-04:00",
+            "team": "BAR",
+            "opponent": "Owen Sound",
+            "opponentName": "Owen Sound",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "OHL",
+            "status": "Scheduled",
+            "source": {
+              "label": "OHL gamecentre",
+              "url": "https://chl.ca/ohl/gamecentre/29103"
+            }
+          },
+          {
+            "gameId": "29115",
+            "date": "2026-10-24",
+            "time": "2026-10-24T19:30:00-04:00",
+            "team": "BAR",
+            "opponent": "North Bay",
+            "opponentName": "North Bay",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "OHL",
+            "status": "Scheduled",
+            "source": {
+              "label": "OHL gamecentre",
+              "url": "https://chl.ca/ohl/gamecentre/29115"
+            }
+          },
+          {
+            "gameId": "29126",
+            "date": "2026-10-25",
+            "time": "2026-10-25T14:00:00-04:00",
+            "team": "BAR",
+            "opponent": "Owen Sound",
+            "opponentName": "Owen Sound",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "OHL",
+            "status": "Scheduled",
+            "source": {
+              "label": "OHL gamecentre",
+              "url": "https://chl.ca/ohl/gamecentre/29126"
             }
           }
         ],
@@ -4465,15 +4475,15 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "Univ. of Michigan",
           "league": "NCAA",
-          "gp": 1,
+          "gp": 4,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8485359/landing"
           },
-          "goals": 1,
-          "assists": 0,
-          "points": 1,
-          "pim": 2
+          "goals": 2,
+          "assists": 3,
+          "points": 5,
+          "pim": 12
         }
       ],
       "nhlApiPlayerId": 8485359,
@@ -4491,22 +4501,22 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "Univ. of Michigan",
             "league": "NCAA",
-            "gp": 1,
+            "gp": 4,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8485359/landing"
             },
-            "goals": 1,
-            "assists": 0,
-            "points": 1,
-            "pim": 2
+            "goals": 2,
+            "assists": 3,
+            "points": 5,
+            "pim": 12
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
@@ -4514,7 +4524,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NCAA",
         "team": "Univ. of Michigan",
         "sourceLinks": [
@@ -4549,7 +4559,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NCAA",
         "team": "Univ. of Michigan",
         "sourceLinks": [
@@ -4678,7 +4688,7 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "New York Rangers",
           "league": "NHL",
-          "gp": 2,
+          "gp": 6,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8482877/landing"
@@ -4703,14 +4713,14 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "New York Rangers",
             "league": "NHL",
-            "gp": 2,
+            "gp": 6,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8482877/landing"
@@ -4726,7 +4736,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "sourceLinks": [
           {
             "label": "NHL API game log",
@@ -4738,6 +4748,74 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
+          {
+            "gameId": 2026020085,
+            "date": "2026-10-11",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "VAN",
+            "opponentName": "Canucks",
+            "homeAway": "vs",
+            "toi": "9:28",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "highlightLinks": []
+          },
+          {
+            "gameId": 2026020067,
+            "date": "2026-10-09",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "WSH",
+            "opponentName": "Capitals",
+            "homeAway": "@",
+            "toi": "9:38",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "highlightLinks": []
+          },
+          {
+            "gameId": 2026020048,
+            "date": "2026-10-06",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "NYI",
+            "opponentName": "Islanders",
+            "homeAway": "vs",
+            "toi": "8:28",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "highlightLinks": []
+          },
+          {
+            "gameId": 2026020036,
+            "date": "2026-10-04",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "UTA",
+            "opponentName": "Mammoth",
+            "homeAway": "vs",
+            "toi": "6:05",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "highlightLinks": []
+          },
           {
             "gameId": 2026020017,
             "date": "2026-10-02",
@@ -4754,23 +4832,6 @@ window.NYR_PLAYER_STATS = {
             "shots": 1,
             "pim": 0,
             "highlightLinks": []
-          },
-          {
-            "gameId": 2026020010,
-            "date": "2026-10-01",
-            "type": "Regular",
-            "team": "NYR",
-            "opponent": "TBL",
-            "opponentName": "Lightning",
-            "homeAway": "vs",
-            "toi": "6:18",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "shots": 1,
-            "pim": 0,
-            "highlightLinks": []
           }
         ],
         "note": "NHL game-log rows are imported for the latest available season. Player-specific NHL scoring-play clips are attached when available.",
@@ -4780,7 +4841,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NHL",
         "team": "NYR",
         "sourceLinks": [
@@ -4791,12 +4852,12 @@ window.NYR_PLAYER_STATS = {
         ],
         "games": [
           {
-            "gameId": 2026020036,
-            "date": "2026-10-04",
-            "time": "2026-10-04T22:00:00Z",
+            "gameId": 2026020095,
+            "date": "2026-10-13",
+            "time": "2026-10-13T23:15:00Z",
             "team": "NYR",
-            "opponent": "UTA",
-            "opponentName": "Utah",
+            "opponent": "TBL",
+            "opponentName": "Tampa Bay",
             "homeAway": "vs",
             "type": "Regular",
             "league": "NHL",
@@ -4807,28 +4868,12 @@ window.NYR_PLAYER_STATS = {
             }
           },
           {
-            "gameId": 2026020048,
-            "date": "2026-10-06",
-            "time": "2026-10-06T23:30:00Z",
+            "gameId": 2026020113,
+            "date": "2026-10-15",
+            "time": "2026-10-15T23:00:00Z",
             "team": "NYR",
-            "opponent": "NYI",
-            "opponentName": "New York",
-            "homeAway": "vs",
-            "type": "Regular",
-            "league": "NHL",
-            "status": "FUT",
-            "source": {
-              "label": "NHL API schedule",
-              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
-            }
-          },
-          {
-            "gameId": 2026020067,
-            "date": "2026-10-09",
-            "time": "2026-10-09T23:00:00Z",
-            "team": "NYR",
-            "opponent": "WSH",
-            "opponentName": "Washington",
+            "opponent": "NJD",
+            "opponentName": "New Jersey",
             "homeAway": "@",
             "type": "Regular",
             "league": "NHL",
@@ -4839,12 +4884,28 @@ window.NYR_PLAYER_STATS = {
             }
           },
           {
-            "gameId": 2026020085,
-            "date": "2026-10-11",
-            "time": "2026-10-11T22:00:00Z",
+            "gameId": 2026020129,
+            "date": "2026-10-17",
+            "time": "2026-10-17T23:00:00Z",
             "team": "NYR",
-            "opponent": "VAN",
-            "opponentName": "Vancouver",
+            "opponent": "CBJ",
+            "opponentName": "Columbus",
+            "homeAway": "@",
+            "type": "Regular",
+            "league": "NHL",
+            "status": "FUT",
+            "source": {
+              "label": "NHL API schedule",
+              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
+            }
+          },
+          {
+            "gameId": 2026020137,
+            "date": "2026-10-19",
+            "time": "2026-10-19T23:00:00Z",
+            "team": "NYR",
+            "opponent": "ANA",
+            "opponentName": "Anaheim",
             "homeAway": "vs",
             "type": "Regular",
             "league": "NHL",
@@ -4855,13 +4916,13 @@ window.NYR_PLAYER_STATS = {
             }
           },
           {
-            "gameId": 2026020095,
-            "date": "2026-10-13",
-            "time": "2026-10-13T23:15:00Z",
+            "gameId": 2026020155,
+            "date": "2026-10-22",
+            "time": "2026-10-22T23:00:00Z",
             "team": "NYR",
-            "opponent": "TBL",
-            "opponentName": "Tampa Bay",
-            "homeAway": "vs",
+            "opponent": "TOR",
+            "opponentName": "Toronto",
+            "homeAway": "@",
             "type": "Regular",
             "league": "NHL",
             "status": "FUT",
@@ -4971,6 +5032,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 10,
           "points": 14,
           "pim": 47
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hartford Wolf Pack",
+          "league": "AHL",
+          "gp": 5,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8484169/landing"
+          },
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 4
         }
       ],
       "nhlApiPlayerId": 8484169,
@@ -4987,160 +5063,161 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
-            "team": "New York Rangers",
-            "league": "NHL",
-            "gp": 9,
+            "team": "Hartford Wolf Pack",
+            "league": "AHL",
+            "gp": 5,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8484169/landing"
             },
             "goals": 0,
-            "assists": 2,
-            "points": 2,
+            "assists": 0,
+            "points": 0,
             "pim": 4
-          },
-          {
-            "season": "2025-26",
-            "type": "Regular",
-            "team": "Boston College",
-            "league": "NCAA",
-            "gp": 36,
-            "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8484169/landing"
-            },
-            "goals": 4,
-            "assists": 10,
-            "points": 14,
-            "pim": 47
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "league": "AHL",
+        "team": "Hartford Wolf Pack",
         "sourceLinks": [
           {
-            "label": "NHL API game log",
-            "url": "https://api-web.nhle.com/v1/player/8484169/game-log/20252026/2"
+            "label": "AHL player stats",
+            "url": "https://theahl.com/stats/player-stats/307/94"
           },
           {
-            "label": "NHL API game log",
-            "url": "https://api-web.nhle.com/v1/player/8484169/game-log/20252026/3"
+            "label": "AHL schedule",
+            "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
         "games": [
           {
-            "gameId": 2025021302,
-            "date": "2026-04-15",
+            "gameId": "1029128",
+            "date": "2026-10-11",
             "type": "Regular",
-            "team": "NYR",
-            "opponent": "TBL",
-            "opponentName": "Lightning",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Laval",
+            "opponentName": "Laval",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029128"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029112",
+            "date": "2026-10-10",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029112"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029107",
+            "date": "2026-10-09",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
             "homeAway": "@",
-            "toi": "15:44",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029107"
+            },
             "role": "skater",
             "goals": 0,
             "assists": 0,
             "points": 0,
-            "shots": 0,
+            "shots": 1,
             "pim": 0,
-            "highlightLinks": []
+            "toi": "0:00"
           },
           {
-            "gameId": 2025021283,
-            "date": "2026-04-13",
+            "gameId": "1029100",
+            "date": "2026-10-04",
             "type": "Regular",
-            "team": "NYR",
-            "opponent": "FLA",
-            "opponentName": "Panthers",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
             "homeAway": "@",
-            "toi": "13:02",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029100"
+            },
             "role": "skater",
             "goals": 0,
             "assists": 0,
             "points": 0,
             "shots": 0,
-            "pim": 0,
-            "highlightLinks": []
+            "pim": 4,
+            "toi": "0:00"
           },
           {
-            "gameId": 2025021244,
-            "date": "2026-04-08",
+            "gameId": "1029083",
+            "date": "2026-10-03",
             "type": "Regular",
-            "team": "NYR",
-            "opponent": "BUF",
-            "opponentName": "Sabres",
-            "homeAway": "vs",
-            "toi": "13:34",
-            "role": "skater",
-            "goals": 0,
-            "assists": 1,
-            "points": 1,
-            "shots": 0,
-            "pim": 0,
-            "highlightLinks": [
-              {
-                "type": "assist",
-                "label": "Assist P2 02:57",
-                "url": "https://nhl.com/video/buf-nyr-lafreniere-scores-goal-against-ukko-pekka-luukkonen-6392779720112",
-                "gameId": 2025021244,
-                "eventId": 503,
-                "period": 2,
-                "timeInPeriod": "02:57",
-                "source": {
-                  "label": "NHL Gamecenter",
-                  "url": "https://api-web.nhle.com/v1/gamecenter/2025021244/landing"
-                }
-              }
-            ]
-          },
-          {
-            "gameId": 2025021227,
-            "date": "2026-04-05",
-            "type": "Regular",
-            "team": "NYR",
-            "opponent": "WSH",
-            "opponentName": "Capitals",
-            "homeAway": "vs",
-            "toi": "17:53",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029083"
+            },
             "role": "skater",
             "goals": 0,
             "assists": 0,
             "points": 0,
-            "shots": 0,
+            "shots": 1,
             "pim": 0,
-            "highlightLinks": []
-          },
-          {
-            "gameId": 2025021207,
-            "date": "2026-04-04",
-            "type": "Regular",
-            "team": "NYR",
-            "opponent": "DET",
-            "opponentName": "Red Wings",
-            "homeAway": "vs",
-            "toi": "11:16",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "shots": 0,
-            "pim": 2,
-            "highlightLinks": []
+            "toi": "0:00"
           }
         ],
-        "note": "NHL game-log rows are imported for the latest available season. Player-specific NHL scoring-play clips are attached when available.",
-        "league": "NHL",
-        "team": "New York Rangers"
+        "note": "Recent AHL rows come from official AHL game-summary feeds for Hartford games."
       },
       "draftInfo": {
         "status": "drafted",
@@ -5157,25 +5234,106 @@ window.NYR_PLAYER_STATS = {
         }
       },
       "currentAssignment": {
-        "team": "New York Rangers",
-        "league": "NHL",
-        "currentTeam": "New York Rangers, NHL",
+        "team": "Hartford Wolf Pack",
+        "league": "AHL",
+        "currentTeam": "Hartford Wolf Pack, AHL",
         "group": "Current prospect"
       },
       "nextFiveGames": {
-        "status": "connected_no_rows",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
-        "league": "NHL",
-        "team": "NYR",
+        "status": "verified",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "league": "AHL",
+        "team": "Hartford Wolf Pack",
         "sourceLinks": [
           {
-            "label": "NHL API schedule",
-            "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20252026"
+            "label": "AHL schedule",
+            "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
-        "games": [],
-        "note": "No upcoming NHL games are listed in the current club schedule feed."
+        "games": [
+          {
+            "gameId": "1029133",
+            "date": "2026-10-14",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:30 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029138",
+            "date": "2026-10-16",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029150",
+            "date": "2026-10-17",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029179",
+            "date": "2026-10-23",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029201",
+            "date": "2026-10-24",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:05 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          }
+        ],
+        "note": "Upcoming AHL games come from the official AHL schedule feed."
       },
       "newsNotes": [
         {
@@ -5302,14 +5460,14 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "New York Rangers",
           "league": "NHL",
-          "gp": 3,
+          "gp": 7,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8484210/landing"
           },
-          "goals": 1,
-          "assists": 1,
-          "points": 2,
+          "goals": 3,
+          "assists": 3,
+          "points": 6,
           "pim": 0
         }
       ],
@@ -5328,21 +5486,21 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "New York Rangers",
             "league": "NHL",
-            "gp": 3,
+            "gp": 7,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8484210/landing"
             },
-            "goals": 1,
-            "assists": 1,
-            "points": 2,
+            "goals": 3,
+            "assists": 3,
+            "points": 6,
             "pim": 0
           }
         ],
@@ -5351,7 +5509,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "sourceLinks": [
           {
             "label": "NHL API game log",
@@ -5363,6 +5521,129 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
+          {
+            "gameId": 2026020085,
+            "date": "2026-10-11",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "VAN",
+            "opponentName": "Canucks",
+            "homeAway": "vs",
+            "toi": "18:53",
+            "role": "skater",
+            "goals": 1,
+            "assists": 1,
+            "points": 2,
+            "shots": 2,
+            "pim": 0,
+            "highlightLinks": [
+              {
+                "type": "assist",
+                "label": "Assist P3 01:04",
+                "url": "https://nhl.com/video/alexis-lafreniere-with-a-powerplay-goal-vs-vancouver-canucks-6406663731112",
+                "gameId": 2026020085,
+                "eventId": 842,
+                "period": 3,
+                "timeInPeriod": "01:04",
+                "source": {
+                  "label": "NHL Gamecenter",
+                  "url": "https://api-web.nhle.com/v1/gamecenter/2026020085/landing"
+                }
+              },
+              {
+                "type": "goal",
+                "label": "Goal P3 05:57",
+                "url": "https://nhl.com/video/van-nyr-perreault-scores-goal-against-kevin-lankinen-6406662447112",
+                "gameId": 2026020085,
+                "eventId": 962,
+                "period": 3,
+                "timeInPeriod": "05:57",
+                "source": {
+                  "label": "NHL Gamecenter",
+                  "url": "https://api-web.nhle.com/v1/gamecenter/2026020085/landing"
+                }
+              }
+            ]
+          },
+          {
+            "gameId": 2026020067,
+            "date": "2026-10-09",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "WSH",
+            "opponentName": "Capitals",
+            "homeAway": "@",
+            "toi": "16:28",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3,
+            "pim": 0,
+            "highlightLinks": []
+          },
+          {
+            "gameId": 2026020048,
+            "date": "2026-10-06",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "NYI",
+            "opponentName": "Islanders",
+            "homeAway": "vs",
+            "toi": "13:45",
+            "role": "skater",
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 1,
+            "pim": 0,
+            "highlightLinks": [
+              {
+                "type": "assist",
+                "label": "Assist P2 17:07",
+                "url": "https://nhl.com/video/nyi-nyr-bjorkstrand-scores-ppg-against-semyon-varlamov-6406390212112",
+                "gameId": 2026020048,
+                "eventId": 769,
+                "period": 2,
+                "timeInPeriod": "17:07",
+                "source": {
+                  "label": "NHL Gamecenter",
+                  "url": "https://api-web.nhle.com/v1/gamecenter/2026020048/landing"
+                }
+              }
+            ]
+          },
+          {
+            "gameId": 2026020036,
+            "date": "2026-10-04",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "UTA",
+            "opponentName": "Mammoth",
+            "homeAway": "vs",
+            "toi": "18:18",
+            "role": "skater",
+            "goals": 1,
+            "assists": 0,
+            "points": 1,
+            "shots": 1,
+            "pim": 0,
+            "highlightLinks": [
+              {
+                "type": "goal",
+                "label": "Goal P3 03:15",
+                "url": "https://nhl.com/video/uta-nyr-perreault-scores-goal-against-karel-vejmelka-6406229350112",
+                "gameId": 2026020036,
+                "eventId": 977,
+                "period": 3,
+                "timeInPeriod": "03:15",
+                "source": {
+                  "label": "NHL Gamecenter",
+                  "url": "https://api-web.nhle.com/v1/gamecenter/2026020036/landing"
+                }
+              }
+            ]
+          },
           {
             "gameId": 2026020017,
             "date": "2026-10-02",
@@ -5393,54 +5674,6 @@ window.NYR_PLAYER_STATS = {
                 }
               }
             ]
-          },
-          {
-            "gameId": 2026020010,
-            "date": "2026-10-01",
-            "type": "Regular",
-            "team": "NYR",
-            "opponent": "TBL",
-            "opponentName": "Lightning",
-            "homeAway": "vs",
-            "toi": "10:46",
-            "role": "skater",
-            "goals": 1,
-            "assists": 0,
-            "points": 1,
-            "shots": 1,
-            "pim": 0,
-            "highlightLinks": [
-              {
-                "type": "goal",
-                "label": "Goal P2 16:01",
-                "url": "https://nhl.com/video/tbl-nyr-perreault-scores-goal-against-andrei-vasilevskiy-6406077847112",
-                "gameId": 2026020010,
-                "eventId": 741,
-                "period": 2,
-                "timeInPeriod": "16:01",
-                "source": {
-                  "label": "NHL Gamecenter",
-                  "url": "https://api-web.nhle.com/v1/gamecenter/2026020010/landing"
-                }
-              }
-            ]
-          },
-          {
-            "gameId": 2026020003,
-            "date": "2026-09-29",
-            "type": "Regular",
-            "team": "NYR",
-            "opponent": "BOS",
-            "opponentName": "Bruins",
-            "homeAway": "@",
-            "toi": "16:20",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "shots": 0,
-            "pim": 0,
-            "highlightLinks": []
           }
         ],
         "note": "NHL game-log rows are imported for the latest available season. Player-specific NHL scoring-play clips are attached when available.",
@@ -5470,7 +5703,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NHL",
         "team": "NYR",
         "sourceLinks": [
@@ -5481,12 +5714,12 @@ window.NYR_PLAYER_STATS = {
         ],
         "games": [
           {
-            "gameId": 2026020036,
-            "date": "2026-10-04",
-            "time": "2026-10-04T22:00:00Z",
+            "gameId": 2026020095,
+            "date": "2026-10-13",
+            "time": "2026-10-13T23:15:00Z",
             "team": "NYR",
-            "opponent": "UTA",
-            "opponentName": "Utah",
+            "opponent": "TBL",
+            "opponentName": "Tampa Bay",
             "homeAway": "vs",
             "type": "Regular",
             "league": "NHL",
@@ -5497,28 +5730,12 @@ window.NYR_PLAYER_STATS = {
             }
           },
           {
-            "gameId": 2026020048,
-            "date": "2026-10-06",
-            "time": "2026-10-06T23:30:00Z",
+            "gameId": 2026020113,
+            "date": "2026-10-15",
+            "time": "2026-10-15T23:00:00Z",
             "team": "NYR",
-            "opponent": "NYI",
-            "opponentName": "New York",
-            "homeAway": "vs",
-            "type": "Regular",
-            "league": "NHL",
-            "status": "FUT",
-            "source": {
-              "label": "NHL API schedule",
-              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
-            }
-          },
-          {
-            "gameId": 2026020067,
-            "date": "2026-10-09",
-            "time": "2026-10-09T23:00:00Z",
-            "team": "NYR",
-            "opponent": "WSH",
-            "opponentName": "Washington",
+            "opponent": "NJD",
+            "opponentName": "New Jersey",
             "homeAway": "@",
             "type": "Regular",
             "league": "NHL",
@@ -5529,12 +5746,28 @@ window.NYR_PLAYER_STATS = {
             }
           },
           {
-            "gameId": 2026020085,
-            "date": "2026-10-11",
-            "time": "2026-10-11T22:00:00Z",
+            "gameId": 2026020129,
+            "date": "2026-10-17",
+            "time": "2026-10-17T23:00:00Z",
             "team": "NYR",
-            "opponent": "VAN",
-            "opponentName": "Vancouver",
+            "opponent": "CBJ",
+            "opponentName": "Columbus",
+            "homeAway": "@",
+            "type": "Regular",
+            "league": "NHL",
+            "status": "FUT",
+            "source": {
+              "label": "NHL API schedule",
+              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
+            }
+          },
+          {
+            "gameId": 2026020137,
+            "date": "2026-10-19",
+            "time": "2026-10-19T23:00:00Z",
+            "team": "NYR",
+            "opponent": "ANA",
+            "opponentName": "Anaheim",
             "homeAway": "vs",
             "type": "Regular",
             "league": "NHL",
@@ -5545,13 +5778,13 @@ window.NYR_PLAYER_STATS = {
             }
           },
           {
-            "gameId": 2026020095,
-            "date": "2026-10-13",
-            "time": "2026-10-13T23:15:00Z",
+            "gameId": 2026020155,
+            "date": "2026-10-22",
+            "time": "2026-10-22T23:00:00Z",
             "team": "NYR",
-            "opponent": "TBL",
-            "opponentName": "Tampa Bay",
-            "homeAway": "vs",
+            "opponent": "TOR",
+            "opponentName": "Toronto",
+            "homeAway": "@",
             "type": "Regular",
             "league": "NHL",
             "status": "FUT",
@@ -5721,7 +5954,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -5759,7 +5992,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "sourceLinks": [
           {
             "label": "NHL API game log",
@@ -5898,7 +6131,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "connected_no_rows",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NHL",
         "team": "NYR",
         "sourceLinks": [
@@ -6008,14 +6241,14 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "New York Rangers",
           "league": "NHL",
-          "gp": 3,
+          "gp": 7,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8483690/landing"
           },
           "goals": 0,
-          "assists": 1,
-          "points": 1,
+          "assists": 2,
+          "points": 2,
           "pim": 4
         }
       ],
@@ -6034,21 +6267,21 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "New York Rangers",
             "league": "NHL",
-            "gp": 3,
+            "gp": 7,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8483690/landing"
             },
             "goals": 0,
-            "assists": 1,
-            "points": 1,
+            "assists": 2,
+            "points": 2,
             "pim": 4
           }
         ],
@@ -6057,7 +6290,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "sourceLinks": [
           {
             "label": "NHL API game log",
@@ -6069,6 +6302,88 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
+          {
+            "gameId": 2026020085,
+            "date": "2026-10-11",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "VAN",
+            "opponentName": "Canucks",
+            "homeAway": "vs",
+            "toi": "13:10",
+            "role": "skater",
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 1,
+            "pim": 0,
+            "highlightLinks": [
+              {
+                "type": "assist",
+                "label": "Assist P2 02:09",
+                "url": "https://nhl.com/video/van-nyr-cuylle-scores-goal-against-kevin-lankinen-6406660451112",
+                "gameId": 2026020085,
+                "eventId": 444,
+                "period": 2,
+                "timeInPeriod": "02:09",
+                "source": {
+                  "label": "NHL Gamecenter",
+                  "url": "https://api-web.nhle.com/v1/gamecenter/2026020085/landing"
+                }
+              }
+            ]
+          },
+          {
+            "gameId": 2026020067,
+            "date": "2026-10-09",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "WSH",
+            "opponentName": "Capitals",
+            "homeAway": "@",
+            "toi": "13:42",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "highlightLinks": []
+          },
+          {
+            "gameId": 2026020048,
+            "date": "2026-10-06",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "NYI",
+            "opponentName": "Islanders",
+            "homeAway": "vs",
+            "toi": "14:47",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "highlightLinks": []
+          },
+          {
+            "gameId": 2026020036,
+            "date": "2026-10-04",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "UTA",
+            "opponentName": "Mammoth",
+            "homeAway": "vs",
+            "toi": "17:37",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "highlightLinks": []
+          },
           {
             "gameId": 2026020017,
             "date": "2026-10-02",
@@ -6084,54 +6399,6 @@ window.NYR_PLAYER_STATS = {
             "points": 0,
             "shots": 2,
             "pim": 0,
-            "highlightLinks": []
-          },
-          {
-            "gameId": 2026020010,
-            "date": "2026-10-01",
-            "type": "Regular",
-            "team": "NYR",
-            "opponent": "TBL",
-            "opponentName": "Lightning",
-            "homeAway": "vs",
-            "toi": "16:14",
-            "role": "skater",
-            "goals": 0,
-            "assists": 1,
-            "points": 1,
-            "shots": 0,
-            "pim": 2,
-            "highlightLinks": [
-              {
-                "type": "assist",
-                "label": "Assist P2 01:40",
-                "url": "https://nhl.com/video/tbl-nyr-tolvanen-scores-goal-against-andrei-vasilevskiy-6406074858112",
-                "gameId": 2026020010,
-                "eventId": 390,
-                "period": 2,
-                "timeInPeriod": "01:40",
-                "source": {
-                  "label": "NHL Gamecenter",
-                  "url": "https://api-web.nhle.com/v1/gamecenter/2026020010/landing"
-                }
-              }
-            ]
-          },
-          {
-            "gameId": 2026020003,
-            "date": "2026-09-29",
-            "type": "Regular",
-            "team": "NYR",
-            "opponent": "BOS",
-            "opponentName": "Bruins",
-            "homeAway": "@",
-            "toi": "12:56",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "shots": 0,
-            "pim": 2,
             "highlightLinks": []
           }
         ],
@@ -6162,7 +6429,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NHL",
         "team": "NYR",
         "sourceLinks": [
@@ -6173,12 +6440,12 @@ window.NYR_PLAYER_STATS = {
         ],
         "games": [
           {
-            "gameId": 2026020036,
-            "date": "2026-10-04",
-            "time": "2026-10-04T22:00:00Z",
+            "gameId": 2026020095,
+            "date": "2026-10-13",
+            "time": "2026-10-13T23:15:00Z",
             "team": "NYR",
-            "opponent": "UTA",
-            "opponentName": "Utah",
+            "opponent": "TBL",
+            "opponentName": "Tampa Bay",
             "homeAway": "vs",
             "type": "Regular",
             "league": "NHL",
@@ -6189,28 +6456,12 @@ window.NYR_PLAYER_STATS = {
             }
           },
           {
-            "gameId": 2026020048,
-            "date": "2026-10-06",
-            "time": "2026-10-06T23:30:00Z",
+            "gameId": 2026020113,
+            "date": "2026-10-15",
+            "time": "2026-10-15T23:00:00Z",
             "team": "NYR",
-            "opponent": "NYI",
-            "opponentName": "New York",
-            "homeAway": "vs",
-            "type": "Regular",
-            "league": "NHL",
-            "status": "FUT",
-            "source": {
-              "label": "NHL API schedule",
-              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
-            }
-          },
-          {
-            "gameId": 2026020067,
-            "date": "2026-10-09",
-            "time": "2026-10-09T23:00:00Z",
-            "team": "NYR",
-            "opponent": "WSH",
-            "opponentName": "Washington",
+            "opponent": "NJD",
+            "opponentName": "New Jersey",
             "homeAway": "@",
             "type": "Regular",
             "league": "NHL",
@@ -6221,12 +6472,28 @@ window.NYR_PLAYER_STATS = {
             }
           },
           {
-            "gameId": 2026020085,
-            "date": "2026-10-11",
-            "time": "2026-10-11T22:00:00Z",
+            "gameId": 2026020129,
+            "date": "2026-10-17",
+            "time": "2026-10-17T23:00:00Z",
             "team": "NYR",
-            "opponent": "VAN",
-            "opponentName": "Vancouver",
+            "opponent": "CBJ",
+            "opponentName": "Columbus",
+            "homeAway": "@",
+            "type": "Regular",
+            "league": "NHL",
+            "status": "FUT",
+            "source": {
+              "label": "NHL API schedule",
+              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
+            }
+          },
+          {
+            "gameId": 2026020137,
+            "date": "2026-10-19",
+            "time": "2026-10-19T23:00:00Z",
+            "team": "NYR",
+            "opponent": "ANA",
+            "opponentName": "Anaheim",
             "homeAway": "vs",
             "type": "Regular",
             "league": "NHL",
@@ -6237,13 +6504,13 @@ window.NYR_PLAYER_STATS = {
             }
           },
           {
-            "gameId": 2026020095,
-            "date": "2026-10-13",
-            "time": "2026-10-13T23:15:00Z",
+            "gameId": 2026020155,
+            "date": "2026-10-22",
+            "time": "2026-10-22T23:00:00Z",
             "team": "NYR",
-            "opponent": "TBL",
-            "opponentName": "Tampa Bay",
-            "homeAway": "vs",
+            "opponent": "TOR",
+            "opponentName": "Toronto",
+            "homeAway": "@",
             "type": "Regular",
             "league": "NHL",
             "status": "FUT",
@@ -6427,16 +6694,16 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "New York Rangers",
           "league": "NHL",
-          "gp": 1,
+          "gp": 3,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8482193/landing"
           },
-          "w": 1,
-          "l": 0,
+          "w": 2,
+          "l": 1,
           "ot": 0,
-          "gaa": "0.00",
-          "savePct": "1.000"
+          "gaa": "1.20",
+          "savePct": ".945"
         }
       ],
       "nhlApiPlayerId": 8482193,
@@ -6454,23 +6721,23 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "New York Rangers",
             "league": "NHL",
-            "gp": 1,
+            "gp": 3,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8482193/landing"
             },
-            "w": 1,
-            "l": 0,
+            "w": 2,
+            "l": 1,
             "ot": 0,
-            "gaa": "0.00",
-            "savePct": "1.000"
+            "gaa": "1.20",
+            "savePct": ".945"
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
@@ -6478,7 +6745,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "sourceLinks": [
           {
             "label": "NHL API game log",
@@ -6490,6 +6757,42 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
+          {
+            "gameId": 2026020085,
+            "date": "2026-10-11",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "VAN",
+            "opponentName": "Canucks",
+            "homeAway": "vs",
+            "toi": "60:00",
+            "role": "goalie",
+            "gamesStarted": 1,
+            "decision": "W",
+            "shotsAgainst": 21,
+            "saves": 19,
+            "goalsAgainst": 2,
+            "savePct": ".905",
+            "highlightLinks": []
+          },
+          {
+            "gameId": 2026020067,
+            "date": "2026-10-09",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "WSH",
+            "opponentName": "Capitals",
+            "homeAway": "@",
+            "toi": "29:45",
+            "role": "goalie",
+            "gamesStarted": 0,
+            "decision": "L",
+            "shotsAgainst": 12,
+            "saves": 11,
+            "goalsAgainst": 1,
+            "savePct": ".917",
+            "highlightLinks": []
+          },
           {
             "gameId": 2026020017,
             "date": "2026-10-02",
@@ -6536,7 +6839,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NHL",
         "team": "NYR",
         "sourceLinks": [
@@ -6547,12 +6850,12 @@ window.NYR_PLAYER_STATS = {
         ],
         "games": [
           {
-            "gameId": 2026020036,
-            "date": "2026-10-04",
-            "time": "2026-10-04T22:00:00Z",
+            "gameId": 2026020095,
+            "date": "2026-10-13",
+            "time": "2026-10-13T23:15:00Z",
             "team": "NYR",
-            "opponent": "UTA",
-            "opponentName": "Utah",
+            "opponent": "TBL",
+            "opponentName": "Tampa Bay",
             "homeAway": "vs",
             "type": "Regular",
             "league": "NHL",
@@ -6563,28 +6866,12 @@ window.NYR_PLAYER_STATS = {
             }
           },
           {
-            "gameId": 2026020048,
-            "date": "2026-10-06",
-            "time": "2026-10-06T23:30:00Z",
+            "gameId": 2026020113,
+            "date": "2026-10-15",
+            "time": "2026-10-15T23:00:00Z",
             "team": "NYR",
-            "opponent": "NYI",
-            "opponentName": "New York",
-            "homeAway": "vs",
-            "type": "Regular",
-            "league": "NHL",
-            "status": "FUT",
-            "source": {
-              "label": "NHL API schedule",
-              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
-            }
-          },
-          {
-            "gameId": 2026020067,
-            "date": "2026-10-09",
-            "time": "2026-10-09T23:00:00Z",
-            "team": "NYR",
-            "opponent": "WSH",
-            "opponentName": "Washington",
+            "opponent": "NJD",
+            "opponentName": "New Jersey",
             "homeAway": "@",
             "type": "Regular",
             "league": "NHL",
@@ -6595,12 +6882,28 @@ window.NYR_PLAYER_STATS = {
             }
           },
           {
-            "gameId": 2026020085,
-            "date": "2026-10-11",
-            "time": "2026-10-11T22:00:00Z",
+            "gameId": 2026020129,
+            "date": "2026-10-17",
+            "time": "2026-10-17T23:00:00Z",
             "team": "NYR",
-            "opponent": "VAN",
-            "opponentName": "Vancouver",
+            "opponent": "CBJ",
+            "opponentName": "Columbus",
+            "homeAway": "@",
+            "type": "Regular",
+            "league": "NHL",
+            "status": "FUT",
+            "source": {
+              "label": "NHL API schedule",
+              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
+            }
+          },
+          {
+            "gameId": 2026020137,
+            "date": "2026-10-19",
+            "time": "2026-10-19T23:00:00Z",
+            "team": "NYR",
+            "opponent": "ANA",
+            "opponentName": "Anaheim",
             "homeAway": "vs",
             "type": "Regular",
             "league": "NHL",
@@ -6611,13 +6914,13 @@ window.NYR_PLAYER_STATS = {
             }
           },
           {
-            "gameId": 2026020095,
-            "date": "2026-10-13",
-            "time": "2026-10-13T23:15:00Z",
+            "gameId": 2026020155,
+            "date": "2026-10-22",
+            "time": "2026-10-22T23:00:00Z",
             "team": "NYR",
-            "opponent": "TBL",
-            "opponentName": "Tampa Bay",
-            "homeAway": "vs",
+            "opponent": "TOR",
+            "opponentName": "Toronto",
+            "homeAway": "@",
             "type": "Regular",
             "league": "NHL",
             "status": "FUT",
@@ -6811,14 +7114,14 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "Laval Rocket",
           "league": "AHL",
-          "gp": 1,
+          "gp": 4,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8482132/landing"
           },
-          "goals": 0,
-          "assists": 0,
-          "points": 0,
+          "goals": 2,
+          "assists": 1,
+          "points": 3,
           "pim": 2
         }
       ],
@@ -6837,21 +7140,21 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "Laval Rocket",
             "league": "AHL",
-            "gp": 1,
+            "gp": 4,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8482132/landing"
             },
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
+            "goals": 2,
+            "assists": 1,
+            "points": 3,
             "pim": 2
           }
         ],
@@ -6860,7 +7163,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Montreal Canadiens organization",
         "sourceLinks": [],
@@ -6890,7 +7193,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Montreal Canadiens organization",
         "sourceLinks": [],
@@ -7139,7 +7442,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -7195,7 +7498,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "league_connector_pending",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Roster Review",
         "team": "UFA - no qualifying offer",
         "sourceLinks": [],
@@ -7225,7 +7528,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Roster Review",
         "team": "UFA - no qualifying offer",
         "sourceLinks": [],
@@ -7339,14 +7642,14 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "Toronto Marlies",
           "league": "AHL",
-          "gp": 1,
+          "gp": 4,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8482153/landing"
           },
-          "goals": 0,
-          "assists": 0,
-          "points": 0,
+          "goals": 5,
+          "assists": 2,
+          "points": 7,
           "pim": 2
         }
       ],
@@ -7365,21 +7668,21 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "Toronto Marlies",
             "league": "AHL",
-            "gp": 1,
+            "gp": 4,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8482153/landing"
             },
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
+            "goals": 5,
+            "assists": 2,
+            "points": 7,
             "pim": 2
           }
         ],
@@ -7388,7 +7691,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Roster Review",
         "team": "UFA - no qualifying offer",
         "sourceLinks": [],
@@ -7418,7 +7721,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Roster Review",
         "team": "UFA - no qualifying offer",
         "sourceLinks": [],
@@ -7487,6 +7790,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 9,
           "points": 11,
           "pim": 69
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hartford Wolf Pack",
+          "league": "AHL",
+          "gp": 5,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8483750/landing"
+          },
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 2
         }
       ],
       "nhlApiPlayerId": 8483750,
@@ -7503,31 +7821,31 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
             "team": "Hartford Wolf Pack",
             "league": "AHL",
-            "gp": 70,
+            "gp": 5,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8483750/landing"
             },
-            "goals": 2,
-            "assists": 9,
-            "points": 11,
-            "pim": 69
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "pim": 2
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "connected_no_rows",
+        "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -7540,8 +7858,124 @@ window.NYR_PLAYER_STATS = {
             "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
-        "games": [],
-        "note": "No recent Hartford game-summary row was found for Jackson Dorrington."
+        "games": [
+          {
+            "gameId": "1029128",
+            "date": "2026-10-11",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Laval",
+            "opponentName": "Laval",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029128"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029112",
+            "date": "2026-10-10",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029112"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 2,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029107",
+            "date": "2026-10-09",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029107"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029100",
+            "date": "2026-10-04",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029100"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029083",
+            "date": "2026-10-03",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029083"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
+          }
+        ],
+        "note": "Recent AHL rows come from official AHL game-summary feeds for Hartford games."
       },
       "draftInfo": {
         "status": "drafted",
@@ -7566,7 +8000,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -7576,70 +8010,6 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
-          {
-            "gameId": "1029100",
-            "date": "2026-10-04",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "5:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029107",
-            "date": "2026-10-09",
-            "team": "HFD",
-            "opponent": "Providence",
-            "opponentName": "Providence",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "7:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029112",
-            "date": "2026-10-10",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "6:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029128",
-            "date": "2026-10-11",
-            "team": "HFD",
-            "opponent": "Laval",
-            "opponentName": "Laval",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "3:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
           {
             "gameId": "1029133",
             "date": "2026-10-14",
@@ -7651,6 +8021,70 @@ window.NYR_PLAYER_STATS = {
             "season": "2026-27",
             "league": "AHL",
             "status": "6:30 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029138",
+            "date": "2026-10-16",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029150",
+            "date": "2026-10-17",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029179",
+            "date": "2026-10-23",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029201",
+            "date": "2026-10-24",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:05 pm EDT",
             "source": {
               "label": "AHL schedule",
               "url": "https://theahl.com/stats/schedule/307/94"
@@ -7755,6 +8189,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 5,
           "points": 9,
           "pim": 2
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hartford Wolf Pack",
+          "league": "AHL",
+          "gp": 5,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8482928/landing"
+          },
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 2
         }
       ],
       "nhlApiPlayerId": 8482928,
@@ -7771,46 +8220,31 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
-            "type": "Regular",
-            "team": "Univ. of Minnesota",
-            "league": "NCAA",
-            "gp": 35,
-            "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8482928/landing"
-            },
-            "goals": 14,
-            "assists": 16,
-            "points": 30,
-            "pim": 12
-          },
-          {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
             "team": "Hartford Wolf Pack",
             "league": "AHL",
-            "gp": 15,
+            "gp": 5,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8482928/landing"
             },
-            "goals": 4,
-            "assists": 5,
-            "points": 9,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
             "pim": 2
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "connected_no_rows",
+        "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -7823,8 +8257,124 @@ window.NYR_PLAYER_STATS = {
             "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
-        "games": [],
-        "note": "No recent Hartford game-summary row was found for Brody Lamb."
+        "games": [
+          {
+            "gameId": "1029128",
+            "date": "2026-10-11",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Laval",
+            "opponentName": "Laval",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029128"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029112",
+            "date": "2026-10-10",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029112"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029107",
+            "date": "2026-10-09",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029107"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 2,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029100",
+            "date": "2026-10-04",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029100"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029083",
+            "date": "2026-10-03",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029083"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "toi": "0:00"
+          }
+        ],
+        "note": "Recent AHL rows come from official AHL game-summary feeds for Hartford games."
       },
       "draftInfo": {
         "status": "drafted",
@@ -7849,7 +8399,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -7859,70 +8409,6 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
-          {
-            "gameId": "1029100",
-            "date": "2026-10-04",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "5:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029107",
-            "date": "2026-10-09",
-            "team": "HFD",
-            "opponent": "Providence",
-            "opponentName": "Providence",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "7:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029112",
-            "date": "2026-10-10",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "6:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029128",
-            "date": "2026-10-11",
-            "team": "HFD",
-            "opponent": "Laval",
-            "opponentName": "Laval",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "3:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
           {
             "gameId": "1029133",
             "date": "2026-10-14",
@@ -7934,6 +8420,70 @@ window.NYR_PLAYER_STATS = {
             "season": "2026-27",
             "league": "AHL",
             "status": "6:30 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029138",
+            "date": "2026-10-16",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029150",
+            "date": "2026-10-17",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029179",
+            "date": "2026-10-23",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029201",
+            "date": "2026-10-24",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:05 pm EDT",
             "source": {
               "label": "AHL schedule",
               "url": "https://theahl.com/stats/schedule/307/94"
@@ -8049,6 +8599,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 11,
           "points": 25,
           "pim": 22
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hartford Wolf Pack",
+          "league": "AHL",
+          "gp": 2,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8483486/landing"
+          },
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 4
         }
       ],
       "nhlApiPlayerId": 8483486,
@@ -8065,31 +8630,31 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
             "team": "Hartford Wolf Pack",
             "league": "AHL",
-            "gp": 69,
+            "gp": 2,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8483486/landing"
             },
-            "goals": 14,
-            "assists": 11,
-            "points": 25,
-            "pim": 22
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "pim": 4
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "connected_no_rows",
+        "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -8102,8 +8667,55 @@ window.NYR_PLAYER_STATS = {
             "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
-        "games": [],
-        "note": "No recent Hartford game-summary row was found for Bryce McConnell-Barker."
+        "games": [
+          {
+            "gameId": "1029128",
+            "date": "2026-10-11",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Laval",
+            "opponentName": "Laval",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029128"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 2,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029112",
+            "date": "2026-10-10",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029112"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 2,
+            "toi": "0:00"
+          }
+        ],
+        "note": "Recent AHL rows come from official AHL game-summary feeds for Hartford games."
       },
       "draftInfo": {
         "status": "drafted",
@@ -8128,7 +8740,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -8138,70 +8750,6 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
-          {
-            "gameId": "1029100",
-            "date": "2026-10-04",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "5:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029107",
-            "date": "2026-10-09",
-            "team": "HFD",
-            "opponent": "Providence",
-            "opponentName": "Providence",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "7:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029112",
-            "date": "2026-10-10",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "6:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029128",
-            "date": "2026-10-11",
-            "team": "HFD",
-            "opponent": "Laval",
-            "opponentName": "Laval",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "3:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
           {
             "gameId": "1029133",
             "date": "2026-10-14",
@@ -8213,6 +8761,70 @@ window.NYR_PLAYER_STATS = {
             "season": "2026-27",
             "league": "AHL",
             "status": "6:30 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029138",
+            "date": "2026-10-16",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029150",
+            "date": "2026-10-17",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029179",
+            "date": "2026-10-23",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029201",
+            "date": "2026-10-24",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:05 pm EDT",
             "source": {
               "label": "AHL schedule",
               "url": "https://theahl.com/stats/schedule/307/94"
@@ -8274,7 +8886,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -8310,23 +8922,109 @@ window.NYR_PLAYER_STATS = {
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "connected_no_rows",
-        "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
-        "league": "AHL",
-        "team": "Hartford Wolf Pack",
+        "status": "verified",
+        "season": "2025-26",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "sourceLinks": [
           {
-            "label": "AHL player stats",
-            "url": "https://theahl.com/stats/player-stats/307/94"
+            "label": "NHL API game log",
+            "url": "https://api-web.nhle.com/v1/player/8482666/game-log/20252026/2"
           },
           {
-            "label": "AHL schedule",
-            "url": "https://theahl.com/stats/schedule/307/94"
+            "label": "NHL API game log",
+            "url": "https://api-web.nhle.com/v1/player/8482666/game-log/20252026/3"
           }
         ],
-        "games": [],
-        "note": "No recent Hartford game-summary row was found for Scott Morrow."
+        "games": [
+          {
+            "gameId": 2025020934,
+            "date": "2026-02-28",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "PIT",
+            "opponentName": "Penguins",
+            "homeAway": "vs",
+            "toi": "15:31",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "highlightLinks": []
+          },
+          {
+            "gameId": 2025020861,
+            "date": "2026-01-31",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "PIT",
+            "opponentName": "Penguins",
+            "homeAway": "@",
+            "toi": "14:49",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 2,
+            "highlightLinks": []
+          },
+          {
+            "gameId": 2025020849,
+            "date": "2026-01-29",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "NYI",
+            "opponentName": "Islanders",
+            "homeAway": "vs",
+            "toi": "14:47",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "highlightLinks": []
+          },
+          {
+            "gameId": 2025020842,
+            "date": "2026-01-28",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "NYI",
+            "opponentName": "Islanders",
+            "homeAway": "@",
+            "toi": "13:23",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "highlightLinks": []
+          },
+          {
+            "gameId": 2025020826,
+            "date": "2026-01-26",
+            "type": "Regular",
+            "team": "NYR",
+            "opponent": "BOS",
+            "opponentName": "Bruins",
+            "homeAway": "vs",
+            "toi": "15:51",
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "highlightLinks": []
+          }
+        ],
+        "note": "NHL game-log rows are imported for the latest available season. Player-specific NHL scoring-play clips are attached when available.",
+        "league": "NHL",
+        "team": "New York Rangers"
       },
       "draftInfo": {
         "status": "drafted",
@@ -8343,106 +9041,25 @@ window.NYR_PLAYER_STATS = {
         }
       },
       "currentAssignment": {
-        "team": "Hartford Wolf Pack",
-        "league": "AHL",
-        "currentTeam": "Hartford Wolf Pack, AHL",
+        "team": "New York Rangers",
+        "league": "NHL",
+        "currentTeam": "New York Rangers, NHL",
         "group": "In-system prospect"
       },
       "nextFiveGames": {
-        "status": "verified",
-        "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
-        "league": "AHL",
-        "team": "Hartford Wolf Pack",
+        "status": "connected_no_rows",
+        "season": "2025-26",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "league": "NHL",
+        "team": "NYR",
         "sourceLinks": [
           {
-            "label": "AHL schedule",
-            "url": "https://theahl.com/stats/schedule/307/94"
+            "label": "NHL API schedule",
+            "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20252026"
           }
         ],
-        "games": [
-          {
-            "gameId": "1029100",
-            "date": "2026-10-04",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "5:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029107",
-            "date": "2026-10-09",
-            "team": "HFD",
-            "opponent": "Providence",
-            "opponentName": "Providence",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "7:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029112",
-            "date": "2026-10-10",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "6:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029128",
-            "date": "2026-10-11",
-            "team": "HFD",
-            "opponent": "Laval",
-            "opponentName": "Laval",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "3:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029133",
-            "date": "2026-10-14",
-            "team": "HFD",
-            "opponent": "Lehigh Valley",
-            "opponentName": "Lehigh Valley",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "6:30 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          }
-        ],
-        "note": "Upcoming AHL games come from the official AHL schedule feed."
+        "games": [],
+        "note": "No upcoming NHL games are listed in the current club schedule feed."
       }
     },
     "hugo-ollas": {
@@ -8616,16 +9233,16 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "Nybro Vikings IF",
           "league": "HockeyAllsvenskan",
-          "gp": 3,
+          "gp": 4,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8482504/landing"
           },
           "w": 1,
-          "l": 1,
+          "l": 2,
           "ot": null,
-          "gaa": "2.08",
-          "savePct": ".904"
+          "gaa": "3.52",
+          "savePct": ".852"
         }
       ],
       "nhlApiPlayerId": 8482504,
@@ -8643,23 +9260,23 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "Nybro Vikings IF",
             "league": "HockeyAllsvenskan",
-            "gp": 3,
+            "gp": 4,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8482504/landing"
             },
             "w": 1,
-            "l": 1,
+            "l": 2,
             "ot": null,
-            "gaa": "2.08",
-            "savePct": ".904"
+            "gaa": "3.52",
+            "savePct": ".852"
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
@@ -8667,7 +9284,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Roster Review",
         "team": "UFA - no qualifying offer",
         "sourceLinks": [],
@@ -8697,7 +9314,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Roster Review",
         "team": "UFA - no qualifying offer",
         "sourceLinks": [],
@@ -8805,6 +9422,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 15,
           "points": 26,
           "pim": 90
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hartford Wolf Pack",
+          "league": "AHL",
+          "gp": 5,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8484461/landing"
+          },
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 2
         }
       ],
       "nhlApiPlayerId": 8484461,
@@ -8821,31 +9453,31 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
             "team": "Hartford Wolf Pack",
             "league": "AHL",
-            "gp": 72,
+            "gp": 5,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8484461/landing"
             },
-            "goals": 11,
-            "assists": 15,
-            "points": 26,
-            "pim": 90
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "pim": 2
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "connected_no_rows",
+        "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -8858,8 +9490,124 @@ window.NYR_PLAYER_STATS = {
             "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
-        "games": [],
-        "note": "No recent Hartford game-summary row was found for Dylan Roobroeck."
+        "games": [
+          {
+            "gameId": "1029128",
+            "date": "2026-10-11",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Laval",
+            "opponentName": "Laval",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029128"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2,
+            "pim": 2,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029112",
+            "date": "2026-10-10",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029112"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029107",
+            "date": "2026-10-09",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029107"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029100",
+            "date": "2026-10-04",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029100"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029083",
+            "date": "2026-10-03",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029083"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
+          }
+        ],
+        "note": "Recent AHL rows come from official AHL game-summary feeds for Hartford games."
       },
       "draftInfo": {
         "status": "drafted",
@@ -8884,7 +9632,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -8894,70 +9642,6 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
-          {
-            "gameId": "1029100",
-            "date": "2026-10-04",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "5:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029107",
-            "date": "2026-10-09",
-            "team": "HFD",
-            "opponent": "Providence",
-            "opponentName": "Providence",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "7:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029112",
-            "date": "2026-10-10",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "6:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029128",
-            "date": "2026-10-11",
-            "team": "HFD",
-            "opponent": "Laval",
-            "opponentName": "Laval",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "3:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
           {
             "gameId": "1029133",
             "date": "2026-10-14",
@@ -8969,6 +9653,70 @@ window.NYR_PLAYER_STATS = {
             "season": "2026-27",
             "league": "AHL",
             "status": "6:30 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029138",
+            "date": "2026-10-16",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029150",
+            "date": "2026-10-17",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029179",
+            "date": "2026-10-23",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029201",
+            "date": "2026-10-24",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:05 pm EDT",
             "source": {
               "label": "AHL schedule",
               "url": "https://theahl.com/stats/schedule/307/94"
@@ -8998,6 +9746,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 9,
           "points": 17,
           "pim": 44
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hartford Wolf Pack",
+          "league": "AHL",
+          "gp": 1,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8484236/landing"
+          },
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
         }
       ],
       "nhlApiPlayerId": 8484236,
@@ -9025,31 +9788,31 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
             "team": "Hartford Wolf Pack",
             "league": "AHL",
-            "gp": 68,
+            "gp": 1,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8484236/landing"
             },
-            "goals": 8,
-            "assists": 9,
-            "points": 17,
-            "pim": 44
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "pim": 0
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "connected_no_rows",
+        "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -9062,8 +9825,32 @@ window.NYR_PLAYER_STATS = {
             "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
-        "games": [],
-        "note": "No recent Hartford game-summary row was found for Carey Terrance."
+        "games": [
+          {
+            "gameId": "1029083",
+            "date": "2026-10-03",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029083"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
+          }
+        ],
+        "note": "Recent AHL rows come from official AHL game-summary feeds for Hartford games."
       },
       "draftInfo": {
         "status": "drafted",
@@ -9088,7 +9875,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -9098,70 +9885,6 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
-          {
-            "gameId": "1029100",
-            "date": "2026-10-04",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "5:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029107",
-            "date": "2026-10-09",
-            "team": "HFD",
-            "opponent": "Providence",
-            "opponentName": "Providence",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "7:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029112",
-            "date": "2026-10-10",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "6:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029128",
-            "date": "2026-10-11",
-            "team": "HFD",
-            "opponent": "Laval",
-            "opponentName": "Laval",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "3:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
           {
             "gameId": "1029133",
             "date": "2026-10-14",
@@ -9173,6 +9896,70 @@ window.NYR_PLAYER_STATS = {
             "season": "2026-27",
             "league": "AHL",
             "status": "6:30 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029138",
+            "date": "2026-10-16",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029150",
+            "date": "2026-10-17",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029179",
+            "date": "2026-10-23",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029201",
+            "date": "2026-10-24",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:05 pm EDT",
             "source": {
               "label": "AHL schedule",
               "url": "https://theahl.com/stats/schedule/307/94"
@@ -9267,6 +10054,22 @@ window.NYR_PLAYER_STATS = {
           "ot": 0,
           "gaa": "4.46",
           "savePct": ".875"
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hartford Wolf Pack",
+          "league": "AHL",
+          "gp": 3,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8485489/landing"
+          },
+          "w": 2,
+          "l": 1,
+          "ot": 0,
+          "gaa": "2.34",
+          "savePct": ".930"
         }
       ],
       "nhlApiPlayerId": 8485489,
@@ -9283,74 +10086,167 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
             "team": "Hartford Wolf Pack",
             "league": "AHL",
-            "gp": 16,
+            "gp": 3,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8485489/landing"
             },
-            "w": 7,
-            "l": 8,
-            "ot": 2,
-            "gaa": "3.94",
-            "savePct": ".855"
-          },
-          {
-            "season": "2025-26",
-            "type": "Regular",
-            "team": "Bloomington Bison",
-            "league": "ECHL",
-            "gp": 19,
-            "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8485489/landing"
-            },
-            "w": 8,
-            "l": 9,
-            "ot": 2,
-            "gaa": "3.10",
-            "savePct": ".907"
-          },
-          {
-            "season": "2025-26",
-            "type": "Playoffs",
-            "team": "Bloomington Bison",
-            "league": "ECHL",
-            "gp": 2,
-            "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8485489/landing"
-            },
-            "w": 0,
+            "w": 2,
             "l": 1,
             "ot": 0,
-            "gaa": "4.46",
-            "savePct": ".875"
+            "gaa": "2.34",
+            "savePct": ".930"
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "league_connector_pending",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
-        "league": "ECHL",
-        "team": "Bloomington Bison",
+        "status": "verified",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "league": "AHL",
+        "team": "Hartford Wolf Pack",
         "sourceLinks": [
           {
-            "label": "ECHL stats",
-            "url": "https://echl.com/stats"
+            "label": "AHL player stats",
+            "url": "https://theahl.com/stats/player-stats/307/94"
+          },
+          {
+            "label": "AHL schedule",
+            "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
-        "games": [],
-        "note": "ECHL game-by-game connector is not connected yet for Bloomington Bison. Season totals still update from the NHL API landing feed where available."
+        "games": [
+          {
+            "gameId": "1029128",
+            "date": "2026-10-11",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Laval",
+            "opponentName": "Laval",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029128"
+            },
+            "role": "goalie",
+            "gamesStarted": 1,
+            "decision": null,
+            "shotsAgainst": 32,
+            "saves": 27,
+            "goalsAgainst": 5,
+            "savePct": ".844",
+            "toi": "60:00"
+          },
+          {
+            "gameId": "1029112",
+            "date": "2026-10-10",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029112"
+            },
+            "role": "goalie",
+            "gamesStarted": 0,
+            "decision": null,
+            "shotsAgainst": 0,
+            "saves": 0,
+            "goalsAgainst": 0,
+            "savePct": null,
+            "toi": null
+          },
+          {
+            "gameId": "1029107",
+            "date": "2026-10-09",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029107"
+            },
+            "role": "goalie",
+            "gamesStarted": 1,
+            "decision": null,
+            "shotsAgainst": 28,
+            "saves": 28,
+            "goalsAgainst": 0,
+            "savePct": "1.000",
+            "toi": "59:28"
+          },
+          {
+            "gameId": "1029100",
+            "date": "2026-10-04",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029100"
+            },
+            "role": "goalie",
+            "gamesStarted": 1,
+            "decision": null,
+            "shotsAgainst": 40,
+            "saves": 38,
+            "goalsAgainst": 2,
+            "savePct": ".950",
+            "toi": "60:00"
+          },
+          {
+            "gameId": "1029083",
+            "date": "2026-10-03",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029083"
+            },
+            "role": "goalie",
+            "gamesStarted": 0,
+            "decision": null,
+            "shotsAgainst": 0,
+            "saves": 0,
+            "goalsAgainst": 0,
+            "savePct": null,
+            "toi": null
+          }
+        ],
+        "note": "Recent AHL rows come from official AHL game-summary feeds for Hartford games."
       },
       "draftInfo": {
         "status": "undrafted",
@@ -9367,25 +10263,106 @@ window.NYR_PLAYER_STATS = {
         }
       },
       "currentAssignment": {
-        "team": "Bloomington Bison",
-        "league": "ECHL",
-        "currentTeam": "Bloomington Bison, ECHL",
+        "team": "Hartford Wolf Pack",
+        "league": "AHL",
+        "currentTeam": "Hartford Wolf Pack, AHL",
         "group": "In-system prospect"
       },
       "nextFiveGames": {
-        "status": "league_connector_pending",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
-        "league": "ECHL",
-        "team": "Bloomington Bison",
+        "status": "verified",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "league": "AHL",
+        "team": "Hartford Wolf Pack",
         "sourceLinks": [
           {
-            "label": "ECHL stats",
-            "url": "https://echl.com/stats"
+            "label": "AHL schedule",
+            "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
-        "games": [],
-        "note": "ECHL schedule connector is not connected yet for Bloomington Bison."
+        "games": [
+          {
+            "gameId": "1029133",
+            "date": "2026-10-14",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:30 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029138",
+            "date": "2026-10-16",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029150",
+            "date": "2026-10-17",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029179",
+            "date": "2026-10-23",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029201",
+            "date": "2026-10-24",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:05 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          }
+        ],
+        "note": "Upcoming AHL games come from the official AHL schedule feed."
       }
     },
     "kalle-vaisanen": {
@@ -9575,7 +10552,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -9598,7 +10575,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "league_connector_pending",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Boston Bruins organization",
         "sourceLinks": [],
@@ -9628,7 +10605,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Boston Bruins organization",
         "sourceLinks": [],
@@ -9853,7 +10830,7 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "VÃ¤xjÃ¶ Lakers HC",
           "league": "SHL",
-          "gp": 5,
+          "gp": 8,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8481548/landing"
@@ -9879,14 +10856,14 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "VÃ¤xjÃ¶ Lakers HC",
             "league": "SHL",
-            "gp": 5,
+            "gp": 8,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8481548/landing"
@@ -9902,7 +10879,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "manual_verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Champions Hockey League",
         "team": "Vaxjo Lakers HC",
         "sourceLinks": [
@@ -10047,7 +11024,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "SHL",
         "team": "Vaxjo Lakers HC",
         "sourceLinks": [
@@ -10376,15 +11353,15 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "MalmÃ¶ Redhawks",
           "league": "SHL",
-          "gp": 4,
+          "gp": 7,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8480986/landing"
           },
           "goals": 2,
-          "assists": 2,
-          "points": 4,
-          "pim": 2
+          "assists": 3,
+          "points": 5,
+          "pim": 4
         }
       ],
       "nhlApiPlayerId": 8480986,
@@ -10402,22 +11379,22 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "MalmÃ¶ Redhawks",
             "league": "SHL",
-            "gp": 4,
+            "gp": 7,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8480986/landing"
             },
             "goals": 2,
-            "assists": 2,
-            "points": 4,
-            "pim": 2
+            "assists": 3,
+            "points": 5,
+            "pim": 4
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
@@ -10425,7 +11402,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "manual_verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Swedish senior preseason",
         "team": "IF Malmo Redhawks",
         "sourceLinks": [
@@ -10591,7 +11568,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "SHL",
         "team": "Malmo Redhawks",
         "sourceLinks": [
@@ -10815,6 +11792,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 2,
           "points": 7,
           "pim": 4
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hartford Wolf Pack",
+          "league": "AHL",
+          "gp": 4,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8481704/landing"
+          },
+          "goals": 1,
+          "assists": 1,
+          "points": 2,
+          "pim": 0
         }
       ],
       "nhlApiPlayerId": 8481704,
@@ -10831,46 +11823,31 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
-            "type": "Regular",
-            "team": "New York Rangers",
-            "league": "NHL",
-            "gp": 20,
-            "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8481704/landing"
-            },
-            "goals": 2,
-            "assists": 1,
-            "points": 3,
-            "pim": 10
-          },
-          {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
             "team": "Hartford Wolf Pack",
             "league": "AHL",
-            "gp": 15,
+            "gp": 4,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8481704/landing"
             },
-            "goals": 5,
-            "assists": 2,
-            "points": 7,
-            "pim": 4
+            "goals": 1,
+            "assists": 1,
+            "points": 2,
+            "pim": 0
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "connected_no_rows",
+        "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -10883,8 +11860,101 @@ window.NYR_PLAYER_STATS = {
             "url": "https://theahl.com/stats/schedule/307/94"
           }
         ],
-        "games": [],
-        "note": "No recent Hartford game-summary row was found for Juuso Parssinen."
+        "games": [
+          {
+            "gameId": "1029128",
+            "date": "2026-10-11",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Laval",
+            "opponentName": "Laval",
+            "homeAway": "vs",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029128"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029107",
+            "date": "2026-10-09",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029107"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029100",
+            "date": "2026-10-04",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029100"
+            },
+            "role": "skater",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
+          },
+          {
+            "gameId": "1029083",
+            "date": "2026-10-03",
+            "type": "Regular",
+            "season": "2026-27",
+            "team": "HFD",
+            "opponent": "Lehigh Valley",
+            "opponentName": "Lehigh Valley",
+            "homeAway": "@",
+            "league": "AHL",
+            "highlightLinks": [],
+            "source": {
+              "label": "AHL game summary",
+              "url": "https://theahl.com/stats/game-summary/1029083"
+            },
+            "role": "skater",
+            "goals": 1,
+            "assists": 1,
+            "points": 2,
+            "shots": 1,
+            "pim": 0,
+            "toi": "0:00"
+          }
+        ],
+        "note": "Recent AHL rows come from official AHL game-summary feeds for Hartford games."
       },
       "draftInfo": {
         "status": "drafted",
@@ -10909,7 +11979,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -10919,70 +11989,6 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
-          {
-            "gameId": "1029100",
-            "date": "2026-10-04",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "5:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029107",
-            "date": "2026-10-09",
-            "team": "HFD",
-            "opponent": "Providence",
-            "opponentName": "Providence",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "7:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029112",
-            "date": "2026-10-10",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "6:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029128",
-            "date": "2026-10-11",
-            "team": "HFD",
-            "opponent": "Laval",
-            "opponentName": "Laval",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "3:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
           {
             "gameId": "1029133",
             "date": "2026-10-14",
@@ -10994,6 +12000,70 @@ window.NYR_PLAYER_STATS = {
             "season": "2026-27",
             "league": "AHL",
             "status": "6:30 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029138",
+            "date": "2026-10-16",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029150",
+            "date": "2026-10-17",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029179",
+            "date": "2026-10-23",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029201",
+            "date": "2026-10-24",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:05 pm EDT",
             "source": {
               "label": "AHL schedule",
               "url": "https://theahl.com/stats/schedule/307/94"
@@ -11040,7 +12110,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -11063,7 +12133,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "connected_no_rows",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -11102,7 +12172,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -11112,70 +12182,6 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [
-          {
-            "gameId": "1029100",
-            "date": "2026-10-04",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "5:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029107",
-            "date": "2026-10-09",
-            "team": "HFD",
-            "opponent": "Providence",
-            "opponentName": "Providence",
-            "homeAway": "@",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "7:05 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029112",
-            "date": "2026-10-10",
-            "team": "HFD",
-            "opponent": "Wilkes-Barre/Scranton",
-            "opponentName": "Wilkes-Barre/Scranton",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "6:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
-          {
-            "gameId": "1029128",
-            "date": "2026-10-11",
-            "team": "HFD",
-            "opponent": "Laval",
-            "opponentName": "Laval",
-            "homeAway": "vs",
-            "type": "Regular",
-            "season": "2026-27",
-            "league": "AHL",
-            "status": "3:00 pm EDT",
-            "source": {
-              "label": "AHL schedule",
-              "url": "https://theahl.com/stats/schedule/307/94"
-            }
-          },
           {
             "gameId": "1029133",
             "date": "2026-10-14",
@@ -11187,6 +12193,70 @@ window.NYR_PLAYER_STATS = {
             "season": "2026-27",
             "league": "AHL",
             "status": "6:30 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029138",
+            "date": "2026-10-16",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029150",
+            "date": "2026-10-17",
+            "team": "HFD",
+            "opponent": "Charlotte",
+            "opponentName": "Charlotte",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029179",
+            "date": "2026-10-23",
+            "team": "HFD",
+            "opponent": "Providence",
+            "opponentName": "Providence",
+            "homeAway": "vs",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "7:00 pm EDT",
+            "source": {
+              "label": "AHL schedule",
+              "url": "https://theahl.com/stats/schedule/307/94"
+            }
+          },
+          {
+            "gameId": "1029201",
+            "date": "2026-10-24",
+            "team": "HFD",
+            "opponent": "Wilkes-Barre/Scranton",
+            "opponentName": "Wilkes-Barre/Scranton",
+            "homeAway": "@",
+            "type": "Regular",
+            "season": "2026-27",
+            "league": "AHL",
+            "status": "6:05 pm EDT",
             "source": {
               "label": "AHL schedule",
               "url": "https://theahl.com/stats/schedule/307/94"
@@ -11246,6 +12316,21 @@ window.NYR_PLAYER_STATS = {
           "assists": 7,
           "points": 7,
           "pim": 4
+        },
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Hartford Wolf Pack",
+          "league": "AHL",
+          "gp": 5,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8482861/landing"
+          },
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 2
         }
       ],
       "nhlApiPlayerId": 8482861,
@@ -11262,159 +12347,43 @@ window.NYR_PLAYER_STATS = {
       "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
       "currentSeasonStats": {
         "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
-            "team": "San Jose Sharks",
-            "league": "NHL",
-            "gp": 21,
-            "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8482861/landing"
-            },
-            "goals": 0,
-            "assists": 3,
-            "points": 3,
-            "pim": 12
-          },
-          {
-            "season": "2025-26",
-            "type": "Regular",
-            "team": "New York Rangers",
-            "league": "NHL",
-            "gp": 6,
-            "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8482861/landing"
-            },
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "pim": 0
-          },
-          {
-            "season": "2025-26",
-            "type": "Regular",
-            "team": "San Jose Barracuda",
+            "team": "Hartford Wolf Pack",
             "league": "AHL",
-            "gp": 6,
+            "gp": 5,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8482861/landing"
             },
-            "goals": 0,
-            "assists": 7,
-            "points": 7,
-            "pim": 4
+            "goals": 1,
+            "assists": 0,
+            "points": 1,
+            "pim": 2
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "status": "connected_no_rows",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "sourceLinks": [
           {
             "label": "NHL API game log",
-            "url": "https://api-web.nhle.com/v1/player/8482861/game-log/20252026/2"
+            "url": "https://api-web.nhle.com/v1/player/8482861/game-log/20262027/2"
           },
           {
             "label": "NHL API game log",
-            "url": "https://api-web.nhle.com/v1/player/8482861/game-log/20252026/3"
+            "url": "https://api-web.nhle.com/v1/player/8482861/game-log/20262027/3"
           }
         ],
-        "games": [
-          {
-            "gameId": 2025021136,
-            "date": "2026-03-25",
-            "type": "Regular",
-            "team": "NYR",
-            "opponent": "TOR",
-            "opponentName": "Maple Leafs",
-            "homeAway": "@",
-            "toi": "12:37",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "shots": 0,
-            "pim": 0,
-            "highlightLinks": []
-          },
-          {
-            "gameId": 2025020991,
-            "date": "2026-03-07",
-            "type": "Regular",
-            "team": "NYR",
-            "opponent": "NJD",
-            "opponentName": "Devils",
-            "homeAway": "@",
-            "toi": "9:09",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "shots": 0,
-            "pim": 0,
-            "highlightLinks": []
-          },
-          {
-            "gameId": 2025020975,
-            "date": "2026-03-05",
-            "type": "Regular",
-            "team": "NYR",
-            "opponent": "TOR",
-            "opponentName": "Maple Leafs",
-            "homeAway": "vs",
-            "toi": "16:14",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "shots": 3,
-            "pim": 0,
-            "highlightLinks": []
-          },
-          {
-            "gameId": 2025020953,
-            "date": "2026-03-02",
-            "type": "Regular",
-            "team": "NYR",
-            "opponent": "CBJ",
-            "opponentName": "Blue Jackets",
-            "homeAway": "vs",
-            "toi": "14:22",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "shots": 1,
-            "pim": 0,
-            "highlightLinks": []
-          },
-          {
-            "gameId": 2025020924,
-            "date": "2026-02-26",
-            "type": "Regular",
-            "team": "NYR",
-            "opponent": "PHI",
-            "opponentName": "Flyers",
-            "homeAway": "vs",
-            "toi": "11:53",
-            "role": "skater",
-            "goals": 0,
-            "assists": 0,
-            "points": 0,
-            "shots": 1,
-            "pim": 0,
-            "highlightLinks": []
-          }
-        ],
-        "note": "NHL game-log rows are imported for the latest available season. Player-specific NHL scoring-play clips are attached when available.",
+        "games": [],
+        "note": "No NHL game-log rows were returned for the latest season. League-specific game-log connectors may still be needed.",
         "league": "NHL",
         "team": "New York Rangers"
       },
@@ -11439,19 +12408,100 @@ window.NYR_PLAYER_STATS = {
         "group": "Roster review"
       },
       "nextFiveGames": {
-        "status": "connected_no_rows",
-        "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "status": "verified",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NHL",
         "team": "NYR",
         "sourceLinks": [
           {
             "label": "NHL API schedule",
-            "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20252026"
+            "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
           }
         ],
-        "games": [],
-        "note": "No upcoming NHL games are listed in the current club schedule feed."
+        "games": [
+          {
+            "gameId": 2026020095,
+            "date": "2026-10-13",
+            "time": "2026-10-13T23:15:00Z",
+            "team": "NYR",
+            "opponent": "TBL",
+            "opponentName": "Tampa Bay",
+            "homeAway": "vs",
+            "type": "Regular",
+            "league": "NHL",
+            "status": "FUT",
+            "source": {
+              "label": "NHL API schedule",
+              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
+            }
+          },
+          {
+            "gameId": 2026020113,
+            "date": "2026-10-15",
+            "time": "2026-10-15T23:00:00Z",
+            "team": "NYR",
+            "opponent": "NJD",
+            "opponentName": "New Jersey",
+            "homeAway": "@",
+            "type": "Regular",
+            "league": "NHL",
+            "status": "FUT",
+            "source": {
+              "label": "NHL API schedule",
+              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
+            }
+          },
+          {
+            "gameId": 2026020129,
+            "date": "2026-10-17",
+            "time": "2026-10-17T23:00:00Z",
+            "team": "NYR",
+            "opponent": "CBJ",
+            "opponentName": "Columbus",
+            "homeAway": "@",
+            "type": "Regular",
+            "league": "NHL",
+            "status": "FUT",
+            "source": {
+              "label": "NHL API schedule",
+              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
+            }
+          },
+          {
+            "gameId": 2026020137,
+            "date": "2026-10-19",
+            "time": "2026-10-19T23:00:00Z",
+            "team": "NYR",
+            "opponent": "ANA",
+            "opponentName": "Anaheim",
+            "homeAway": "vs",
+            "type": "Regular",
+            "league": "NHL",
+            "status": "FUT",
+            "source": {
+              "label": "NHL API schedule",
+              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
+            }
+          },
+          {
+            "gameId": 2026020155,
+            "date": "2026-10-22",
+            "time": "2026-10-22T23:00:00Z",
+            "team": "NYR",
+            "opponent": "TOR",
+            "opponentName": "Toronto",
+            "homeAway": "@",
+            "type": "Regular",
+            "league": "NHL",
+            "status": "FUT",
+            "source": {
+              "label": "NHL API schedule",
+              "url": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027"
+            }
+          }
+        ],
+        "note": "Upcoming NHL games come from the NHL club schedule feed."
       },
       "newsNotes": [
         {
@@ -11469,8 +12519,24 @@ window.NYR_PLAYER_STATS = {
       "name": "William Trudeau",
       "controlStartDate": "2026-06-26",
       "controlStartLabel": "Trade from Montreal for Brett Berard",
-      "sourceStatus": "connected_no_rows",
-      "seasons": [],
+      "sourceStatus": "verified",
+      "seasons": [
+        {
+          "season": "2026-27",
+          "type": "Regular",
+          "team": "Nashville Predators",
+          "league": "NHL",
+          "gp": 3,
+          "source": {
+            "label": "NHL API",
+            "url": "https://api-web.nhle.com/v1/player/8482806/landing"
+          },
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        }
+      ],
       "nhlApiPlayerId": 8482806,
       "sourceLinks": [
         {
@@ -11524,16 +12590,32 @@ window.NYR_PLAYER_STATS = {
         }
       },
       "currentSeasonStats": {
-        "status": "connected_no_rows",
-        "season": "TBD",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
-        "rows": [],
-        "note": "No current-season total rows were returned by the NHL API feed."
+        "status": "verified",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "rows": [
+          {
+            "season": "2026-27",
+            "type": "Regular",
+            "team": "Nashville Predators",
+            "league": "NHL",
+            "gp": 3,
+            "source": {
+              "label": "NHL API",
+              "url": "https://api-web.nhle.com/v1/player/8482806/landing"
+            },
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "pim": 0
+          }
+        ],
+        "note": "Latest available season totals from the NHL API feed."
       },
       "lastFiveGames": {
         "status": "league_connector_pending",
-        "season": "TBD",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Assignment TBD",
         "team": "Rangers organization (signed one-year; assignment TBD)",
         "sourceLinks": [],
@@ -11542,8 +12624,8 @@ window.NYR_PLAYER_STATS = {
       },
       "nextFiveGames": {
         "status": "league_connector_pending",
-        "season": "TBD",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "season": "2026-27",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Assignment TBD",
         "team": "Rangers organization (signed one-year; assignment TBD)",
         "sourceLinks": [],
@@ -11611,9 +12693,9 @@ window.NYR_PLAYER_STATS = {
         }
       ],
       "currentAssignment": {
-        "team": "Rangers organization (signed ELC; assignment pending)",
-        "league": "Assignment TBD",
-        "currentTeam": "Rangers organization (signed ELC; assignment pending)",
+        "team": "New York Rangers",
+        "league": "NHL",
+        "currentTeam": "New York Rangers, NHL",
         "group": "2026 draft class"
       },
       "draftInfo": {
@@ -11633,7 +12715,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "pre_draft_verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -11731,7 +12813,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "assignment_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NHL/AHL assignment pending",
         "team": "Rangers organization",
         "sourceLinks": [
@@ -11746,7 +12828,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "assignment_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "NHL/AHL assignment pending",
         "team": "Rangers organization",
         "sourceLinks": [
@@ -11826,7 +12908,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "pre_draft_verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -11879,7 +12961,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "post_control_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "WHL",
         "team": "Calgary Hitmen",
         "sourceLinks": [
@@ -11894,7 +12976,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "WHL",
         "team": "Calgary Hitmen",
         "sourceLinks": [
@@ -11986,7 +13068,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "pre_draft_verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -12026,7 +13108,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "manual_verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "QMJHL preseason",
         "team": "Gatineau Olympiques",
         "sourceLinks": [
@@ -12118,7 +13200,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "QMJHL",
         "team": "Gatineau Olympiques",
         "sourceLinks": [
@@ -12215,7 +13297,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "pre_draft_verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -12268,7 +13350,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "post_control_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "QMJHL",
         "team": "Quebec Remparts",
         "sourceLinks": [
@@ -12283,7 +13365,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "QMJHL",
         "team": "Quebec Remparts",
         "sourceLinks": [
@@ -12362,7 +13444,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "pre_draft_verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -12428,9 +13510,9 @@ window.NYR_PLAYER_STATS = {
         "note": "Latest available pre-draft 2025-26 season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "manual_verified_with_manual_entries_with_manual_entries",
+        "status": "manual_verified_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Champions Hockey League",
         "team": "HK Nitra",
         "sourceLinks": [
@@ -12544,12 +13626,12 @@ window.NYR_PLAYER_STATS = {
             "performanceNote": "HK Nitra's official Aug. 21 preseason recap lists Tomas Chrenko on the Turansky-Chrenko-Molnar line and credits him with two of Nitra's goals in a 6-2 home win over Ferencvarosi TC. Assists, shots, PIM, plus-minus, and TOI were not published."
           }
         ],
-        "note": "Recent HK Nitra/CHL rows are manually verified from official match feeds until a connected Slovakia/CHL game-log connector is available. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds."
+        "note": "Recent HK Nitra/CHL rows are manually verified from official match feeds until a connected Slovakia/CHL game-log connector is available. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds."
       },
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Slovakia",
         "team": "HK Nitra",
         "sourceLinks": [
@@ -12701,7 +13783,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "pre_draft_verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -12739,7 +13821,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "manual_verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "OHL preseason",
         "team": "Ottawa 67's",
         "sourceLinks": [
@@ -12829,7 +13911,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "OHL",
         "team": "Ottawa 67's",
         "sourceLinks": [
@@ -12934,7 +14016,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "pre_draft_verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -12970,9 +14052,9 @@ window.NYR_PLAYER_STATS = {
         "note": "Latest available pre-draft 2025-26 season totals from the NHL API feed."
       },
       "lastFiveGames": {
-        "status": "manual_verified_with_manual_entries_with_manual_entries",
+        "status": "manual_verified_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries_with_manual_entries",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "OHL preseason",
         "team": "Kingston Frontenacs",
         "sourceLinks": [
@@ -13020,12 +14102,12 @@ window.NYR_PLAYER_STATS = {
             "performanceNote": "Official OHL gamecentre 29699 lists Andre Mondoux in Kingston's lineup and credits him with 0 G, 1 A, 1 P, 1 shot, -1, and 2 PIM in Kingston's 4-3 preseason win at Ottawa. He had the secondary assist on Alex McLean's goal at 6:32 of the second period and a roughing minor at 11:26 of the second. TOI was not published."
           }
         ],
-        "note": "Recent OHL rows come from official OHL pages; manual preseason rows are preserved until the connected OHL game log includes them. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds."
+        "note": "Recent OHL rows come from official OHL pages; manual preseason rows are preserved until the connected OHL game log includes them. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds. Manual game entries are preserved for verified showcase or international games outside the connected league feeds."
       },
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "OHL",
         "team": "Kingston Frontenacs",
         "sourceLinks": [
@@ -13165,7 +14247,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "pre_draft_verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -13203,7 +14285,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "manual_verified",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "OHL preseason",
         "team": "Flint Firebirds",
         "sourceLinks": [
@@ -13256,7 +14338,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "OHL",
         "team": "Flint Firebirds",
         "sourceLinks": [
@@ -13339,7 +14421,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "pre_draft_verified",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -13407,7 +14489,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "post_control_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "KHL",
         "team": "CSKA Moskva",
         "sourceLinks": [
@@ -13422,7 +14504,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "KHL",
         "team": "CSKA Moskva",
         "sourceLinks": [
@@ -13518,7 +14600,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified_pre_acquisition",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -13556,7 +14638,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "season_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Assignment TBD",
         "team": "Assignment TBD",
         "sourceLinks": [
@@ -13575,7 +14657,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "assignment_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Assignment TBD",
         "team": "Assignment TBD",
         "sourceLinks": [
@@ -13636,9 +14718,9 @@ window.NYR_PLAYER_STATS = {
         }
       ],
       "currentAssignment": {
-        "team": "Assignment TBD",
-        "league": "Assignment TBD",
-        "currentTeam": "Assignment TBD",
+        "team": "Hartford Wolf Pack",
+        "league": "AHL",
+        "currentTeam": "Hartford Wolf Pack, AHL",
         "group": "Current prospect"
       },
       "draftInfo": {
@@ -13658,7 +14740,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified_pre_acquisition",
         "season": "2025-26",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "rows": [
           {
             "season": "2025-26",
@@ -13696,7 +14778,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "season_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Assignment TBD",
         "team": "Assignment TBD",
         "sourceLinks": [
@@ -13715,7 +14797,7 @@ window.NYR_PLAYER_STATS = {
       "nextFiveGames": {
         "status": "assignment_pending",
         "season": "2026-27",
-        "updatedAt": "2026-10-03T18:47:56.760Z",
+        "updatedAt": "2026-10-13T08:19:15.453Z",
         "league": "Assignment TBD",
         "team": "Assignment TBD",
         "sourceLinks": [
