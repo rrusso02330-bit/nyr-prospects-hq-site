@@ -18,7 +18,7 @@ const players = Function(`${scripts.slice(playersStart, playersEnd)}; return pla
 const scoutingProfiles = Function(`${scripts.slice(scoutingStart, scoutingEnd)}; return scoutingProfiles;`)();
 const byName = new Map(players.map((player) => [player.name, player]));
 const statsBySlug = new Map(Object.entries(stats.players || {}));
-const inactive = new Set(['Graduated', 'Traded draft picks']);
+const inactive = new Set(['Graduated', 'Traded draft picks', 'Departed prospects', 'Former Rangers prospects']);
 const active = order.filter((name) => byName.has(name) && !inactive.has(byName.get(name).group));
 const library = path.join(root, 'social-drafts', 'daily-profile-library');
 const queuePath = path.join(root, 'social-drafts', 'daily-profile-queue.json');
@@ -64,7 +64,7 @@ const entries = active.map((name, index) => {
     statsRule: 'Retain verified historical baseline locally; generate the current-season stats slide at post time from verified live data; include prior two seasons when available and label unavailable data.',
   };
 });
-fs.writeFileSync(queuePath, JSON.stringify({ version: 1, generatedAt: new Date().toISOString(), source: 'scripts.js prospectConsensusOrder filtered to non-graduated/non-traded registry entries', activeCount: entries.length, note: entries.length === 47 ? 'Website data currently resolves to 47 current/non-traded entries; no 48th player was added or inferred.' : '', entries }, null, 2) + '\n');
+fs.writeFileSync(queuePath, JSON.stringify({ version: 1, generatedAt: new Date().toISOString(), source: 'scripts.js prospectConsensusOrder filtered to active Rangers-controlled prospects; excludes graduated, traded, departed, and former prospects', activeCount: entries.length, note: 'Active coverage follows the approved roster in automation/roster-coverage.md; archived histories and assets are retained.', entries }, null, 2) + '\n');
 let state = { version: 1, updatedAt: new Date().toISOString(), entries: {} };
 if (fs.existsSync(statePath)) state = JSON.parse(fs.readFileSync(statePath, 'utf8'));
 for (const entry of entries) state.entries[entry.slug] ??= { position: entry.position, status: 'pending', history: [] };

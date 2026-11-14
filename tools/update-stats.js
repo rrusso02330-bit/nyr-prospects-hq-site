@@ -2077,7 +2077,8 @@ async function main() {
   const stats = readStats();
   const assignments = readRegistryAssignments();
   const players = stats.players || {};
-  const entries = Object.entries(players);
+  // Retain departed players' historical stats without refreshing them as active coverage.
+  const entries = Object.entries(players).filter(([slug]) => assignments.get(slug)?.group !== "Departed prospects");
   let connectedPlayers = 0;
   let playersWithRows = 0;
   let importedRows = 0;

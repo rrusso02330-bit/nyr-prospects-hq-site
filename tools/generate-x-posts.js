@@ -228,7 +228,7 @@ function getGameLeague(player, playerStats, game) {
 }
 
 function isActiveRegistryPlayer(player) {
-  return !["Graduated", "Traded draft picks"].includes(player.group);
+  return !["Graduated", "Traded draft picks", "Departed prospects", "Former Rangers prospects"].includes(player.group);
 }
 
 function groupBy(items, getKey) {

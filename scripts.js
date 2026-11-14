@@ -348,16 +348,16 @@ const playerProfiles = [
   {
     name: "Talyn Boyko",
     position: "G",
-    group: "Roster review",
+    group: "Departed prospects",
     acquired: "2021 draft, Rd 4, No. 112",
-    currentTeam: "UFA - no qualifying offer",
+    currentTeam: "Rochester Americans, AHL",
   },
   {
     name: "Brendan Brisson",
     position: "C",
-    group: "Roster review",
+    group: "Departed prospects",
     acquired: "Trade from Vegas, Mar. 6, 2025",
-    currentTeam: "UFA - no qualifying offer",
+    currentTeam: "Toronto Maple Leafs organization",
   },
   {
     name: "Jackson Dorrington",
@@ -390,9 +390,9 @@ const playerProfiles = [
   {
     name: "Hugo Ollas",
     position: "G",
-    group: "Roster review",
+    group: "Departed prospects",
     acquired: "2020 draft, Rd 7, No. 197",
-    currentTeam: "UFA - no qualifying offer",
+    currentTeam: "Nybro Vikings, HockeyAllsvenskan",
   },
   {
     name: "Dylan Roobroeck",
@@ -460,9 +460,9 @@ const playerProfiles = [
   {
     name: "Massimo Rizzo",
     position: "C",
-    group: "Roster review",
+    group: "Departed prospects",
     acquired: "Trade from Nashville, June 27, 2026",
-    currentTeam: "UFA - no qualifying offer",
+    currentTeam: "Kalmar HC, HockeyAllsvenskan",
   },
 ];
 
@@ -667,7 +667,6 @@ const prospectConsensusOrder = [
   "Mikkel Eriksen",
   "Aidan Thompson",
   "Sean Barnhill",
-  "Brendan Brisson",
   "Andre Mondoux",
   "Raoul Boilard",
   "Brody Lamb",
@@ -679,7 +678,6 @@ const prospectConsensusOrder = [
   "Spencer Bowes",
   "Artem Gonchar",
   "Callum Tung",
-  "Talyn Boyko",
   "Rico Gredig",
   "Rasmus Larsson",
   "Zeb Lindgren",
@@ -690,9 +688,7 @@ const prospectConsensusOrder = [
   "Ivan Patrikhayev",
   "Ty Henricks",
   "Vincent Iorio",
-  "Massimo Rizzo",
   "Juuso Parssinen",
-  "Hugo Ollas",
   "Karl Henriksson",
   "Lauri Pajuniemi",
   "Gabe Perreault",
@@ -1798,7 +1794,8 @@ const playerBySlug = new Map(
 const consensusRankByName = new Map(
   prospectConsensusOrder.map((name, index) => [name, index]),
 );
-const inactiveRegistryGroups = new Set(["Graduated", "Traded draft picks"]);
+// Approved roster removals and future former-prospect eligibility: automation/roster-coverage.md.
+const inactiveRegistryGroups = new Set(["Graduated", "Traded draft picks", "Departed prospects", "Former Rangers prospects"]);
 
 function isActiveRegistryPlayer(player) {
   return !inactiveRegistryGroups.has(player.group);
@@ -1911,7 +1908,7 @@ const leagueBreakdownItems = [
     key: "roster-review",
     label: "Roster Review",
     kind: "league",
-    description: "No-QO and status-review players pending archive approval.",
+    description: "Active Rangers players whose current assignment needs verification.",
   },
   {
     key: "graduated",
@@ -2380,7 +2377,7 @@ function getSelectedLeagueBreakdownItem() {
 }
 
 function getAllLeaguePlayers() {
-  return sortPlayersByConsensus(playerProfiles);
+  return sortPlayersByConsensus(playerProfiles.filter((player) => player.group !== "Departed prospects"));
 }
 
 function renderLeagueFilterNav(selectedKey) {
@@ -2616,7 +2613,7 @@ function renderLeagueBreakdownPage() {
   const viewTitle = selectedItem ? selectedItem.label : "All players";
   const viewDescription = selectedItem
     ? selectedItem.description
-    : "Every player currently tracked in the Rangers system registry, including active and graduated players.";
+    : "Current Rangers prospects, graduated players, and separately tracked traded players. Archived departed profiles are excluded.";
   const viewCount = isDraftView ? selectedDraftPlayers.length : visiblePlayers.length;
   const viewCountLabel = isDraftView
     ? "2026 selections"
@@ -3743,6 +3740,7 @@ async function renderPlayerPage() {
       <a class="back-link" href="${backHref}">${backLabel}</a>
       <p class="eyebrow">${escapeHTML(player.group)}</p>
       <h1>${escapeHTML(player.name)}</h1>
+      ${player.group === "Departed prospects" ? `<p class="hero-copy">Archived profile: no longer in the Rangers organization. Historical information is preserved; this player is outside active prospect coverage and is not classified as graduated.</p>` : ""}
       <div class="player-summary-grid" aria-label="Player profile summary">
         <article>
           <span>Position</span>
