@@ -12637,9 +12637,12 @@
       "name": "Alberts Smits",
       "controlStartDate": "2026-06-26",
       "controlStartLabel": "2026 NHL Draft, Rd 1, No. 5",
-      "sourceStatus": "pre_draft_verified",
+      "sourceStatus": "official_current_season_verified",
       "manualStatsOnly": true,
-      "seasons": [],
+      "seasons": [
+        {"season":"2026-27","type":"Regular","team":"New York Rangers","league":"NHL","gp":17,"goals":0,"assists":0,"points":0,"plusMinus":-2,"pim":12,"source":{"label":"Official NHL API","url":"https://api-web.nhle.com/v1/player/8485957/landing"}},
+        {"season":"2025-26","type":"Regular","team":"Jukurit","league":"Liiga","gp":38,"goals":6,"assists":7,"points":13,"plusMinus":-3,"pim":20,"source":{"label":"Official NHL API","url":"https://api-web.nhle.com/v1/player/8485957/landing"}}
+      ],
       "sourceLinks": [
         {
           "label": "Official NHL draft API",
@@ -12662,7 +12665,7 @@
           "url": "https://www.nhl.com/rangers/news/rangers-agree-to-terms-with-alberts-smits"
         }
       ],
-      "sourceNote": "Pre-draft/amateur stats are shown for bio context. Stats since Rangers control begin after the draft selection and will populate once post-selection games are available.",
+      "sourceNote": "Official NHL API refreshed November 14, 2026. Current NHL and prior-season Liiga statistics are shown.",
       "newsNotes": [
         {
           "date": "2026-06-26",
@@ -12685,7 +12688,7 @@
         {
           "date": "2026-07-15",
           "title": "Signed entry-level contract",
-          "body": "The Rangers agreed to terms with Smits on a three-year entry-level contract. His 2026-27 assignment remains pending.",
+          "body": "The Rangers agreed to terms with Smits on a three-year entry-level contract.",
           "source": {
             "label": "Rangers ELC release",
             "url": "https://www.nhl.com/rangers/news/rangers-agree-to-terms-with-alberts-smits"
@@ -12713,10 +12716,11 @@
         }
       },
       "currentSeasonStats": {
-        "status": "pre_draft_verified",
-        "season": "2025-26",
-        "updatedAt": "2026-10-13T08:19:15.453Z",
+        "status": "official_current_season_verified",
+        "season": "2026-27",
+        "updatedAt": "2026-11-14T19:00:00.000Z",
         "rows": [
+          {"season":"2026-27","type":"Regular","team":"New York Rangers","league":"NHL","gp":17,"source":{"label":"Official NHL API","url":"https://api-web.nhle.com/v1/player/8485957/landing"},"goals":0,"assists":0,"points":0,"plusMinus":-2,"pim":12},
           {
             "season": "2025-26",
             "type": "Regular",
@@ -12808,7 +12812,7 @@
             "pim": 6
           }
         ],
-        "note": "Latest available pre-draft 2025-26 season totals from the NHL API feed."
+        "note": "Official NHL API refreshed Nov. 14, 2026: Smits has 17 NHL games with the Rangers in 2026-27. NHL.com reported Nov. 10 that he is week to week with an upper-body injury."
       },
       "lastFiveGames": {
         "status": "assignment_pending",
