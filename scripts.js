@@ -1624,15 +1624,15 @@ const scoutingProfiles = {
     strengths:
       "Compete level, strength, defensive detail, faceoff-route projection, net-front routes, forecheck pressure, and a scoring jump that made him one of the OHL's most productive older forwards in 2025-26.",
     development:
-      "The next step is proving the offense carries into pro hockey. He needs a confirmed Rangers assignment, more pace against older defenders, and quicker puck decisions under AHL/NHL pressure.",
+      "The next step is carrying the offense into pro hockey with more pace against older defenders and quicker puck decisions under AHL/NHL pressure.",
     projection:
       "Middle-six center upside if the OHL scoring surge translates. The safer path is a hard bottom-six center who can kill penalties, pressure pucks, and bring matchup value.",
     comparable:
       "Style-only comp: Boone Jenner/Charlie Coyle family. That means a heavy, useful center who can play through contact and handle hard minutes, not a one-for-one ceiling promise.",
     sources: [
       {
-        label: "NHL profile",
-        url: "https://www.nhl.com/utah/player/cole-beaudoin-8484786",
+        label: "Official NHL player data",
+        url: "https://api-web.nhle.com/v1/player/8484786/landing",
       },
       {
         label: "NHL.com draft feature",
@@ -1643,14 +1643,14 @@ const scoutingProfiles = {
         url: "https://chl.ca/ohl/article/colts-cole-beaudoin-named-cogeco-ohl-player-of-the-week",
       },
       {
-        label: "New York Post trade report",
-        url: "https://nypost.com/2026/07/01/sports/rangers-trading-vincent-trocheck-to-mammoth-in-major-shakeup/",
+        label: "Rangers acquisition announcement",
+        url: "https://www.nhl.com/rangers/news/rangers-acquire-sean-durzi-cole-beaudoin-and-a-2027-third-round-draft-pick-in-exchange-for-vincent-trocheck",
       },
     ],
     highlights: [
       {
-        label: "2024 draft prospect profile",
-        url: "https://www.youtube.com/watch?v=4e29-ETSD8g",
+        label: "CHL feature: Beaudoin's NHL debut",
+        url: "https://chl.ca/article/chl-to-nhl-former-colts-captain-beaudoin-makes-nhl-debut-with-rangers/",
       },
       {
         label: "Utah trades up and selects Beaudoin",
