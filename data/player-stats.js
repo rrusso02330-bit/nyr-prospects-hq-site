@@ -132,7 +132,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-11-15T19:03:05.633Z",
+        "updatedAt": "2026-11-19T19:00:49.000Z",
         "rows": [
           {
             "season": "2026-27",
@@ -155,7 +155,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-11-15T19:03:05.633Z",
+        "updatedAt": "2026-11-19T19:00:49.000Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
