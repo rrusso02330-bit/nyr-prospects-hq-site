@@ -168,7 +168,7 @@ const playerProfiles = [
     position: "RW",
     group: "2026 draft class",
     acquired: "2026 draft, Rd 6, No. 163",
-    currentTeam: "Clarkson University, NCAA",
+    currentTeam: "Flint Firebirds, OHL",
   },
   {
     name: "Ivan Patrikhayev",
@@ -1545,6 +1545,22 @@ const scoutingProfiles = {
       "Puck-moving NHL defenseman with second-pair offense if the defending matures. He has power-play support upside.",
     comparable:
       "Style-only comp: Shayne Gostisbehere/John Klingberg family. That means an offensive defenseman whose value is tied to puck movement and activation.",
+    sources: [
+      {
+        label: "Rangers: Morrow contract release",
+        url: "https://www.nhl.com/rangers/news/topic/press-releases/rangers-agree-to-terms-with-scott-morrow",
+      },
+      {
+        label: "NHL player profile",
+        url: "https://www.nhl.com/player/scott-morrow-8482666",
+      },
+    ],
+    highlights: [
+      {
+        label: "Morrow's first Rangers goal",
+        url: "https://www.nhl.com/video/mtl-nyr-morrow-scores-goal-against-jacob-fowler-6408476057112",
+      },
+    ],
   },
   "hugo-ollas": {
     bio:
