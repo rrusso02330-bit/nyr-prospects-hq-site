@@ -1377,6 +1377,22 @@ const scoutingProfiles = {
       "Third-pair matchup defenseman with second-pair defensive usage if the puck game continues to mature.",
     comparable:
       "Style-only comp: Ryan Lindgren/Jaccob Slavin defensive-lane blend. That means detail, stick, and matchup value rather than power-play offense.",
+    sources: [
+      {
+        label: "Rangers: Fortescue entry-level contract",
+        url: "https://www.nhl.com/rangers/news/rangers-agree-to-terms-with-drew-fortescue",
+      },
+      {
+        label: "Official NHL player data",
+        url: "https://api-web.nhle.com/v1/player/8484169/landing",
+      },
+    ],
+    highlights: [
+      {
+        label: "Fortescue's preseason tying goal",
+        url: "https://www.nhl.com/video/topic/highlights/nyr-njd-fortescue-scores-goal-against-nicolas-daws-6405391295112",
+      },
+    ],
   },
   "gabe-perreault": {
     bio:

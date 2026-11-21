@@ -2531,7 +2531,7 @@
           "type": "Regular",
           "team": "Hartford Wolf Pack",
           "league": "AHL",
-          "gp": 18,
+          "gp": 19,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8484802/landing"
@@ -5208,15 +5208,15 @@
           "type": "Regular",
           "team": "Hartford Wolf Pack",
           "league": "AHL",
-          "gp": 18,
+          "gp": 19,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8484169/landing"
           },
           "goals": 2,
-          "assists": 1,
-          "points": 3,
-          "pim": 13
+          "assists": 2,
+          "points": 4,
+          "pim": 15
         }
       ],
       "nhlApiPlayerId": 8484169,
@@ -5234,22 +5234,22 @@
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-11-15T19:03:05.633Z",
+        "updatedAt": "2026-11-21T18:58:09.195Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "Hartford Wolf Pack",
             "league": "AHL",
-            "gp": 18,
+            "gp": 19,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8484169/landing"
             },
             "goals": 2,
-            "assists": 1,
-            "points": 3,
-            "pim": 13
+            "assists": 2,
+            "points": 4,
+            "pim": 15
           }
         ],
         "note": "Latest available season totals from the NHL API feed."
