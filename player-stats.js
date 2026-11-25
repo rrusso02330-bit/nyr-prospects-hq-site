@@ -132,7 +132,7 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-11-19T19:00:49.000Z",
+        "updatedAt": "2026-11-15T19:03:05.633Z",
         "rows": [
           {
             "season": "2026-27",
@@ -155,7 +155,7 @@ window.NYR_PLAYER_STATS = {
       "lastFiveGames": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-11-19T19:00:49.000Z",
+        "updatedAt": "2026-11-15T19:03:05.633Z",
         "league": "AHL",
         "team": "Hartford Wolf Pack",
         "sourceLinks": [
@@ -1337,15 +1337,15 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "Univ. of North Dakota",
           "league": "NCAA",
-          "gp": 11,
+          "gp": 13,
           "source": {
-            "label": "NHL API",
-            "url": "https://api-web.nhle.com/v1/player/8484848/landing"
+            "label": "North Dakota Athletics",
+            "url": "https://fightinghawks.com/sports/mens-ice-hockey/stats/2026-27"
           },
           "goals": 1,
-          "assists": 1,
-          "points": 2,
-          "pim": 14
+          "assists": 2,
+          "points": 3,
+          "pim": 18
         }
       ],
       "nhlApiPlayerId": 8484848,
@@ -1355,33 +1355,33 @@ window.NYR_PLAYER_STATS = {
           "url": "https://www.nhl.com/player/ej-emery-8484848"
         },
         {
-          "label": "NHL API data",
-          "url": "https://api-web.nhle.com/v1/player/8484848/landing"
+          "label": "North Dakota 2026-27 cumulative statistics",
+          "url": "https://fightinghawks.com/sports/mens-ice-hockey/stats/2026-27"
         }
       ],
-      "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
+      "sourceNote": "Current NCAA row refreshed from North Dakota Athletics on November 25, 2026; earlier rows come from NHL API season totals.",
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-11-15T19:03:05.633Z",
+        "updatedAt": "2026-11-25T18:58:00.000Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "Univ. of North Dakota",
             "league": "NCAA",
-            "gp": 11,
+            "gp": 13,
             "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8484848/landing"
+              "label": "North Dakota Athletics",
+              "url": "https://fightinghawks.com/sports/mens-ice-hockey/stats/2026-27"
             },
             "goals": 1,
-            "assists": 1,
-            "points": 2,
-            "pim": 14
+            "assists": 2,
+            "points": 3,
+            "pim": 18
           }
         ],
-        "note": "Latest available season totals from the NHL API feed."
+        "note": "Latest available season totals from North Dakota Athletics, checked November 25, 2026."
       },
       "lastFiveGames": {
         "status": "league_connector_pending",
@@ -9136,14 +9136,14 @@ window.NYR_PLAYER_STATS = {
           "type": "Regular",
           "team": "New York Rangers",
           "league": "NHL",
-          "gp": 8,
+          "gp": 7,
           "source": {
             "label": "NHL API",
             "url": "https://api-web.nhle.com/v1/player/8482666/landing"
           },
-          "goals": 1,
+          "goals": 0,
           "assists": 1,
-          "points": 2,
+          "points": 1,
           "pim": 2
         }
       ],
@@ -9162,21 +9162,21 @@ window.NYR_PLAYER_STATS = {
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-11-20T19:00:00.000Z",
+        "updatedAt": "2026-11-15T19:03:05.633Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "New York Rangers",
             "league": "NHL",
-            "gp": 8,
+            "gp": 7,
             "source": {
               "label": "NHL API",
               "url": "https://api-web.nhle.com/v1/player/8482666/landing"
             },
-            "goals": 1,
+            "goals": 0,
             "assists": 1,
-            "points": 2,
+            "points": 1,
             "pim": 2
           }
         ],
@@ -15236,17 +15236,17 @@ window.NYR_PLAYER_STATS = {
       "nhlApiPlayerId": 8484786,
       "controlStartDate": "2026-07-01",
       "controlStartLabel": "Acquired from Utah with Sean Durzi and a 2027 third-round pick for Vincent Trocheck",
-      "sourceStatus": "trade_reported_assignment_pending",
-      "manualStatsOnly": true,
+      "sourceStatus": "verified",
+      "manualStatsOnly": false,
       "seasons": [],
       "sourceLinks": [
         {
-          "label": "NHL profile",
-          "url": "https://www.nhl.com/utah/player/cole-beaudoin-8484786"
+          "label": "Official NHL player data",
+          "url": "https://api-web.nhle.com/v1/player/8484786/landing"
         },
         {
-          "label": "New York Post trade report",
-          "url": "https://nypost.com/2026/07/01/sports/rangers-trading-vincent-trocheck-to-mammoth-in-major-shakeup/"
+          "label": "Rangers acquisition announcement",
+          "url": "https://www.nhl.com/rangers/news/rangers-acquire-sean-durzi-cole-beaudoin-and-a-2027-third-round-draft-pick-in-exchange-for-vincent-trocheck"
         },
         {
           "label": "OHL player of the week",
@@ -15257,24 +15257,24 @@ window.NYR_PLAYER_STATS = {
           "url": "https://www.eliteprospects.com/player/677590/cole-beaudoin"
         }
       ],
-      "sourceNote": "Rangers-control stats begin after the July 1, 2026 trade. Pre-acquisition 2025-26 OHL totals are shown for bio context.",
+      "sourceNote": "Official NHL API totals checked November 18, 2026. The API records both New York Rangers and Hartford Wolf Pack 2026-27 regular-season rows.",
       "newsNotes": [
         {
           "title": "Acquired from Utah",
           "date": "2026-07-01",
-          "body": "The Rangers reportedly acquired Beaudoin, Sean Durzi, and a 2027 third-round pick from Utah for Vincent Trocheck.",
+          "body": "The Rangers acquired Beaudoin, Sean Durzi, and a 2027 third-round pick from Utah for Vincent Trocheck.",
           "source": {
-            "label": "New York Post trade report",
-            "url": "https://nypost.com/2026/07/01/sports/rangers-trading-vincent-trocheck-to-mammoth-in-major-shakeup/"
+            "label": "Rangers acquisition announcement",
+            "url": "https://www.nhl.com/rangers/news/rangers-acquire-sean-durzi-cole-beaudoin-and-a-2027-third-round-draft-pick-in-exchange-for-vincent-trocheck"
           }
         },
         {
-          "title": "Assignment TBD",
-          "date": "2026-07-01",
-          "body": "Beaudoin is listed as Assignment TBD until the Rangers confirm his 2026-27 NHL/AHL/OHL assignment.",
+          "title": "Hartford and Rangers 2026-27 totals",
+          "date": "2026-11-18",
+          "body": "Official NHL data records six Hartford AHL games and four New York Rangers NHL games in 2026-27.",
           "source": {
-            "label": "NHL profile",
-            "url": "https://www.nhl.com/utah/player/cole-beaudoin-8484786"
+            "label": "Official NHL player data",
+            "url": "https://api-web.nhle.com/v1/player/8484786/landing"
           }
         }
       ],
@@ -15299,49 +15299,51 @@ window.NYR_PLAYER_STATS = {
         }
       },
       "currentSeasonStats": {
-        "status": "verified_pre_acquisition",
-        "season": "2025-26",
-        "updatedAt": "2026-11-15T19:03:05.633Z",
+        "status": "verified",
+        "season": "2026-27",
+        "updatedAt": "2026-11-18T19:10:00.000Z",
         "rows": [
           {
-            "season": "2025-26",
+            "season": "2026-27",
             "type": "Regular",
-            "team": "Barrie Colts",
-            "league": "OHL",
-            "gp": 54,
-            "goals": 33,
-            "assists": 55,
-            "points": 88,
-            "pim": 29,
+            "team": "Hartford Wolf Pack",
+            "league": "AHL",
+            "gp": 6,
+            "goals": 1,
+            "assists": 6,
+            "points": 7,
+            "plusMinus": 5,
+            "pim": 2,
             "source": {
-              "label": "NHL profile",
-              "url": "https://www.nhl.com/utah/player/cole-beaudoin-8484786"
+              "label": "Official NHL player data",
+              "url": "https://api-web.nhle.com/v1/player/8484786/landing"
             }
           },
           {
-            "season": "2025-26",
-            "type": "Playoffs",
-            "team": "Barrie Colts",
-            "league": "OHL",
-            "gp": 15,
-            "goals": 10,
-            "assists": 19,
-            "points": 29,
-            "pim": 0,
+            "season": "2026-27",
+            "type": "Regular",
+            "team": "New York Rangers",
+            "league": "NHL",
+            "gp": 4,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "plusMinus": 0,
+            "pim": 4,
             "source": {
-              "label": "Elite Prospects",
-              "url": "https://www.eliteprospects.com/player/677590/cole-beaudoin"
+              "label": "Official NHL player data",
+              "url": "https://api-web.nhle.com/v1/player/8484786/landing"
             }
           }
         ],
-        "note": "Latest available pre-acquisition OHL totals for bio context."
+        "note": "Latest available 2026-27 regular-season totals from the official NHL API; checked November 18, 2026."
       },
       "lastFiveGames": {
-        "status": "season_pending",
+        "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-11-15T19:03:05.633Z",
-        "league": "Assignment TBD",
-        "team": "Assignment TBD",
+        "updatedAt": "2026-11-18T19:10:00.000Z",
+        "league": "AHL",
+        "team": "Hartford Wolf Pack",
         "sourceLinks": [
           {
             "label": "NHL profile",
@@ -15353,14 +15355,14 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [],
-        "note": "Recent game logs will update once the season starts."
+        "note": "AHL game-log connector is not connected yet; official NHL API season totals are current."
       },
       "nextFiveGames": {
-        "status": "assignment_pending",
+        "status": "league_connector_pending",
         "season": "2026-27",
-        "updatedAt": "2026-11-15T19:03:05.633Z",
-        "league": "Assignment TBD",
-        "team": "Assignment TBD",
+        "updatedAt": "2026-11-18T19:10:00.000Z",
+        "league": "AHL",
+        "team": "Hartford Wolf Pack",
         "sourceLinks": [
           {
             "label": "NHL profile",
@@ -15368,7 +15370,7 @@ window.NYR_PLAYER_STATS = {
           }
         ],
         "games": [],
-        "note": "Upcoming games will update once the schedule is available."
+        "note": "AHL schedule connector is not connected yet for Hartford."
       }
     }
   }

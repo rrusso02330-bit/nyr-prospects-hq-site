@@ -1337,15 +1337,15 @@
           "type": "Regular",
           "team": "Univ. of North Dakota",
           "league": "NCAA",
-          "gp": 11,
+          "gp": 13,
           "source": {
-            "label": "NHL API",
-            "url": "https://api-web.nhle.com/v1/player/8484848/landing"
+            "label": "North Dakota Athletics",
+            "url": "https://fightinghawks.com/sports/mens-ice-hockey/stats/2026-27"
           },
           "goals": 1,
-          "assists": 1,
-          "points": 2,
-          "pim": 14
+          "assists": 2,
+          "points": 3,
+          "pim": 18
         }
       ],
       "nhlApiPlayerId": 8484848,
@@ -1355,33 +1355,33 @@
           "url": "https://www.nhl.com/player/ej-emery-8484848"
         },
         {
-          "label": "NHL API data",
-          "url": "https://api-web.nhle.com/v1/player/8484848/landing"
+          "label": "North Dakota 2026-27 cumulative statistics",
+          "url": "https://fightinghawks.com/sports/mens-ice-hockey/stats/2026-27"
         }
       ],
-      "sourceNote": "Rows come from NHL API season totals. Acquisition-season rows are not date-split yet.",
+      "sourceNote": "Current NCAA row refreshed from North Dakota Athletics on November 25, 2026; earlier rows come from NHL API season totals.",
       "currentSeasonStats": {
         "status": "verified",
         "season": "2026-27",
-        "updatedAt": "2026-11-15T19:03:05.633Z",
+        "updatedAt": "2026-11-25T18:58:00.000Z",
         "rows": [
           {
             "season": "2026-27",
             "type": "Regular",
             "team": "Univ. of North Dakota",
             "league": "NCAA",
-            "gp": 11,
+            "gp": 13,
             "source": {
-              "label": "NHL API",
-              "url": "https://api-web.nhle.com/v1/player/8484848/landing"
+              "label": "North Dakota Athletics",
+              "url": "https://fightinghawks.com/sports/mens-ice-hockey/stats/2026-27"
             },
             "goals": 1,
-            "assists": 1,
-            "points": 2,
-            "pim": 14
+            "assists": 2,
+            "points": 3,
+            "pim": 18
           }
         ],
-        "note": "Latest available season totals from the NHL API feed."
+        "note": "Latest available season totals from North Dakota Athletics, checked November 25, 2026."
       },
       "lastFiveGames": {
         "status": "league_connector_pending",
