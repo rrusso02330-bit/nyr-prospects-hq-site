@@ -1421,6 +1421,22 @@ const scoutingProfiles = {
       "Bottom-six energy winger with matchup utility and penalty-kill value. If the offense ticks up, he can become more than a spark-plug role player.",
     comparable:
       "Style-only comp: Jesper Fast/Brandon Tanev family. That means pace, checking detail, and trust from coaches.",
+    sources: [
+      {
+        label: "Rangers: Sykora entry-level contract",
+        url: "https://www.nhl.com/rangers/news/rangers-agree-to-terms-with-adam-sykora-335001152",
+      },
+      {
+        label: "Official NHL player data",
+        url: "https://api-web.nhle.com/v1/player/8483669/landing",
+      },
+    ],
+    highlights: [
+      {
+        label: "Sykora scores against Washington",
+        url: "https://nhl.com/video/wsh-nyr-sykora-scores-goal-against-charlie-lindgren-6392624772112",
+      },
+    ],
   },
   "noah-laba": {
     bio:
@@ -3095,7 +3111,7 @@ function seasonLabelToSortValue(label) {
 function getLatestSeasonRows(playerStats) {
   const explicitRows = playerStats?.currentSeasonStats?.rows;
 
-  if (Array.isArray(explicitRows) && explicitRows.length) {
+  if (Array.isArray(explicitRows)) {
     return explicitRows;
   }
 
@@ -3125,7 +3141,7 @@ function renderSeasonStatsTable(player, playerStats) {
   if (!rows.length) {
     return `
       <p class="bio-data-empty">
-        ${escapeHTML(getSeasonStatsPendingMessage(player))}
+        ${escapeHTML(playerStats?.currentSeasonStats?.note || getSeasonStatsPendingMessage(player))}
       </p>
     `;
   }
