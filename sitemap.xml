@@ -500,8 +500,14 @@
     <lastmod>2026-10-15</lastmod>
     <priority>0.8</priority>
   </url>
-  <url><loc>https://nyr-prospects-hq.netlify.app/overnight-recap-2026-11-14.html</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority></url>
-  <url><loc>https://nyr-prospects-hq.netlify.app/overnight-recap-2026-11-18.html</loc><lastmod>2026-11-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://nyr-prospects-hq.netlify.app/overnight-recap-2026-11-19.html</loc><lastmod>2026-11-20</lastmod><priority>0.8</priority></url>
-  <url><loc>https://nyr-prospects-hq.netlify.app/overnight-recap-2026-11-20.html</loc></url>
+  <url>
+    <loc>https://nyr-prospects-hq.netlify.app/overnight-recap-2026-11-19.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rrusso02330-bit.github.io/nyr-prospects-hq-site/overnight-recap-2026-11-26.html</loc>
+    <lastmod>2026-11-27</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
