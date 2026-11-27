@@ -13408,7 +13408,7 @@ window.NYR_PLAYER_STATS = {
       "nhlApiPlayerId": 8486064,
       "controlStartDate": "2026-06-27",
       "controlStartLabel": "2026 NHL Draft, Rd 2, No. 64",
-      "sourceStatus": "pre_draft_verified",
+      "sourceStatus": "manual_verified",
       "manualStatsOnly": true,
       "seasons": [],
       "sourceLinks": [
@@ -13425,7 +13425,7 @@ window.NYR_PLAYER_STATS = {
           "url": "https://chl.ca/whl/article/2026-nhl-draft-profile-ben-macbeath-calgary-hitmen"
         }
       ],
-      "sourceNote": "Pre-draft/amateur stats are shown for bio context. Stats since Rangers control begin after the draft selection and will populate once post-selection games are available.",
+      "sourceNote": "Current Champions Hockey League statistics are verified from the official NHL player feed; Slovakia league connector coverage remains manual.",
       "newsNotes": [
         {
           "date": "2026-06-27",
@@ -13467,10 +13467,26 @@ window.NYR_PLAYER_STATS = {
         }
       },
       "currentSeasonStats": {
-        "status": "pre_draft_verified",
-        "season": "2025-26",
-        "updatedAt": "2026-11-15T19:03:05.633Z",
+        "status": "manual_verified",
+        "season": "2026-27",
+        "updatedAt": "2026-11-27T19:00:00.000Z",
         "rows": [
+          {
+            "season": "2026-27",
+            "type": "Regular",
+            "team": "HK Nitra",
+            "league": "Champions Hockey League",
+            "gp": 4,
+            "source": {
+              "label": "Official NHL player feed",
+              "url": "https://api-web.nhle.com/v1/player/8486232/landing"
+            },
+            "goals": 1,
+            "assists": 2,
+            "points": 3,
+            "plusMinus": -1,
+            "pim": 0
+          },
           {
             "season": "2025-26",
             "type": "Regular",
@@ -13517,7 +13533,7 @@ window.NYR_PLAYER_STATS = {
             "pim": 2
           }
         ],
-        "note": "Latest available pre-draft 2025-26 season totals from the NHL API feed."
+        "note": "Current 2026-27 Champions Hockey League totals and prior-year baseline from the official NHL player feed, refreshed November 27, 2026."
       },
       "lastFiveGames": {
         "status": "post_control_pending",
